@@ -120,8 +120,8 @@ Each page features an appropriate banner image with text, apart from the home pa
 
 # Skeleton
 Wireframes:
-* [Mobile](/assets/readme/LearnWingChun_mb_wireframes_v0.2)
-* [Desktop](/assets/readme/LearnWingChun_dk_wireframes_v0.2)
+* [Mobile](assets/readme/LearnWingChun_mb_wireframes_v0.2)
+* [Desktop](assets/readme/LearnWingChun_dk_wireframes_v0.2)
 
 # Surface.
 
