@@ -2,10 +2,44 @@
 
 /*---------------------------- Navbar-------------*/
 .bwc-navbar {
-    background-color: #525252;
-    
+    background-color: #525252; 
 }
 
 .bwc-navbar a {
-    color: #F0F1EB;
+    margin-left: 5px;
+    margin-right: 5px;
 }
+
+.navbar {
+    padding: 0;
+}
+
+.nav-link {
+    padding: 0px;
+}
+
+.navbar-toggler {
+    margin-right: 5px;
+    background-color: black; 
+}
+
+.bwc-nav-list a:hover {
+    border-bottom: 1px solid #F0DF18;
+}
+
+/*---------------------------- Footer-------------*/
+
+footer {
+    background-color: #525252;
+    padding: 1em;
+}
+
+.contact-us {
+    color: #F0F1EB;
+    margin: 10px 20px 0px 20px;
+}
+
+.social-links li a i {
+    font-size: 25px;
+    margin: 10px 20px;
+    color: #F0F1EB;
