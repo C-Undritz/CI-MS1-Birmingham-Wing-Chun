@@ -3,40 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous"/>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Birmingham Wing Chun</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg fixed-top bwc-navbar">
-    <ul class="navbar-nav">
-        <li class="nav-item active">
-            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-            <a class="nav-link" href="#">About Us</a>
-        </li>
-        <li class="nav-item active">
-            <a class="nav-link" href="#">Classes</a>
-        </li>
-        <li class="nav-item active">
-            <a class="nav-link" href="#">Contact Us</a>
-        </li>
-        <li class="nav-item active">
-            <a class="nav-link" href="#">Gallery</a>
-        </li>
-    </ul>
+<!--Navigation Bar-->
+<!--*Bootstrap Navbar - modified for use*-->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top bwc-navbar">
+<!--LOGO-->
+  <a class="navbar-brand" href="#">
+    <img src="/assets/images/club_nav_symbol.png" width="50" height="50" alt="Birmingham Wing Chun Logo" title="Birmingham Wing Chun Logo" loading="lazy">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-mobile" aria-controls="navbar-mobile" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<!--/LOGO-->
+<!--Navigation Links-->
+    <div class="collapse navbar-collapse" id="navbar-mobile">
+        <ul class="navbar-nav ml-auto bwc-nav-list">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Classes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+            </li>
+        </ul>
+    </div>
 </nav>
-
-    <!--Callout section-->
+<!--/Navigation-->
+<!--Callout section-->
     <section class="callout">
         <h1>Learn</h1>
         <h1>Wing Chun</h1>
         <hr class="callout_hr">
         <h2>Birmingham Wing Chun Kuen</h2>
     </section>
-    <!--/Callout section-->
+
+<!--/Callout section-->
 
     <!--Benefits-->
     <section class="benefits">
@@ -78,9 +92,42 @@
 
     </section>
     <!--/Discovery-->
-
-    <footer>
-
+    <!--Footer-->
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-auto mr-auto">
+                <a class="nav-link contact-us" href="#"><p>- Contact Us -</p></a>   
+            </div>
+            <div class="col-auto">
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item social-links">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">YouTube</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                </ul>
+           </div>
+        </div>
     </footer> 
+    <!--/Footer-->
 </body>
 </html>
