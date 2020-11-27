@@ -34,11 +34,27 @@ footer {
     padding: 1em 0em 0em 0em;
 }
 
-.contact-us {
+.contact-us a p {
     color: #F0F1EB;
     margin: 10px 20px 0px 20px;
+    padding: 0px;
 }
-/*-- The below was learnt from Code Institute 'Resume Project' modified slilghtly--*/
+
+.contact-us a p:hover {
+    color: #F0F1EB;
+    font-size: 18px;
+}
+
+ul {
+    margin-bottom: 0rem;
+}
+
+.footer-disclaimer p {
+    color: #F0F1EB;
+    padding: 10px 0px 0px 0px;
+}
+
+/*-- The below was learnt from Code Institute 'Resume Project' modified slightly--*/
 .social-links li a i {
     font-size: 25px;
     margin: 10px 20px;
@@ -50,7 +66,7 @@ footer {
 }
 
 .facebook a i:hover {
-    color: #3b5998;
+    color: #4267B2;
 }
 
 .instagram a i:hover {
@@ -64,14 +80,3 @@ footer {
 .twitter a i:hover {
     color: #1DA1F2;
 }
-
-.footer-disclaimer p {
-    color: #F0F1EB;
-    padding: 0px;
-}
-
-
-
-/*.social-links li a i:hover {
-    color: #e84610;
-}*/
