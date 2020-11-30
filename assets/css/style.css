@@ -52,7 +52,7 @@ p {
 .callout-container { 
     height: 100vh;
     /*code below taken from https://css-tricks.com/perfect-full-page-background-image/*/
-    background: url("/assets/images/sifu-bg-black.png") no-repeat top right fixed; 
+    background: url("../images/sifu-bg-black.png") no-repeat top right fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
