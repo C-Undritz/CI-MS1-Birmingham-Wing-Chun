@@ -77,65 +77,33 @@ p {
     border-top: solid 3px white;
 }
 
-.btn-container {
-    height: 30vh;
+.cta-btn-col {
+    text-align: center;
+    margin: 4rem auto;
+}
+
+/*---------------------------- Benefits & Testimonials -------------*/
+
+.benefits-title {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.benefits-reasons h1 {
+
+}
+
+.benefits-reasons p {
+    
+}
+
+.benefits-image {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-@media screen and (max-width: 768px ){ 
-    .callout-key-message {
-    padding-top: 12rem;
-    }
-
-    .callout-key-message h1 {
-    font-size: 8rem;
-    }
-
-    .callout-club-name h1 {
-    font-size: 3rem;
-    }
-
-    .opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0,0,0,0.5);
-    }
-
-    .btn-container {
-    height: 15vh;
-}
-
-@media screen and (max-width: 576px ){ 
-    .callout-key-message {
-    padding-top: 8rem;
-    }
-
-    .callout-key-message h1 {
-    font-size: 4rem;
-    }
-
-    .callout-club-name h1 {
-    font-size: 1.5rem;
-    }
-
-    .btn-container {
-    height: 15vh;
-    }
-
-    #wing-chun-symbols {
-        display: none;
-    }
-}
-
-
-
-
-/*---------------------------- Footer-------------*/
+/*---------------------------- Footer -------------*/
 
 footer {
     background-color: #525252;
@@ -187,4 +155,54 @@ ul {
 
 .twitter a i:hover {
     color: #1DA1F2;
+}
+
+/* media querys */
+
+@media screen and (max-width: 768px ){ 
+    .callout-key-message {
+    padding-top: 12rem;
+    }
+
+    .callout-key-message h1 {
+    font-size: 8rem;
+    }
+
+    .callout-club-name h1 {
+    font-size: 3rem;
+    }
+
+    .opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    }
+
+    .btn-container {
+    height: 15vh;
+}
+
+@media screen and (max-width: 576px ){ 
+    .callout-key-message {
+    padding-top: 8rem;
+    }
+
+    .callout-key-message h1 {
+    font-size: 4rem;
+    }
+
+    .callout-club-name h1 {
+    font-size: 1.5rem;
+    }
+
+    .btn-container {
+    height: 15vh;
+    }
+
+    #wing-chun-symbols {
+        display: none;
+    }
 }
