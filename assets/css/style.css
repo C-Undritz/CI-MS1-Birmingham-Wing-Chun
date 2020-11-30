@@ -1,4 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Shadows+Into+Light+Two&display=swap');
 
+/*---------------------------- Holistic stylings-------------*/
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+	letter-spacing: 4px;
+}
+
+p {
+    font-family: 'Shadows Into Light Two', cursive;
+	letter-spacing: 4px;
+}
 
 /*---------------------------- Navbar-------------*/
 .bwc-navbar {
@@ -8,10 +20,18 @@
 .bwc-navbar a {
     margin-left: 5px;
     margin-right: 5px;
+    padding-top: 2px;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 18px;
+    letter-spacing: 4px;
 }
 
 .navbar {
     padding: 0;
+}
+
+.navbar-brand {
+    margin-top: 2px;
 }
 
 .nav-link {
@@ -26,6 +46,98 @@
 .bwc-nav-list a:hover {
     border-bottom: 1px solid #F0DF18;
 }
+
+/*---------------------------- Callout section-------------*/
+
+.callout-container { 
+    height: 100vh;
+    /*code below taken from https://css-tricks.com/perfect-full-page-background-image/*/
+    background: url("/assets/images/sifu-bg-black.png") no-repeat top right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+
+    position: relative;
+}
+
+.callout-text h1 {
+    color: #F0F1EB;
+}
+
+.callout-key-message {
+    padding-top: 12rem;
+}
+
+.callout-key-message h1 {
+    font-size: 8rem;
+}
+
+.callout-club-name h1 {
+    font-size: 3rem;
+    border-top: solid 3px white;
+}
+
+.btn-container {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px ){ 
+    .callout-key-message {
+    padding-top: 12rem;
+    }
+
+    .callout-key-message h1 {
+    font-size: 8rem;
+    }
+
+    .callout-club-name h1 {
+    font-size: 3rem;
+    }
+
+    .opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    }
+
+    .btn-container {
+    height: 15vh;
+}
+
+@media screen and (max-width: 576px ){ 
+    .callout-key-message {
+    padding-top: 8rem;
+    }
+
+    .callout-key-message h1 {
+    font-size: 4rem;
+    }
+
+    .callout-club-name h1 {
+    font-size: 1.5rem;
+    }
+
+    .btn-container {
+    height: 15vh;
+    }
+
+    #wing-chun-symbols {
+        display: none;
+    }
+}
+
+
+
 
 /*---------------------------- Footer-------------*/
 
