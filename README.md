@@ -171,3 +171,9 @@ Testing to be completed is detailed in the [TESTING.md](TESTING.md) document
 
 ---
 # Credits
+
+## Code:
+1. Simple one, but I had to look it up: [how to hide an image for responisve design](https://www.thesitewizard.com/css/hide-images-on-mobile-website.shtml)
+
+## Help:
+* Thanks to my fellow students who were on hand to lend wisdom and knowledge during in-it-together 11am coffee calls and other times when I had run out of hair!  special thanks to Jim Lynx for pointing out the obvious and not-so-obvious, and for the help with the Gitpod GUI as well as helpful tips like 'putting media querys at the end of your css' (something I would never have figured broke my footer!).
