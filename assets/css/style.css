@@ -58,7 +58,7 @@ p {
 .callout-container { 
     height: 100vh;
     /*code below taken from https://css-tricks.com/perfect-full-page-background-image/*/
-    background: url("../images/sifu-bg-black.png") no-repeat top right fixed; 
+    background: url("../images/sifu-bg-black.png") no-repeat top right scroll; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -205,15 +205,6 @@ ul {
     height: 100px;
     }
 
-    /* .opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0,0,0,0.5);
-    } */
-
     .btn-container {
     height: 15vh;
 }
@@ -235,14 +226,14 @@ ul {
     height: 125px;
     }
 
-    /* .opaque-overlay {
+    .opaque-overlay {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
     background-color: rgba(0,0,0,0.5);
-    } */
+    }
 
     .btn-container {
     height: 15vh;
