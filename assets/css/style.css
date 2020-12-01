@@ -7,9 +7,15 @@ h1 {
 	letter-spacing: 4px;
 }
 
+h2 {
+    font-family: 'Roboto Slab', serif;
+	letter-spacing: 4px;
+}
+
 p {
     font-family: 'Shadows Into Light Two', cursive;
 	letter-spacing: 4px;
+    font-size: 1rem;
 }
 
 /*---------------------------- Navbar-------------*/
@@ -85,22 +91,42 @@ p {
 /*---------------------------- Benefits & Testimonials -------------*/
 
 .benefits-title {
-    margin-top: 25px;
+    color: #525252;
     text-align: center;
 }
 
-.benefits-reasons h1 {
-
+.benefits-reasons h2 {
+    color: #525252;
 }
 
 .benefits-reasons p {
-    
+    color: #525252;
 }
 
 .benefits-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: auto ;
+    max-width: 100% ;
+    height: auto;
+}
+
+.hr-benefits {
+    height: 1px;
+    border: 0;
+    margin: 0px 0px 5px 0px;
+    background-color: #525252;
+}
+
+.hr-benefits-divider {
+    width: 350px;
+    height: 3px;
+    border: 0;
+    background-color: #525252;
+    text-align: center;
+}
+
+.blockquote {
+    color: #525252;
+    font-size: 0.95rem;
 }
 
 /*---------------------------- Footer -------------*/
@@ -191,7 +217,7 @@ ul {
     }
 
     .callout-key-message h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     }
 
     .callout-club-name h1 {
@@ -199,7 +225,7 @@ ul {
     }
 
     .btn-container {
-    height: 15vh;
+    height: 10vh;
     }
 
     #wing-chun-symbols {
