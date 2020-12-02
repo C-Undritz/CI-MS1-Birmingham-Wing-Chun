@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Shadows+Into+Light+Two&display=swap');
 
-/*---------------------------- Holistic stylings-------------*/
+/*---------------------------- Global stylings-------------*/
 
 h1 {
     font-family: 'Roboto Slab', serif;
@@ -8,6 +8,11 @@ h1 {
 }
 
 h2 {
+    font-family: 'Roboto Slab', serif;
+	letter-spacing: 4px;
+}
+
+h3 {
     font-family: 'Roboto Slab', serif;
 	letter-spacing: 4px;
 }
@@ -59,7 +64,7 @@ p {
     height: 100vh;
     /*code below taken from https://css-tricks.com/perfect-full-page-background-image/*/
     background: url("../images/sifu-bg-black.png") no-repeat top right; 
-    background-attachment: fixed;
+    background-attachment: scroll;/*need to chane to 'fixed' and then apply webkit prefix*/
     background-size: cover;
     position: relative;
 }
@@ -127,6 +132,48 @@ p {
     font-size: 0.95rem;
 }
 
+/*---------------------------- Discovery section -------------*/
+
+#discovery {
+    background: url("../images/MartinWD.jpg") no-repeat;
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    overflow: hidden;
+}
+
+.discovery-opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(25,90,204,0.75);
+}
+
+#discovery-selection {
+    margin: 20px 0px;
+}
+
+#discovery-selection div {
+    color: white;
+    background-color: rgba(0,0,0, .6);
+    width: 30%; /*we have 5 panels to represent 5 meetups. this means each panel should take up 20% of the screen width to display across the screen.  but we want ot have a margin separating each panel in order to display a clean separation between panels. One way to do this is to set the width at 19% to allow for gaps*/
+    height: 250px;
+    float: left; /*set the panels to float left so that they display horizontally within the flow of the page*/
+    padding: 30px 0 0 10px; /*This moves the text within the box to center it up a bit - 30px for the top and 10px for the right*/
+    text-align: center;
+    margin: 25px 10px; /*creates some space between the panels*/
+}
+/* possible scalable square solution: https://spin.atomicobject.com/2015/07/14/css-responsive-square/
+#discovery-selection div:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+/* also try: https://stackoverflow.com/questions/20456694/grid-of-responsive-squares/20457076
+https://www.google.com/search?q=how+to+make+a+responsive+square+in+css&rlz=1C1CHBF_enGB885GB885&oq=how+to+make+a+responsive+square+in+css&aqs=chrome..69i57.8331j0j15&sourceid=chrome&ie=UTF-8
+
 /*---------------------------- Footer -------------*/
 
 footer {
@@ -157,7 +204,7 @@ ul {
 /*-- The below was learnt from Code Institute 'Resume Project' modified slightly--*/
 .social-links li a i {
     font-size: 25px;
-    margin: 10px 20px;
+    margin: 10px 15px;
     color: #F0F1EB;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -184,7 +231,7 @@ ul {
 /* media querys */
 
 @media screen and (max-width: 770px ){ 
-    .opaque-overlay {
+    .callout-opaque-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -226,6 +273,15 @@ ul {
     #wing-chun-symbols {
     height: 16vw;
     }   
+    
+    #discovery-selection div {
+    width: 90%; 
+    height: 300px;
+    float: left; /*set the panels to float left so that they display horizontally within the flow of the page*/
+    padding: 10px 0 0 10px; /*This moves the text within the box to center it up a bit - 30px for the top and 10px for the right*/
+    text-align: center;
+    margin: 20px 20px; /*creates some space between the panels*/
+    }
 }
 
 @media screen and (max-width: 350px ){ 
