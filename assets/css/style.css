@@ -161,10 +161,57 @@ p {
     width: 30%; /*we have 5 panels to represent 5 meetups. this means each panel should take up 20% of the screen width to display across the screen.  but we want ot have a margin separating each panel in order to display a clean separation between panels. One way to do this is to set the width at 19% to allow for gaps*/
     height: 250px;
     float: left; /*set the panels to float left so that they display horizontally within the flow of the page*/
-    padding: 30px 0 0 10px; /*This moves the text within the box to center it up a bit - 30px for the top and 10px for the right*/
+    padding: 80px 20px 20px 10px; /*This moves the text within the box to center it up a bit - 30px for the top and 10px for the right*/
     text-align: center;
     margin: 25px 10px; /*creates some space between the panels*/
+    transition: all 0.35s ease-in;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
+
+#about-wc-box:hover {
+    background: url("../images/bwc_about.jpg") no-repeat;
+    background-size: cover;
+    background-position: top;
+    overflow: hidden;
+}
+
+#history-box:hover {
+    background: url("../images/Ipman.png") no-repeat;
+    background-size: cover;
+    background-position: top;
+    overflow: hidden;
+}
+
+#about-club-box:hover {
+    background: url("../images/bwc_club.jpg") no-repeat;
+    background-size: cover;
+    background-position: left;
+    overflow: hidden;
+}
+
+#locations-box:hover {
+    background: url("../images/hallgreen.jpg") no-repeat;
+    background-size: cover;
+    background-position: left;
+    overflow: hidden;
+}
+
+#sche-prices-box:hover {
+    background: url("../images/bwc_schedule.png") no-repeat;
+    background-size: cover;
+    background-position: top;
+    overflow: hidden;
+}
+
+#expect-box:hover {
+    background: url("../images/bwc_expect.png") no-repeat;
+    background-size: cover;
+    background-position: left;
+    overflow: hidden;
+}
+
 /* possible scalable square solution: https://spin.atomicobject.com/2015/07/14/css-responsive-square/
 #discovery-selection div:after {
     content: "";
