@@ -219,7 +219,21 @@ p {
     padding-bottom: 100%;
 }
 /* also try: https://stackoverflow.com/questions/20456694/grid-of-responsive-squares/20457076
-https://www.google.com/search?q=how+to+make+a+responsive+square+in+css&rlz=1C1CHBF_enGB885GB885&oq=how+to+make+a+responsive+square+in+css&aqs=chrome..69i57.8331j0j15&sourceid=chrome&ie=UTF-8
+https://www.google.com/search?q=how+to+make+a+responsive+square+in+css&rlz=1C1CHBF_enGB885GB885&oq=how+to+make+a+responsive+square+in+css&aqs=chrome..69i57.8331j0j15&sourceid=chrome&ie=UTF-8*/
+
+/*---------------------------- Gallery -------------*/
+.gallery-container { 
+    height: 100vh;
+    /*code below taken from https://css-tricks.com/perfect-full-page-background-image/*/
+    background: url("../images/sifu-bg-black.png") no-repeat top right; 
+    background-attachment: scroll;/*need to chane to 'fixed' and then apply webkit prefix*/
+    background-size: cover;
+    position: relative;
+}
+
+.gallery-thumbnail {
+    height: 300px;
+}
 
 /*---------------------------- Footer -------------*/
 
