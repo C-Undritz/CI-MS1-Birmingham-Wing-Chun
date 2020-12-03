@@ -158,12 +158,12 @@ p {
 #discovery-selection div {
     color: white;
     background-color: rgba(0,0,0, .6);
-    width: 30%; /*we have 5 panels to represent 5 meetups. this means each panel should take up 20% of the screen width to display across the screen.  but we want ot have a margin separating each panel in order to display a clean separation between panels. One way to do this is to set the width at 19% to allow for gaps*/
+    width: 30%; 
     height: 250px;
-    float: left; /*set the panels to float left so that they display horizontally within the flow of the page*/
-    padding: 80px 20px 20px 10px; /*This moves the text within the box to center it up a bit - 30px for the top and 10px for the right*/
+    float: left;
+    padding: 80px 20px 20px 10px; 
     text-align: center;
-    margin: 25px 10px; /*creates some space between the panels*/
+    margin: 25px 10px; 
     transition: all 0.35s ease-in;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -277,6 +277,14 @@ ul {
 
 /* media querys */
 
+@media screen and (max-width: 1300px ){ 
+    #discovery-selection div {
+    width: 30%; 
+    height: 225px;
+    padding: 25px 10px 10px 10px; 
+    }
+}
+
 @media screen and (max-width: 770px ){ 
     .callout-opaque-overlay {
     position: absolute;
@@ -302,6 +310,15 @@ ul {
     #wing-chun-symbols {
     height: 12vw;
     }   
+
+    #discovery-selection div {
+    width: 30%; 
+    height: 200px;
+    float: left;
+    padding: 20px 20px 20px 10px; 
+    text-align: center;
+    margin: 25px 10px; 
+    }
 }
 
 @media screen and (max-width: 576px ){ 
@@ -323,11 +340,52 @@ ul {
     
     #discovery-selection div {
     width: 90%; 
-    height: 300px;
-    float: left; /*set the panels to float left so that they display horizontally within the flow of the page*/
-    padding: 10px 0 0 10px; /*This moves the text within the box to center it up a bit - 30px for the top and 10px for the right*/
+    height: 175px;
+    padding: 30px 0px; 
     text-align: center;
     margin: 20px 20px; /*creates some space between the panels*/
+    }
+
+    #about-wc-box:hover {
+    background: url("") no-repeat;
+    background-size: cover;
+    background-position: top;
+    overflow: hidden;
+    }
+
+    #history-box:hover {
+    background: url("") no-repeat;
+    background-size: cover;
+    background-position: top;
+    overflow: hidden;
+    }
+
+    #about-club-box:hover {
+    background: url("") no-repeat;
+    background-size: cover;
+    background-position: left;
+    overflow: hidden;
+    }
+
+    #locations-box:hover {
+    background: url("") no-repeat;
+    background-size: cover;
+    background-position: left;
+    overflow: hidden;
+    }
+
+    #sche-prices-box:hover {
+    background: url("") no-repeat;
+    background-size: cover;
+    background-position: top;
+    overflow: hidden;
+    }
+
+    #expect-box:hover {
+    background: url("") no-repeat;
+    background-size: cover;
+    background-position: left;
+    overflow: hidden;
     }
 }
 
