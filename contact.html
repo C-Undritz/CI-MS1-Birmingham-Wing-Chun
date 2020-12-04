@@ -9,18 +9,14 @@
     <title>Birmingham Wing Chun</title>
 </head>
 <body>
-<!--Navigation Bar-->
-<!--*Bootstrap Navbar - modified for use*-->
+<!--Navigation Bar (*Bootstrap Navbar - modified for use*)-->
 <nav class="navbar navbar-expand-lg navbar-dark sticky-top bwc-navbar">
-<!--LOGO-->
-  <a class="navbar-brand" href="index.html">
-    <img src="/assets/images/club_nav_symbol.png" width="50" height="50" alt="Birmingham Wing Chun Logo" title="Birmingham Wing Chun Logo" loading="lazy">
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-mobile" aria-controls="navbar-mobile" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-<!--/LOGO-->
-<!--Navigation Links-->
+    <a class="navbar-brand" href="index.html">
+        <img src="/assets/images/club_nav_symbol.png" width="50" height="50" alt="Birmingham Wing Chun Logo" title="Birmingham Wing Chun Logo" loading="lazy">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-mobile" aria-controls="navbar-mobile" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
     <div class="collapse navbar-collapse" id="navbar-mobile">
         <ul class="navbar-nav ml-auto bwc-nav-list text-center">
             <li class="nav-item">
@@ -42,55 +38,85 @@
     </div>
 </nav>
 <!--/Navigation-->
-
-<!--Footer-->
-    <!--*learnt from Code institute 'Resume Project'modified for use*-->
-    <footer class="container-fluid">
-        <div class="row">
-            <div class="col-md-auto col-sm-12 order-md-2 text-center">
-                <ul class="list-inline social-links">
-                    <li class="list-inline-item facebook">
-                        <a target="_blank" href="https://www.facebook.com/MidlandsWingChunKuen/">
-                            <i class="fab fa-facebook" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item instagram">
-                        <a target="_blank" href="https://www.instagram.com/simply_wing_chun_kuen/">
-                            <i class="fab fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item youtube">
-                        <a target="_blank" href="https://www.youtube.com/channel/UCXEJxM-kJZok_vmbuWzCMHw">
-                            <i class="fab fa-youtube" aria-hidden="true"></i>
-                            <span class="sr-only">YouTube</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item twitter">
-                        <a target="_blank" href="https://twitter.com/mwck_uk">
-                            <i class="fab fa-twitter" aria-hidden="true"></i>
-                            <span class="sr-only">Twitter</span>
-                        </a>
-                    </li>
-                </ul>
-           </div>
-           <div class="col-md-auto mr-md-auto col-sm-12 order-md-1 text-center contact-us">
-                <a class="nav-link" href="#"><p>- Contact Us -</p></a>   
+<!--Contact Form (*inspired by the love running Code Institute walkthrough project contact form)-->
+<section class="container-fluid contact-container">
+    <div class="row align-items-center">
+        <div class="col-12">
+            <div class="contactus-form d-flex flex-column">
+                <div id="form-text">
+                    <h2>Have a question?</h2>
+                    <p><strong>If you would like any further information or have a question then please use the form below.</strong></p>
+                    <p><strong>If your question refers to specific training location then please use the selection</strong></p>
+                </div>
+                <div id="form-area">
+                    <form action="#" method="post">
+                        <input class="text-input" type="name" id="name" placeholder="Name" name="name" required><br>
+                        <input class="text-input" type="email" id="email" placeholder="Email address" name="email" required><br>
+                        <input id="hall-green" type="radio" name="locations" value="hall-green">
+                        <label for="hall-green" class="radio-text">Hall Green</label><br>
+                        <input id="solihull" type="radio" name="locations" value="solihull">
+                        <label for="solihull" class="radio-text">Solihull</label><br>
+                        <input id="digbeth" type="radio" name="locations" value="digbeth">
+                        <label for="digbeth" class="radio-text">Digbeth</label><br>
+                        <!--freetext field code below from w3schools.com (https://www.w3schools.com/tags/att_textarea_form.asp)-->
+                        <textarea class="text-input" rows="4" cols="50" name="question" form="contactus-form" placeholder="Your question here" required></textarea><br>
+                        <div class="d-flex justify-content-center">
+                            <input type="submit" class="btn btn-danger" value="Submit">
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 text-center footer-disclaimer">
-                <p><small>This website is designed and developed for educational purposes only.</small></p>
-            </div>
+    </div>
+</section>
+<!--/Contact Form-->
+<!--Footer (*learnt from Code institute 'Resume Project'modified for use*)-->
+<footer class="container-fluid">
+    <div class="row">
+        <div class="col-md-auto col-sm-12 order-md-2 text-center">
+            <ul class="list-inline social-links">
+                <li class="list-inline-item facebook">
+                    <a target="_blank" href="https://www.facebook.com/MidlandsWingChunKuen/">
+                        <i class="fab fa-facebook" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                </li>
+                <li class="list-inline-item instagram">
+                    <a target="_blank" href="https://www.instagram.com/simply_wing_chun_kuen/">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                </li>
+                <li class="list-inline-item youtube">
+                    <a target="_blank" href="https://www.youtube.com/channel/UCXEJxM-kJZok_vmbuWzCMHw">
+                        <i class="fab fa-youtube" aria-hidden="true"></i>
+                        <span class="sr-only">YouTube</span>
+                    </a>
+                </li>
+                <li class="list-inline-item twitter">
+                    <a target="_blank" href="https://twitter.com/mwck_uk">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                        <span class="sr-only">Twitter</span>
+                    </a>
+                </li>
+            </ul>
         </div>
-    </footer> 
-    <!--/Footer-->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" 
-    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+        <div class="col-md-auto mr-md-auto col-sm-12 order-md-1 text-center contact-us">
+            <a class="nav-link" href="#"><p>- Contact Us -</p></a>   
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 text-center footer-disclaimer">
+            <p><small>This website is designed and developed for educational purposes only.</small></p>
+        </div>
+    </div>
+</footer> 
+<!--/Footer-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" 
+integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 </body>
 </html>

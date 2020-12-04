@@ -23,6 +23,13 @@ p {
     font-size: 1rem;
 }
 
+.btn-danger{
+    font-family: 'Shadows Into Light Two', cursive;
+    color: #F0F1EB;
+	letter-spacing: 4px;
+    font-size: 1rem;
+}
+
 /*---------------------------- Navbar-------------*/
 .bwc-navbar {
     background-color: #525252; 
@@ -156,7 +163,7 @@ p {
 }
 
 #discovery-selection div {
-    color: white;
+    color: #F0F1EB;
     background-color: rgba(0,0,0, .6);
     width: 30%; 
     height: 250px;
@@ -221,16 +228,71 @@ p {
 /* also try: https://stackoverflow.com/questions/20456694/grid-of-responsive-squares/20457076
 https://www.google.com/search?q=how+to+make+a+responsive+square+in+css&rlz=1C1CHBF_enGB885GB885&oq=how+to+make+a+responsive+square+in+css&aqs=chrome..69i57.8331j0j15&sourceid=chrome&ie=UTF-8*/
 
-/*---------------------------- Gallery -------------*/
-.gallery-container { 
+/*---------------------------- Contact Form -------------*/
+.contact-container { 
     height: 100vh;
     /*code below taken from https://css-tricks.com/perfect-full-page-background-image/*/
-    background: url("../images/sifu-bg-black.png") no-repeat top right; 
-    background-attachment: scroll;/*need to chane to 'fixed' and then apply webkit prefix*/
+    background: url("../images/wooden-dummy-room.jpg") no-repeat top right; 
+    background-attachment: scroll;/*need to change to 'fixed' and then apply webkit prefix*/
     background-size: cover;
     position: relative;
 }
 
+.contactus-form {
+    margin-top: 75px;
+    position: absolute;
+    left: 5%;
+}
+
+#form-text {
+    background-color: rgba(0,0,0, .75);
+    max-width: 700px;
+    padding: 25px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#form-text h2 {
+    color: #F0F1EB;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+#form-text p {
+    color: #F0F1EB;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+#form-area {
+    background-color: rgba(0,0,0, .75);
+    max-width: 700px;
+    padding: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.text-input {
+    width: 100%;
+    font-family: 'Shadows Into Light Two', cursive;
+	letter-spacing: 4px;
+    font-size: 1rem;
+    margin: 5px 5px 5px 0px;
+    padding: 5px;
+}
+
+.radio-text {
+    font-family: 'Shadows Into Light Two', cursive;
+    color:#F0F1EB;
+	letter-spacing: 4px;
+    font-size: 1rem;
+}
+
+.text-input:hover {
+    background-color: #F0DF18;
+}
+
+/*---------------------------- Gallery -------------*/
 .gallery-thumbnail {
     height: 300px;
 }
