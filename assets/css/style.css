@@ -65,6 +65,44 @@ p {
     border-bottom: 1px solid #F0DF18;
 }
 
+/*---------------------------- Banners-------------*/
+
+#about-top-banner {
+    background: url("../images/bruce-lee-statue.jpg") no-repeat scroll top;
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    position: relative; 
+}
+
+#classes-top-banner {
+    /* background: url("../images/advancing-your-training.jpg") no-repeat scroll top; */
+    background: top;
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    position: relative; 
+}
+
+#banner-text {
+    color: white;
+    letter-spacing: 4px;
+    width: 700px;
+    height: auto;
+    border-radius: 15px;
+    padding-left: 10px; 
+    padding-top: 10px;  
+    background-color: rgba(0,0,0, .5);
+    left: 50px;
+    right: 10px;
+    bottom: 30px;
+    position: absolute;  
+}
+
+#banner-text h2 {
+    font-size: 3rem;
+}
+
 /*---------------------------- Callout section-------------*/
 
 .callout-container { 
@@ -228,7 +266,13 @@ p {
 /* also try: https://stackoverflow.com/questions/20456694/grid-of-responsive-squares/20457076
 https://www.google.com/search?q=how+to+make+a+responsive+square+in+css&rlz=1C1CHBF_enGB885GB885&oq=how+to+make+a+responsive+square+in+css&aqs=chrome..69i57.8331j0j15&sourceid=chrome&ie=UTF-8*/
 
+
+/*---------------------------- About Us -------------*/
+
+
+
 /*---------------------------- Contact Form -------------*/
+
 .contact-container { 
     height: 100vh;
     /*code below taken from https://css-tricks.com/perfect-full-page-background-image/*/
@@ -294,7 +338,7 @@ https://www.google.com/search?q=how+to+make+a+responsive+square+in+css&rlz=1C1CH
 
 /*---------------------------- Gallery -------------*/
 .gallery-thumbnail {
-    height: 300px;
+    height: 250px;
 }
 
 /*---------------------------- Footer -------------*/
@@ -395,6 +439,21 @@ ul {
     text-align: center;
     margin: 25px 10px; 
     }
+
+#banner-text {
+    width: 400px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 15px;
+    padding-left: 10px; 
+    padding-top: 10px;  
+    left: 0px; 
+    }
+
+#banner-text h2 {
+    font-size: 2.5rem;
+    }
 }
 
 @media screen and (max-width: 576px ){ 
@@ -465,7 +524,7 @@ ul {
     }
 }
 
-@media screen and (max-width: 350px ){ 
+@media screen and (max-width: 375px ){ 
     .jumbotron {
     padding-top: 30vw;
     }
@@ -473,4 +532,12 @@ ul {
     #wing-chun-symbols {
         display: none;
     } 
+
+    #banner-text {
+    width: 275px;
+    }
+
+#banner-text h2 {
+    font-size: 2.5rem;
+    }
 }
