@@ -67,41 +67,8 @@ p {
 
 /*---------------------------- Banners-------------*/
 
-#about-top-banner {
-    background: url("../images/bruce-lee-statue.jpg") no-repeat scroll top;
-    height: 700px;
-    width: 100%;
-    overflow: hidden;
-    position: relative; 
-}
 
-#classes-top-banner {
-    /* background: url("../images/advancing-your-training.jpg") no-repeat scroll top; */
-    background: top;
-    height: 700px;
-    width: 100%;
-    overflow: hidden;
-    position: relative; 
-}
 
-#banner-text {
-    color: white;
-    letter-spacing: 4px;
-    width: 700px;
-    height: auto;
-    border-radius: 15px;
-    padding-left: 10px; 
-    padding-top: 10px;  
-    background-color: rgba(0,0,0, .5);
-    left: 50px;
-    right: 10px;
-    bottom: 30px;
-    position: absolute;  
-}
-
-#banner-text h2 {
-    font-size: 3rem;
-}
 
 /*---------------------------- Callout section-------------*/
 
@@ -267,6 +234,63 @@ p {
 https://www.google.com/search?q=how+to+make+a+responsive+square+in+css&rlz=1C1CHBF_enGB885GB885&oq=how+to+make+a+responsive+square+in+css&aqs=chrome..69i57.8331j0j15&sourceid=chrome&ie=UTF-8*/
 
 
+/*---------------------------- About Us and Classes banners -------------*/
+
+#about-top-banner {
+    background: url("../images/bruce-lee-statue.jpg") no-repeat scroll top;
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    position: relative; 
+}
+
+#about-banner-text {
+    color: #F0F1EB;
+    letter-spacing: 4px;
+    width: 700px;
+    height: auto;
+    border-radius: 15px;
+    padding-left: 10px; 
+    padding-top: 10px;  
+    background-color: rgba(0,0,0, .5);
+    left: 50px;
+    bottom: 30px;
+    position: absolute;  
+}
+
+#classes-top-banner-carousel {
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    position: relative; 
+}
+
+#classes-top-banner-image {
+    background: url("../images/punch-kick.jpg") no-repeat scroll right;
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    position: relative; 
+}
+
+#classes-banner-text {
+    color: #F0F1EB;
+    letter-spacing: 4px;
+    width: 700px;
+    height: auto;
+    border-radius: 15px;
+    padding-left: 10px; 
+    padding-top: 10px;  
+    background-color: rgba(0,0,0, .5);
+    left: 50px;
+    top: 30px;
+    position: absolute;  
+}
+
+#about-banner-text h2, #classes-banner-text h2 {
+    font-size: 3rem;
+}
+
 /*---------------------------- About Us -------------*/
 
 
@@ -289,7 +313,7 @@ https://www.google.com/search?q=how+to+make+a+responsive+square+in+css&rlz=1C1CH
 }
 
 #form-text {
-    background-color: rgba(0,0,0, .75);
+    background-color: rgba(0,0,0, .5);
     max-width: 700px;
     padding: 25px;
     border-top-left-radius: 15px;
@@ -309,7 +333,7 @@ https://www.google.com/search?q=how+to+make+a+responsive+square+in+css&rlz=1C1CH
 }
 
 #form-area {
-    background-color: rgba(0,0,0, .75);
+    background-color: rgba(0,0,0, .5);
     max-width: 700px;
     padding: 15px;
     border-bottom-left-radius: 15px;
@@ -337,8 +361,16 @@ https://www.google.com/search?q=how+to+make+a+responsive+square+in+css&rlz=1C1CH
 }
 
 /*---------------------------- Gallery -------------*/
+
 .gallery-thumbnail {
-    height: 250px;
+    height: 225px;
+}
+
+#gallery_photo {
+    clear:both; 
+    line-height: 0; 
+    column-count: 2; 
+    column-gap: 0px;
 }
 
 /*---------------------------- Footer -------------*/
@@ -440,7 +472,7 @@ ul {
     margin: 25px 10px; 
     }
 
-#banner-text {
+    #about-banner-text, #classes-banner-text {
     width: 400px;
     border-top-left-radius: 0px;
     border-top-right-radius: 15px;
@@ -451,7 +483,7 @@ ul {
     left: 0px; 
     }
 
-#banner-text h2 {
+    #about-banner-text h2, #classes-banner-text h2 {
     font-size: 2.5rem;
     }
 }
@@ -533,11 +565,11 @@ ul {
         display: none;
     } 
 
-    #banner-text {
+    #about-banner-text, #classes-banner-text {
     width: 275px;
     }
 
-#banner-text h2 {
+    #about-banner-text h2, #classes-banner-text h2 {
     font-size: 2.5rem;
     }
 }
