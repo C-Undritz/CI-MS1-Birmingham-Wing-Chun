@@ -298,6 +298,21 @@ https://www.google.com/search?q=how+to+make+a+responsive+square+in+css&rlz=1C1CH
 
 /*---------------------------- About Us -------------*/
 
+.box-column {
+	height: 120%;
+	padding: 20px 0px;
+	
+}
+
+.box-column img {
+	max-width: 30%;
+    height: auto;
+	/* min-width: 30%;
+	min-height: 30%; */
+	margin: 0px;
+	margin: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 /*---------------------------- Classes -------------*/
 
