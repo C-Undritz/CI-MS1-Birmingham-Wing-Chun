@@ -50,6 +50,11 @@ p {
 
 .navbar-brand {
     margin-top: 2px;
+    border-radius: 100%;
+}
+
+.navbar-brand img {
+    border-radius: 100%;
 }
 
 .nav-link {
