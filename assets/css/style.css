@@ -314,9 +314,26 @@ https://www.google.com/search?q=how+to+make+a+responsive+square+in+css&rlz=1C1CH
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.about-title {
+    background-color: #195ACC;
+    padding: 10px 0px;
+    color: #F0F1EB;
+}
+
 /*---------------------------- Classes -------------*/
 
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
+.card-header {
+    background-color: #195ACC;
+}
+
+.card-header p {
+    margin: 0px;
+    color: #F0F1EB;
+}
 
 /*---------------------------- Contact Form -------------*/
 
