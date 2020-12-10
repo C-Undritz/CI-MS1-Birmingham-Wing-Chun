@@ -25,14 +25,33 @@ p {
 
 .btn-danger{
     font-family: 'Shadows Into Light Two', cursive;
+    color: #525252;
+    background-color: #F0DF18;
+    border: solid 1px #F0DF18;
+	letter-spacing: 2px;
+}
+
+.btn-danger:hover {
     color: #F0F1EB;
-	letter-spacing: 4px;
-    font-size: 1rem;
+    background-color: #000066;
+    border: solid 1px #000066;
+}
+
+
+.section-title {
+    background-color: #000066;
+    padding: 10px 0px;
+    color: #F0F1EB;
+    border-radius: 5px;
+}
+
+hr {
+    border: solid 1px #525252;
 }
 
 /*---------------------------- Navbar-------------*/
 .bwc-navbar {
-    background-color: #525252; 
+    background-color: #000066; 
 }
 
 .bwc-navbar a {
@@ -63,7 +82,7 @@ p {
 
 .navbar-toggler {
     margin-right: 5px;
-    background-color: black; 
+    background-color: #000066; 
 }
 
 .bwc-nav-list a:hover {
@@ -301,33 +320,26 @@ https://www.google.com/search?q=how+to+make+a+responsive+square+in+css&rlz=1C1CH
 .box-column {
 	height: 120%;
 	padding: 20px 0px;
-	
 }
 
 .box-column img {
 	max-width: 30%;
     height: auto;
-	/* min-width: 30%;
-	min-height: 30%; */
 	margin: 0px;
 	margin: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /*paper-like cards shadow from w3schools tutorial on box shadows (https://www.w3schools.com/css/css3_shadows_box.asp)*/
 }
 
-.about-title {
-    background-color: #195ACC;
-    padding: 10px 0px;
-    color: #F0F1EB;
-}
+
 
 /*---------------------------- Classes -------------*/
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /*paper-like cards shadow from w3schools tutorial on box shadows (https://www.w3schools.com/css/css3_shadows_box.asp)*/
 }
 
 .card-header {
-    background-color: #195ACC;
+    background-color: #000066;
 }
 
 .card-header p {
@@ -418,9 +430,8 @@ https://www.google.com/search?q=how+to+make+a+responsive+square+in+css&rlz=1C1CH
 }
 
 /*---------------------------- Footer -------------*/
-
 footer {
-    background-color: #525252;
+    background-color: #000066;
     padding: 1em 0em 0em 0em;
 }
 
@@ -431,7 +442,7 @@ footer {
 }
 
 .contact-us a p:hover {
-    color: #F0F1EB;
+    color: #F0DF18;
     font-size: 18px;
 }
 
@@ -449,27 +460,16 @@ ul {
     font-size: 25px;
     margin: 10px 15px;
     color: #F0F1EB;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
 }
 
-.facebook a i:hover {
-    color: #4267B2;
+.social-links a i:hover {
+    color: #F0DF18;
 }
 
-.instagram a i:hover {
-    color: #C13584;
-}
-
-.youtube a i:hover {
-    color: #FF0000;
-}
-
-.twitter a i:hover {
-    color: #1DA1F2;
-}
 
 /* media querys */
 

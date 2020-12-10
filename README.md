@@ -171,6 +171,7 @@ Bootstrap technology used:
 * Navbar
 * Flex
 * Spacing
+
 ---
 # Testing
 Testing to be completed is detailed in the [TESTING.md](TESTING.md) document
