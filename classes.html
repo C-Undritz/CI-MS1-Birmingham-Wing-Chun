@@ -9,345 +9,352 @@
     <title>Birmingham Wing Chun</title>
 </head>
 <body>
-<!--Navigation Bar (*Bootstrap Navbar - modified for use*)-->
-<nav class="navbar navbar-expand-lg navbar-dark sticky-top bwc-navbar">
-    <a class="navbar-brand" href="index.html">
-        <img src="assets/images/club_nav_symbol.png" width="50" height="50" alt="Birmingham Wing Chun Logo" title="Birmingham Wing Chun Logo" loading="lazy">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-mobile" aria-controls="navbar-mobile" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbar-mobile">
-        <ul class="navbar-nav ml-auto bwc-nav-list text-center">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="about.html">About Us</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="classes.html">Classes<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="gallery.html">Gallery</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-<!--/Navigation-->
-<!--Banner-->
-<!--(*Carousel code from bootstrap - only shows on resolutions >=992px width*)-->
-<section class="d-none d-lg-block"> 
-    <div id="classes-top-banner-carousel" >
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-interval="4000">
-                    <img src="assets/images/punch-kick.jpg" class="w-100" alt="...">
-                </div>
-                <div class="carousel-item" data-interval="4000">
-                    <img src="assets/images/chi-sao-outside.jpg" class="w-100" alt="...">
-                </div>
-                <div class="carousel-item" data-interval="4000">
-                    <img src="assets/images/eye-attack.jpg" class="w-100" alt="...">
-                </div>
-                <div class="carousel-item" data-interval="4000">
-                    <img src="assets/images/sifu-teaching.jpg" class="w-100" alt="...">
-                </div>
-                <div class="carousel-item" data-interval="4000">
-                    <img src="assets/images/sifu-teaching-2.jpg" class="w-100" alt="...">
-                </div>
-            </div>
-        </div>
-        <div id="classes-banner-text">
-            <h2>Start your own personal journey...</h2>
-        </div>
-    </div>
-</section>
-<!--Banner static image - only shows on resolutions <=991px width-->
-<section class="d-lg-none"> 
-    <div id="classes-top-banner-image">
-        <div id="classes-banner-text">
-            <h2>Start your own personal journey...</h2>
-        </div>
-    </div>
-</section>
-<!--/Banner-->
-<!--Discovery-->
-<section class="container-fluid">
-    <div class="row justify-content-center align-items-center">
-        <div class="col-md-10 col-lg-6 col-12">
-            <div id="discovery-selection">
-                <a href="classes.html">
-                    <div id="locations-box">
-                        <h2><i class="fas fa-map-marked-alt"></i></h2>
-                        <h3>Training Locations</h3>
-                    </div>
-                </a>
-                <a href="classes.html">
-                    <div id="sche-prices-box">
-                        <h2><i class="far fa-calendar-alt"></i></h2>
-                        <h3>Schedules and Prices</h3>
-                    </div>
-                </a>
-                <a href="classes.html">
-                    <div id="expect-box">
-                        <h2><i class="fas fa-eye"></i></h2>
-                        <h3>What to Expect</h3>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-<!--/Discovery-->
-<!--Information Section-->
-<!--Information Section-Training Locations and Times-->
-<section id="training-locations">
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-6">
-                <h2 class="text-center section-title">Training Locations</h2>
-            </div>
-        </div>
-        <div class="row d-flex justify-content-center">
-            <div class="col-12 col-md-6 d-flex justify-content-sm-center justify-content-md-end">
-                <div class="card mt-2 mb-2" style="width: 22rem;">
-                    <div class="card-header text-center">
-                        <p><strong>Hall Green (HQ)</strong></p>
-                    </div>
-                    <img src="assets/images/hall-green.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-title"><strong>Hall Green (HQ)</strong></p>
-                        <p class="card-text">1st Hall Green Scout Hall, Highfield Road, Hall Green, B28 0BY</p>
-                        <a href="https://www.google.co.uk/maps/place/Midlands+Wing+Chun+Kuen/@52.4213469,-1.8579302,17z/data=!4m5!3m4!1s0x4870b94332d845c3:0x65c1813536077da2!8m2!3d52.42136!4d-1.855999?hl=en" 
-                        target="_blank" class="btn btn-warning">Map</a>
-                        <button type="button" class="btn btn-warning text-center" data-bs-toggle="modal" data-bs-target="#hall-green-modal">Training times</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 d-flex justify-content-sm-center justify-content-md-start">
-                <div class="card mt-2 mb-2" style="width: 22rem;">
-                    <div class="card-header text-center">
-                        <p><strong>Solihull</strong></p>
-                    </div>
-                    <img src="assets/images/solihull.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-title"><strong>Solihull</strong></p>
-                        <p class="card-text">Oak Cottage Primary School, Greswolde Road, Solihull, B91 1DY</p>
-                        <a href="https://www.google.co.uk/maps/place/Oak+Cottage+Primary+School/@52.4252211,-1.8043941,17z/data=!3m1!4b1!4m5!3m4!1s0x4870b98ce9c337d9:0xfd28a8a7bd66730b!8m2!3d52.4252211!4d-1.8022054?hl=en" 
-                        target="_blank" class="btn btn-warning">Map</a>
-                        <button type="button" class="btn btn-warning text-center" data-bs-toggle="modal" data-bs-target="#solihull-modal">Training times</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 d-flex justify-content-sm-center justify-content-md-end">
-                <div class="card mt-2 mb-2" style="width: 22rem;">
-                    <div class="card-header text-center">
-                        <p><strong>Digbeth</strong></p>
-                    </div>
-                    <img src="assets/images/digbeth.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-title"><strong>Digbeth</strong></p>
-                        <p class="card-text">60/b Stratford Road, Birmingham, B11 1AN</p>
-                        <a href="https://www.google.co.uk/maps/place/60+Stratford+Rd,+Sparkhill,+Birmingham+B11+1AN/@52.4670008,-1.8795582,17.26z/data=!4m5!3m4!1s0x4870bb87a7b29f27:0x2f59705a168ce525!8m2!3d52.466774!4d-1.8777344?hl=en" 
-                        target="_blank" class="btn btn-warning">Map</a>
-                        <button type="button" class="btn btn-warning text-center" data-bs-toggle="modal" data-bs-target="#digbeth-modal">Training times</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 d-flex justify-content-sm-center justify-content-md-start">
-                <div class="card mt-2 mb-2" style="width: 22rem;">
-                    <div class="card-header text-center">
-                        <p><strong>Stirchley</strong></p>
-                    </div>
-                    <img src="assets/images/stirchley.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-title"><strong>Stirchley</strong></p>
-                        <p class="card-text">Martial Arts & Fitness, Unit 2, 72, Hazelwell Street, Stirchley, Birmingham, B30 2JS</p>
-                        <a href="https://www.google.com/maps/place/Martial+Arts+%26+Fitness/@52.4280278,-1.9231948,19.08z/data=!4m13!1m7!3m6!1s0x4870be81a1c815ab:0xd5fb92d6001169a1!2sHazelwell+St,+Stirchley,+Birmingham+B30+2JS!3b1!8m2!3d52.4285422!4d-1.922567!3m4!1s0x4870bc29b606daad:0xf51ee986ca92a206!8m2!3d52.4280864!4d-1.9228173?hl=en-GB" 
-                        target="_blank" class="btn btn-warning">Map</a>
-                        <button type="button" class="btn btn-warning text-center" data-bs-toggle="modal" data-bs-target="#stirchley-modal">Training times</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--/Information Section-Training Locations and Times-->
-
-<!--Information Prices-->
-<section id="prices">
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-10 col-lg-8">
-                <hr/>
-                <h2 class="text-center section-title">Prices</h2>
-                <p>
-                Newcomers to the class are expected to complete a compulsory series of 16 introductory lessons at £7.50 each.  
-                Once you are invited to train at the organisation an annual membership of £40 will need to be paid.  This covers 
-                full membership and insurance for the next 12 months and includes a club T-shirt. Membership and Insurance is 
-                renewable annually and subsequent years are £30.00.
-                </p>
-                <p>
-                Once a student is a member, lessons are £30.00 a month, which will allow you to train at any or all of the class locations.  
-                </p>
-                <hr/>
-            </div>
-        </div>
-    </div>
-</section>
-<!--/Information Section-Schedule & Prices-->
-
-<!--Information Section-What to Expect-->
-<section id="what-to-expect">
-    <div class="container-fluid">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-12 col-md-10 col-lg-8">
-                <h2 class="text-center section-title">What to Expect</h2>
-                <p>
-                You can start at any time as the organisation run an ongoing introductory group.  The basics of Wing Chun are taught 
-                to newcomers during a compulsory series of 16 introductory lessons.  During this time each potential student is 
-                assessed by the Sifu (teacher) and his instructors, who review their attendances and punctuality along with attitude 
-                and suitability to training within the Birmingham Wing Chun Kuen.  At the end of the introductory course the Sifu will 
-                decide whether to invite and accept the applicant as a student of the school and Association.  If the student accepts 
-                to join the Association and continue their studies; they will then complete an acceptance assessment covering the basics 
-                they have been taught.
-                </p>
-            </div>
-        </div>
-        <div class="row justify-content-center align-items-center">
-            <div class="col-12 col-md-10 col-lg-8">
-                <p>
-                There is no uniform or formal training clothing required at this stage; training or jogging trousers, a plain 
-                t-shirt/sweatshirt and training shoes are all that is necessary.
-                </p>
-            </div>
-        </div>
-        <div class="row justify-content-center align-items-center">
-            <div class="col-12 col-md-10 col-lg-8">
-                <p>
-                Still not sure?  Please do come along to one of our training sessions and feel free to watch and ask further questions.  
-                Alternatively, please feel free to ask a question using our online form <a href="contact.html">here.</a>
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-<!--/Information Section-What to Expect-->
-<!--/Information Section-->
-<!--Footer (*learnt from Code institute 'Resume Project'modified for use*)-->
-<footer class="container-fluid">
-    <div class="row">
-        <div class="col-md-auto col-sm-12 order-md-2 text-center">
-            <ul class="list-inline social-links">
-                <li class="list-inline-item facebook">
-                    <a target="_blank" href="https://www.facebook.com/MidlandsWingChunKuen/">
-                        <i class="fab fa-facebook" aria-hidden="true"></i>
-                        <span class="sr-only">Facebook</span>
-                    </a>
+    <!--Navigation Bar (*Bootstrap Navbar - modified for use*)-->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top bwc-navbar">
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/images/club_nav_symbol.png" width="50" height="50" alt="Birmingham Wing Chun Logo" title="Birmingham Wing Chun Logo" loading="lazy">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-mobile" aria-controls="navbar-mobile" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-mobile">
+            <ul class="navbar-nav ml-auto bwc-nav-list text-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
-                <li class="list-inline-item instagram">
-                    <a target="_blank" href="https://www.instagram.com/simply_wing_chun_kuen/">
-                        <i class="fab fa-instagram" aria-hidden="true"></i>
-                        <span class="sr-only">Instagram</span>
-                    </a>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
                 </li>
-                <li class="list-inline-item youtube">
-                    <a target="_blank" href="https://www.youtube.com/channel/UCXEJxM-kJZok_vmbuWzCMHw">
-                        <i class="fab fa-youtube" aria-hidden="true"></i>
-                        <span class="sr-only">YouTube</span>
-                    </a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="classes.html">Classes<span class="sr-only">(current)</span></a>
                 </li>
-                <li class="list-inline-item twitter">
-                    <a target="_blank" href="https://twitter.com/mwck_uk">
-                        <i class="fab fa-twitter" aria-hidden="true"></i>
-                        <span class="sr-only">Twitter</span>
-                    </a>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
                 </li>
             </ul>
         </div>
-        <div class="col-md-auto mr-md-auto col-sm-12 order-md-1 text-center contact-us">
-            <a class="nav-link" href="contact.html"><p>- Contact Us -</p></a>   
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-12 text-center footer-disclaimer">
-            <p><small>This website is designed and developed for educational purposes only.</small></p>
-        </div>
-    </div>
-</footer> 
-<!--/Footer-->
-<!--Modal Section (Bootstrap modal code from https://getbootstrap.com/docs/5.0/components/modal/)-->
-<div class="modal fade" id="hall-green-modal" tabindex="-1" aria-labelledby="HallGreenModal" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <p class="modal-title" id="exampleModalLabel"><strong>Hall Green training times</strong></p>
-                <button type="button" class="btn-warning" data-bs-dismiss="modal" aria-label="Close"></button>
+    </nav>
+    <!--/Navigation-->
+
+    <!--Banner-->
+    <!--(*Carousel code from bootstrap - only shows on resolutions >=992px width*)-->
+    <section class="d-none d-lg-block"> 
+        <div id="classes-top-banner-carousel" >
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="4000">
+                        <img src="assets/images/punch-kick.jpg" class="w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-interval="4000">
+                        <img src="assets/images/chi-sao-outside.jpg" class="w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-interval="4000">
+                        <img src="assets/images/eye-attack.jpg" class="w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-interval="4000">
+                        <img src="assets/images/sifu-teaching.jpg" class="w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-interval="4000">
+                        <img src="assets/images/sifu-teaching-2.jpg" class="w-100" alt="...">
+                    </div>
+                </div>
             </div>
-            <div class="modal-body">
-                <p>Mon: 7:00 - 9:00 pm</p>
-                <p>Weds: 7:15 - 9:15 pm</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="modal fade" id="solihull-modal" tabindex="-1" aria-labelledby="SolihullModal" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <p class="modal-title" id="exampleModalLabel"><strong>Solihull training times</strong></p>
-                <button type="button" class="btn-warning" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>Tues: 7:00 - 9:00 pm</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+            <div id="classes-banner-text">
+                <h2>Start your own personal journey...</h2>
             </div>
         </div>
-    </div>
-</div>
-<div class="modal fade" id="digbeth-modal" tabindex="-1" aria-labelledby="DigbethModal" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <p class="modal-title" id="exampleModalLabel"><strong>Digbeth training times</strong></p>
-                <button type="button" class="btn-warning" data-bs-dismiss="modal" aria-label="Close"></button>
+    </section>
+    <!--Banner static image - only shows on resolutions <=991px width-->
+    <section class="d-lg-none"> 
+        <div id="classes-top-banner-image">
+            <div id="classes-banner-text">
+                <h2>Start your own personal journey...</h2>
             </div>
-            <div class="modal-body">
-                <p>Thurs: 7:00 - 9:00 pm</p>
-                <p>Fri: 7:00 - 9:00 pm</p>
+        </div>
+    </section>
+    <!--/Banner-->
+
+    <!--Discovery-->
+    <section class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-10 col-lg-6 col-12">
+                <div id="discovery-selection">
+                    <a href="classes.html">
+                        <div id="locations-box">
+                            <h2><i class="fas fa-map-marked-alt"></i></h2>
+                            <h3>Training Locations</h3>
+                        </div>
+                    </a>
+                    <a href="classes.html">
+                        <div id="sche-prices-box">
+                            <h2><i class="far fa-calendar-alt"></i></h2>
+                            <h3>Schedules and Prices</h3>
+                        </div>
+                    </a>
+                    <a href="classes.html">
+                        <div id="expect-box">
+                            <h2><i class="fas fa-eye"></i></h2>
+                            <h3>What to Expect</h3>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+        </div>
+    </section>
+    <!--/Discovery-->
+
+    <!--Information Section-->
+    <!--Information Section-Training Locations and Times-->
+    <section id="training-locations">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6">
+                    <h2 class="text-center section-title">Training Locations</h2>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-12 col-md-6 d-flex justify-content-sm-center justify-content-md-end">
+                    <div class="card mt-2 mb-2" style="width: 22rem;">
+                        <div class="card-header text-center">
+                            <p><strong>Hall Green (HQ)</strong></p>
+                        </div>
+                        <img src="assets/images/hall-green.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-title"><strong>Hall Green (HQ)</strong></p>
+                            <p class="card-text">1st Hall Green Scout Hall, Highfield Road, Hall Green, B28 0BY</p>
+                            <a href="https://www.google.co.uk/maps/place/Midlands+Wing+Chun+Kuen/@52.4213469,-1.8579302,17z/data=!4m5!3m4!1s0x4870b94332d845c3:0x65c1813536077da2!8m2!3d52.42136!4d-1.855999?hl=en" 
+                            target="_blank" class="btn btn-warning">Map</a>
+                            <button type="button" class="btn btn-warning text-center" data-bs-toggle="modal" data-bs-target="#hall-green-modal">Training times</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 d-flex justify-content-sm-center justify-content-md-start">
+                    <div class="card mt-2 mb-2" style="width: 22rem;">
+                        <div class="card-header text-center">
+                            <p><strong>Solihull</strong></p>
+                        </div>
+                        <img src="assets/images/solihull.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-title"><strong>Solihull</strong></p>
+                            <p class="card-text">Oak Cottage Primary School, Greswolde Road, Solihull, B91 1DY</p>
+                            <a href="https://www.google.co.uk/maps/place/Oak+Cottage+Primary+School/@52.4252211,-1.8043941,17z/data=!3m1!4b1!4m5!3m4!1s0x4870b98ce9c337d9:0xfd28a8a7bd66730b!8m2!3d52.4252211!4d-1.8022054?hl=en" 
+                            target="_blank" class="btn btn-warning">Map</a>
+                            <button type="button" class="btn btn-warning text-center" data-bs-toggle="modal" data-bs-target="#solihull-modal">Training times</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 d-flex justify-content-sm-center justify-content-md-end">
+                    <div class="card mt-2 mb-2" style="width: 22rem;">
+                        <div class="card-header text-center">
+                            <p><strong>Digbeth</strong></p>
+                        </div>
+                        <img src="assets/images/digbeth.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-title"><strong>Digbeth</strong></p>
+                            <p class="card-text">60/b Stratford Road, Birmingham, B11 1AN</p>
+                            <a href="https://www.google.co.uk/maps/place/60+Stratford+Rd,+Sparkhill,+Birmingham+B11+1AN/@52.4670008,-1.8795582,17.26z/data=!4m5!3m4!1s0x4870bb87a7b29f27:0x2f59705a168ce525!8m2!3d52.466774!4d-1.8777344?hl=en" 
+                            target="_blank" class="btn btn-warning">Map</a>
+                            <button type="button" class="btn btn-warning text-center" data-bs-toggle="modal" data-bs-target="#digbeth-modal">Training times</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 d-flex justify-content-sm-center justify-content-md-start">
+                    <div class="card mt-2 mb-2" style="width: 22rem;">
+                        <div class="card-header text-center">
+                            <p><strong>Stirchley</strong></p>
+                        </div>
+                        <img src="assets/images/stirchley.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-title"><strong>Stirchley</strong></p>
+                            <p class="card-text">Martial Arts & Fitness, Unit 2, 72, Hazelwell Street, Stirchley, Birmingham, B30 2JS</p>
+                            <a href="https://www.google.com/maps/place/Martial+Arts+%26+Fitness/@52.4280278,-1.9231948,19.08z/data=!4m13!1m7!3m6!1s0x4870be81a1c815ab:0xd5fb92d6001169a1!2sHazelwell+St,+Stirchley,+Birmingham+B30+2JS!3b1!8m2!3d52.4285422!4d-1.922567!3m4!1s0x4870bc29b606daad:0xf51ee986ca92a206!8m2!3d52.4280864!4d-1.9228173?hl=en-GB" 
+                            target="_blank" class="btn btn-warning">Map</a>
+                            <button type="button" class="btn btn-warning text-center" data-bs-toggle="modal" data-bs-target="#stirchley-modal">Training times</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/Information Section-Training Locations and Times-->
+
+    <!--Information Section-Prices-->
+    <section id="prices">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8">
+                    <hr/>
+                    <h2 class="text-center section-title">Prices</h2>
+                    <p>
+                    Newcomers to the class are expected to complete a compulsory series of 16 introductory lessons at £7.50 each.  
+                    Once you are invited to train at the organisation an annual membership of £40 will need to be paid.  This covers 
+                    full membership and insurance for the next 12 months and includes a club T-shirt. Membership and Insurance is 
+                    renewable annually and subsequent years are £30.00.
+                    </p>
+                    <p>
+                    Once a student is a member, lessons are £30.00 a month, which will allow you to train at any or all of the class locations.  
+                    </p>
+                    <hr/>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/Information Section-Prices-->
+
+    <!--Information Section-What to Expect-->
+    <section id="what-to-expect">
+        <div class="container-fluid">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 col-md-10 col-lg-8">
+                    <h2 class="text-center section-title">What to Expect</h2>
+                    <p>
+                    You can start at any time as the organisation run an ongoing introductory group.  The basics of Wing Chun are taught 
+                    to newcomers during a compulsory series of 16 introductory lessons.  During this time each potential student is 
+                    assessed by the Sifu (teacher) and his instructors, who review their attendances and punctuality along with attitude 
+                    and suitability to training within the Birmingham Wing Chun Kuen.  At the end of the introductory course the Sifu will 
+                    decide whether to invite and accept the applicant as a student of the school and Association.  If the student accepts 
+                    to join the Association and continue their studies; they will then complete an acceptance assessment covering the basics 
+                    they have been taught.
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 col-md-10 col-lg-8">
+                    <p>
+                    There is no uniform or formal training clothing required at this stage; training or jogging trousers, a plain 
+                    t-shirt/sweatshirt and training shoes are all that is necessary.
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 col-md-10 col-lg-8">
+                    <p>
+                    Still not sure?  Please do come along to one of our training sessions and feel free to watch and ask further questions.  
+                    Alternatively, please feel free to ask a question using our online form <a href="contact.html">here.</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/Information Section-What to Expect-->
+    <!--/Information Section-->
+
+    <!--Footer (*learnt from Code institute 'Resume Project'modified for use*)-->
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-md-auto col-sm-12 order-md-2 text-center">
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item facebook">
+                        <a target="_blank" href="https://www.facebook.com/MidlandsWingChunKuen/">
+                            <i class="fab fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item instagram">
+                        <a target="_blank" href="https://www.instagram.com/simply_wing_chun_kuen/">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item youtube">
+                        <a target="_blank" href="https://www.youtube.com/channel/UCXEJxM-kJZok_vmbuWzCMHw">
+                            <i class="fab fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">YouTube</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item twitter">
+                        <a target="_blank" href="https://twitter.com/mwck_uk">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-auto mr-md-auto col-sm-12 order-md-1 text-center contact-us">
+                <a class="nav-link" href="contact.html"><p>- Contact Us -</p></a>   
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center footer-disclaimer">
+                <p><small>This website is designed and developed for educational purposes only.</small></p>
+            </div>
+        </div>
+    </footer> 
+    <!--/Footer-->
+
+    <!--Modal Section (Bootstrap modal code from https://getbootstrap.com/docs/5.0/components/modal/)-->
+    <div class="modal fade" id="hall-green-modal" tabindex="-1" aria-labelledby="HallGreenModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <p class="modal-title" id="exampleModalLabel"><strong>Hall Green training times</strong></p>
+                    <button type="button" class="btn-warning" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Mon: 7:00 - 9:00 pm</p>
+                    <p>Weds: 7:15 - 9:15 pm</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<div class="modal fade" id="stirchley-modal" tabindex="-1" aria-labelledby="StirchleyModal" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <p class="modal-title" id="exampleModalLabel"><strong>Stirchley training times</strong></p>
-                <button type="button" class="btn-warning" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>Tues: 7:00 - 9:00 pm</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+    <div class="modal fade" id="solihull-modal" tabindex="-1" aria-labelledby="SolihullModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <p class="modal-title" id="exampleModalLabel"><strong>Solihull training times</strong></p>
+                    <button type="button" class="btn-warning" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Tues: 7:00 - 9:00 pm</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<!--/Modal Secton-->
+    <div class="modal fade" id="digbeth-modal" tabindex="-1" aria-labelledby="DigbethModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <p class="modal-title" id="exampleModalLabel"><strong>Digbeth training times</strong></p>
+                    <button type="button" class="btn-warning" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Thurs: 7:00 - 9:00 pm</p>
+                    <p>Fri: 7:00 - 9:00 pm</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="stirchley-modal" tabindex="-1" aria-labelledby="StirchleyModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <p class="modal-title" id="exampleModalLabel"><strong>Stirchley training times</strong></p>
+                    <button type="button" class="btn-warning" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Tues: 7:00 - 9:00 pm</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/Modal Section-->
+
+    <!--Scripts-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
@@ -356,5 +363,6 @@
     integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" 
     integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <!--/Scripts-->
 </body>
 </html>
