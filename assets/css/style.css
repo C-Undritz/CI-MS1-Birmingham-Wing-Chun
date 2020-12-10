@@ -257,7 +257,7 @@ https://www.google.com/search?q=how+to+make+a+responsive+square+in+css&rlz=1C1CH
 /*---------------------------- About Us and Classes banners -------------*/
 
 #about-top-banner {
-    background: url("../images/bruce-lee-statue.jpg") no-repeat scroll top;
+    background: url("../images/bruce-lee-statue.png") no-repeat scroll top;
     height: 700px;
     width: 100%;
     overflow: hidden;
