@@ -157,14 +157,32 @@ The club colours are blue and yellow and so I wanted to incorporate these throug
 * GoogleFonts
 * Fontawesome
 * Balsamiq
-* Fancybox?
+* Adobe PhotoShop: Used to edit some images.
+* Fancybox (http://fancyapps.com/fancybox/3/): Used for the gallery.
+* Canva (https://www.canva.com/): Used as a quick and easy way to crop images to pixel specific dimensions
 
+Bootstrap technology used:
+* Container
+* Grid
+* Buttons
+* Card
+* Carousel
+* Modal
+* Navbar
+* Flex
+* Spacing
 ---
 # Testing
 Testing to be completed is detailed in the [TESTING.md](TESTING.md) document
 
 ---
 # Bugs / problems encountered.
+
+---
+# Noted design changes
+* Change in the colour blue used.  The orginal chosen blue colour (#195ACC) when applied to the website elements (navigation bar, footer and section headings) looked too light *in situ*.  Therefore it was changed to the clubs original blue colour (#000066), which while dark in large areas, was thought to be well suited to the mentioned website elements. 
+
+* Change in the way the club locations and schedules displayed.  The wireframes show against each club location a 'GoogleMap' and then the address of the club to the right/left.  The final implementation was completed with Bootstrap 'cards' which allowed an image of the club to be shown which would be helpful to students.  The GoogleMap was then linked from a button within the card.  It was thought that also adding the club training times here would make for a better user experience, however in order to avoid extending the height of the cards further, an additional button was added which causes a 'modal' to display with the club training times. 
 
 ---
 # Deployment
@@ -174,7 +192,7 @@ Testing to be completed is detailed in the [TESTING.md](TESTING.md) document
 * Anna Greaves for the code for enabling FancyBox to work at Mobile resolutions.
 
 ## Code:
-1. Simple one, but I had to look it up: [how to hide an image for responisve design](https://www.thesitewizard.com/css/hide-images-on-mobile-website.shtml)
+1. Simple one, but I had to look it up: [how to hide an image for responsive design](https://www.thesitewizard.com/css/hide-images-on-mobile-website.shtml)
 
 ## Help:
 * Thanks to my fellow students who were on hand to lend wisdom and knowledge during in-it-together 11am coffee calls and other times when I had run out of hair!  special thanks to Jim Lynx for pointing out the obvious and not-so-obvious, and for the help with the Gitpod GUI as well as helpful tips like 'putting media querys at the end of your css' (something I would never have figured broke my footer!).
