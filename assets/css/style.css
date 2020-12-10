@@ -23,20 +23,16 @@ p {
     font-size: 1rem;
 }
 
-.btn-danger{
+.btn-warning{
     font-family: 'Shadows Into Light Two', cursive;
-    color: #525252;
-    background-color: #F0DF18;
-    border: solid 1px #F0DF18;
 	letter-spacing: 2px;
 }
 
-.btn-danger:hover {
+.btn-warning:hover {
     color: #F0F1EB;
     background-color: #000066;
     border: solid 1px #000066;
 }
-
 
 .section-title {
     background-color: #000066;
