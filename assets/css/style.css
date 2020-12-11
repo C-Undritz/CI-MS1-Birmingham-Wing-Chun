@@ -50,6 +50,10 @@ hr {
     border: solid 1px #525252;
 }
 
+.text-box-shade {
+    background-color: rgba(0,0,102, .65);
+}
+
 /*---------------------------- Navbar-------------*/
 .bwc-navbar {
     background-color: #000066; 
@@ -278,7 +282,6 @@ https://www.google.com/search?q=how+to+make+a+responsive+square+in+css&rlz=1C1CH
 
 
 /*---------------------------- About Us and Classes banners -------------*/
-
 #about-top-banner {
     background: url("../images/bruce-lee-statue.png") no-repeat scroll top;
     height: 700px;
@@ -295,7 +298,6 @@ https://www.google.com/search?q=how+to+make+a+responsive+square+in+css&rlz=1C1CH
     border-radius: 15px;
     padding-left: 10px; 
     padding-top: 10px;  
-    background-color: rgba(0,0,0, .5);
     left: 50px;
     bottom: 30px;
     position: absolute;  
@@ -316,7 +318,7 @@ https://www.google.com/search?q=how+to+make+a+responsive+square+in+css&rlz=1C1CH
     position: relative; 
 }
 
-#classes-banner-text {
+.classes-banner-text {
     color: #F0F1EB;
     letter-spacing: 4px;
     width: 700px;
@@ -324,18 +326,16 @@ https://www.google.com/search?q=how+to+make+a+responsive+square+in+css&rlz=1C1CH
     border-radius: 15px;
     padding-left: 10px; 
     padding-top: 10px;  
-    background-color: rgba(0,0,0, .5);
     left: 50px;
     top: 30px;
     position: absolute;  
 }
 
-#about-banner-text h2, #classes-banner-text h2 {
+#about-banner-text h2, .classes-banner-text h2 {
     font-size: 3rem;
 }
 
 /*---------------------------- About Us -------------*/
-
 .box-column {
 	height: 120%;
 	padding: 20px 0px;
@@ -349,10 +349,7 @@ https://www.google.com/search?q=how+to+make+a+responsive+square+in+css&rlz=1C1CH
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /*paper-like cards shadow from w3schools tutorial on box shadows (https://www.w3schools.com/css/css3_shadows_box.asp)*/
 }
 
-
-
 /*---------------------------- Classes -------------*/
-
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /*paper-like cards shadow from w3schools tutorial on box shadows (https://www.w3schools.com/css/css3_shadows_box.asp)*/
 }
@@ -367,7 +364,6 @@ https://www.google.com/search?q=how+to+make+a+responsive+square+in+css&rlz=1C1CH
 }
 
 /*---------------------------- Contact Form -------------*/
-
 .contact-container { 
     height: 100vh;
     /*code below taken from https://css-tricks.com/perfect-full-page-background-image/*/
@@ -384,7 +380,6 @@ https://www.google.com/search?q=how+to+make+a+responsive+square+in+css&rlz=1C1CH
 }
 
 #form-text {
-    background-color: rgba(0,0,0, .5);
     max-width: 700px;
     padding: 25px;
     border-top-left-radius: 15px;
@@ -404,7 +399,6 @@ https://www.google.com/search?q=how+to+make+a+responsive+square+in+css&rlz=1C1CH
 }
 
 #form-area {
-    background-color: rgba(0,0,0, .5);
     max-width: 700px;
     padding: 15px;
     border-bottom-left-radius: 15px;
@@ -432,7 +426,6 @@ https://www.google.com/search?q=how+to+make+a+responsive+square+in+css&rlz=1C1CH
 }
 
 /*---------------------------- Gallery -------------*/
-
 .gallery-thumbnail {
     height: 175px;
 }
@@ -489,9 +482,7 @@ ul {
     color: #F0DF18;
 }
 
-
 /*------------------ media querys ------------------*/
-
 @media screen and (max-width: 1300px ){ 
     /*--Homepage--*/
     #discovery-selection div {
