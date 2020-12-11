@@ -51,7 +51,7 @@ hr {
 }
 
 .text-box-shade {
-    background-color: rgba(0,0,102, .65);
+    background-color: rgba(0,0,0, .65);
 }
 
 /*---------------------------- Navbar-------------*/
@@ -94,13 +94,7 @@ hr {
     border-bottom: 1px solid #F0DF18;
 }
 
-/*---------------------------- Banners-------------*/
-
-
-
-
 /*---------------------------- Callout section-------------*/
-
 .callout-container { 
     height: 100vh;
     /*code below taken from https://css-tricks.com/perfect-full-page-background-image/*/
@@ -127,7 +121,6 @@ hr {
     font-size: 5rem;
 }
 
-
 .jumbotron {
     background-color: transparent;
     padding-top: 20vw;
@@ -152,7 +145,6 @@ hr {
 }
 
 /*---------------------------- Benefits & Testimonials -------------*/
-
 .benefits-title {
     color: #525252;
     text-align: center;
@@ -192,22 +184,22 @@ hr {
 }
 
 /*---------------------------- Discovery section -------------*/
-
 #discovery {
     background: url("../images/MartinWD.jpg") no-repeat;
     background-size: cover;
     background-position: top;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
-.discovery-opaque-overlay {
+#discovery-overlay {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(25,90,204,0.75);
+    background-color: rgba(0,0,102, .25);
 }
 
 #discovery-selection {
@@ -216,7 +208,8 @@ hr {
 
 #discovery-selection div {
     color: #F0F1EB;
-    background-color: rgba(0,0,0, .6);
+    /* background-color: rgba(0,0,0, .6); */
+    background-color: rgba(0,0,102, .5);
     width: 30%; 
     height: 250px;
     float: left;
@@ -333,6 +326,30 @@ https://www.google.com/search?q=how+to+make+a+responsive+square+in+css&rlz=1C1CH
 
 #about-banner-text h2, .classes-banner-text h2 {
     font-size: 3rem;
+}
+
+.article-selection div {
+    color: #F0F1EB;
+    background-color: #525252;
+    border-radius: 15px;
+    width: 250px; 
+    height: 150px;
+    float: left;
+    padding: 10px; 
+    text-align: center;
+    margin: 25px 10px; 
+    transition: all 0.35s ease-in;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.article-selection div h3 {
+    font-size: 1.75em;
+}
+
+.article-selection div:hover {
+    background-color: #000066;
 }
 
 /*---------------------------- About Us -------------*/
@@ -551,6 +568,15 @@ ul {
     #about-banner-text h2, #classes-banner-text h2 {
     font-size: 2.5rem;
     }
+
+    .article-selection div h3 {
+    font-size: 1.5em;
+}
+
+    .article-selection div {
+    width: 200px; 
+    margin: 60px 1px; 
+}
 
     /*--Contact Us form --*/
     #form-text, #form-area {
