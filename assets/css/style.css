@@ -2,6 +2,12 @@
 
 /*---------------------------- Global stylings-------------*/
 
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 h1 {
     font-family: 'Roboto Slab', serif;
 	letter-spacing: 4px;
@@ -20,7 +26,6 @@ h3 {
 p {
     font-family: 'Shadows Into Light Two', cursive;
 	letter-spacing: 4px;
-    font-size: 1rem;
 }
 
 .btn-warning{
@@ -100,6 +105,24 @@ hr {
     background-size: cover;
     position: relative;
 }
+
+.callout-translucent-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    }
+
+#callout-row {
+    position: relative
+}
+
+#home-banner-title h1 {
+    font-size: 5rem;
+}
+
 
 .jumbotron {
     background-color: transparent;
@@ -478,14 +501,6 @@ ul {
 }
 
 @media screen and (max-width: 770px ){ 
-    .callout-opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0,0,0,0.5);
-    }
 
     .jumbotron {
     padding-top: 30vw;
