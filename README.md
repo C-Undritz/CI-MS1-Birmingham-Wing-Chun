@@ -191,6 +191,7 @@ Testing to be completed is detailed in the [TESTING.md](TESTING.md) document
 ---
 # Credits
 * Anna Greaves for the code for enabling FancyBox to work at Mobile resolutions.
+* Thanks to members of the Slack community for their support and help, particularly Mr_Bim_alumni and JimLynx_lead
 
 ## Code:
 1. Simple one, but I had to look it up: [how to hide an image for responsive design](https://www.thesitewizard.com/css/hide-images-on-mobile-website.shtml)
