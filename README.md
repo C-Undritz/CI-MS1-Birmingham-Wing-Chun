@@ -79,9 +79,17 @@ Each page features an appropriate banner image with text, apart from the home pa
 
 ---
 # Skeleton
-Wireframes:
-* [Mobile](assets/readme/LearnWingChun_mb_wireframes_v0.2.pdf)
-* [Desktop](assets/readme/LearnWingChun_dk_wireframes_v0.2.pdf)
+## Wireframes
+Current version(v0.3):
+* [Mobile](assets/readme/LearnWingChun_mb_wireframes_v0.3.pdf)
+* [Desktop](assets/readme/LearnWingChun_dk_wireframes_v0.3.pdf)
+
+Archive Wireframes - original design(v0.2).  
+The design in these wireframes was changed following initial user testing.  The changes are 
+detailed in the section 'Noted design changes' later in this document.
+* [Mobile(v0.2)](assets/readme/LearnWingChun_mb_wireframes_v0.2.pdf)
+* [Desktop(v0.2)
+](assets/readme/LearnWingChun_dk_wireframes_v0.2.pdf)
 
 ## Home/landing page.
 To have the most impact, the home screen features a full screen hero image with text leaving the user in no doubt as to what is offered by the organisation.  On tablet and mobile the hero image is muted so that the text remains clear.  There is a call to action button, which prompts the user to ‘find out more’.  Selecting this moves the page down to the ‘discovery section’ which is the third section of the home page.
@@ -141,7 +149,9 @@ Each images can however be selected which then opens a fancy box window to view 
 # Surface.
 
 ## Colours
-The club colours are blue and yellow and so I wanted to incorporate these throughout the site to break up the sections and tint the images:
+The club colours are blue and yellow and so I wanted to incorporate these throughout the site to break up the sections.  
+
+Palette:
 
 ![alt text](assets/readme/palette.png "Proposed palette of five colours to be used on the site for all design elements")
 
@@ -181,10 +191,13 @@ Testing to be completed is detailed in the [TESTING.md](TESTING.md) document
 
 ---
 # Noted design changes
-* Change in the colour blue used.  The orginal chosen blue colour (#195ACC) when applied to the website elements (navigation bar, footer and section headings) looked too light *in situ*.  Therefore it was changed to the clubs original blue colour (#000066), which while dark in large areas, was thought to be well suited to the mentioned website elements. 
+* User testing was done on the website in a 70% completed stated with all of the main navigation elements in place including the 'discovery' section at the bottom of the index (home) page, which the user was encouraged to accessed via the 'learn more' button on the landing page.  It was found that the users liked the experience of the 'discovery' section and therefore wanted to get back to it to continue navigating from there.  However as they had used the 'learn more' button to access the 'discovery' area, they did not know that it was at the bottom of the home page and so they quickly got lost.  They were further confused when they then used the top nav menu to access the pages directly to then discover that they had already seen the content by using the 'Discovery' section.  This lead to an overall bad user experience navigating the site.  This was remedied by changing the navigation elements at the bottom of the home page to three links to the ‘about us’, ‘classes’ and ‘gallery’ pages which can be seen in the updated [wireframes](#wireframes).  This mirrored the navigation of the top navigation bar and offered a better UX with multiple ways to navigate the site depending on the user habits and expectations.
+
+* The above lead to a further removal of the links to the three sections on the ‘about us’ and ‘classes’ pages as it was determined that these did not add to the user experience.  The user tended to use them once (if at all) however as they had to scroll up to get back to them they were not used again and they chose to scroll instead of using these links.
 
 * Change in the way the club locations and schedules displayed.  The wireframes show against each club location a 'GoogleMap' and then the address of the club to the right/left.  The final implementation was completed with Bootstrap 'cards' which allowed an image of the club to be shown which would be helpful to students.  The GoogleMap was then linked from a button within the card.  It was thought that also adding the club training times here would make for a better user experience, however in order to avoid extending the height of the cards further, an additional button was added which causes a 'modal' to display with the club training times. 
 
+* Change in the colour blue used.  The orginal chosen blue colour (#195ACC) when applied to the website elements (navigation bar, footer and section headings) looked too light *in situ*.  Therefore it was changed to the clubs original blue colour (#000066), which while dark in large areas, was thought to be well suited to the mentioned website elements. 
 ---
 # Deployment
 
