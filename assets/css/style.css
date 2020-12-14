@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Shadows+Into+Light+Two&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Shadows+Into+Light+Two&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;900&family=Roboto:wght@300;400&display=swap');
+
 
 /*---------------------------- Global stylings-------------*/
 
@@ -10,7 +13,8 @@
 
 h1 {
     font-family: 'Roboto Slab', serif;
-	letter-spacing: 4px;
+    letter-spacing: 4px;
+    font-size: 300%;
 }
 
 h2 {
@@ -24,13 +28,13 @@ h3 {
 }
 
 p {
-    font-family: 'Shadows Into Light Two', cursive;
-	letter-spacing: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 110%;
 }
 
 .btn-warning{
-    font-family: 'Shadows Into Light Two', cursive;
-	letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .btn-warning:hover {
@@ -54,6 +58,14 @@ hr {
     background-color: rgba(0,0,0, .65);
 }
 
+.col-md-4, .col-md-3, .col-sm-12 {
+    padding: 0;
+}
+
+.image-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /*paper-like cards shadow from w3schools tutorial on box shadows (https://www.w3schools.com/css/css3_shadows_box.asp)*/
+}
+
 /*---------------------------- Navbar-------------*/
 .bwc-navbar {
     background-color: #000066; 
@@ -63,9 +75,9 @@ hr {
     margin-left: 5px;
     margin-right: 5px;
     padding-top: 2px;
-    font-family: 'Shadows Into Light Two', cursive;
+    /* font-family: 'Shadows Into Light Two', cursive; */
     font-size: 18px;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }
 
 .navbar {
@@ -96,7 +108,7 @@ hr {
 
 /*---------------------------- Callout section-------------*/
 .callout-container { 
-    height: 100vh;
+    height: 80vh;
     /*code below taken from https://css-tricks.com/perfect-full-page-background-image/*/
     background: url("../images/sifu-bg-black.png") no-repeat top right; 
     background-attachment: scroll;/*need to chane to 'fixed' and then apply webkit prefix*/
@@ -123,7 +135,7 @@ hr {
 
 .jumbotron {
     background-color: transparent;
-    padding-top: 20vw;
+    padding-top: 15vw;
 }
 
 .jumbotron h1 {
@@ -184,119 +196,57 @@ hr {
 }
 
 /*---------------------------- Discovery section -------------*/
-#discovery {
-    background: url("../images/MartinWD.jpg") no-repeat;
+
+#aboutus-nav {
+    background: url(../images/sifu_wooden_dummy.png);
     background-size: cover;
-    background-position: top;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+    height: 300px;
 }
 
-#discovery-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0,0,102, .25);
+#classes-nav {
+    background: url(../images/hallgreen.jpg);
+    background-size: cover;
+    height: 300px;
 }
 
-#discovery-selection {
-    margin: 20px 0px;
+#gallery-nav {
+    background: url(../images/bwc_club.jpg);
+    background-size: cover;
+    height: 300px;
 }
 
-#discovery-selection div {
+#aboutus-nav div,
+#classes-nav div,
+#gallery-nav div {
     color: #F0F1EB;
-    /* background-color: rgba(0,0,0, .6); */
-    background-color: rgba(0,0,102, .5);
-    width: 30%; 
-    height: 250px;
-    float: left;
-    padding: 80px 20px 20px 10px; 
-    text-align: center;
-    margin: 25px 10px; 
-    transition: all 0.35s ease-in;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    border-radius: 15px;
+    width: 200px;
 }
 
-#about-wc-box:hover {
-    background: url("../images/bwc_about.jpg") no-repeat;
+#aboutus-nav:hover {
+    background: url(../images/sifu_wooden_dummy.png);
+    filter: grayscale(100%);
     background-size: cover;
-    background-position: top;
-    overflow: hidden;
+    height: 300px;
 }
 
-#history-box:hover {
-    background: url("../images/Ipman.png") no-repeat;
+#classes-nav:hover {
+    background: url(../images/hallgreen.jpg);
+    filter: grayscale(100%);
     background-size: cover;
-    background-position: top;
-    overflow: hidden;
+    height: 300px;
 }
 
-#about-club-box:hover {
-    background: url("../images/bwc_club.jpg") no-repeat;
+#gallery-nav:hover {
+    background: url(../images/bwc_club.jpg);
+    filter: grayscale(100%);
     background-size: cover;
-    background-position: left;
-    overflow: hidden;
+    height: 300px;
 }
-
-#locations-box:hover {
-    background: url("../images/hallgreen.jpg") no-repeat;
-    background-size: cover;
-    background-position: left;
-    overflow: hidden;
-}
-
-#sche-prices-box:hover {
-    background: url("../images/bwc_schedule.png") no-repeat;
-    background-size: cover;
-    background-position: top;
-    overflow: hidden;
-}
-
-#expect-box:hover {
-    background: url("../images/bwc_expect.png") no-repeat;
-    background-size: cover;
-    background-position: left;
-    overflow: hidden;
-}
-
-/* possible scalable square solution: https://spin.atomicobject.com/2015/07/14/css-responsive-square/
-#discovery-selection div:after {
-    content: "";
-    display: block;
-    padding-bottom: 100%;
-}
-/* also try: https://stackoverflow.com/questions/20456694/grid-of-responsive-squares/20457076
-https://www.google.com/search?q=how+to+make+a+responsive+square+in+css&rlz=1C1CHBF_enGB885GB885&oq=how+to+make+a+responsive+square+in+css&aqs=chrome..69i57.8331j0j15&sourceid=chrome&ie=UTF-8*/
-
 
 /*---------------------------- About Us and Classes banners -------------*/
 #about-top-banner {
     background: url("../images/bruce-lee-statue.png") no-repeat scroll top;
-    height: 700px;
-    width: 100%;
-    overflow: hidden;
-    position: relative; 
-}
-
-#about-banner-text {
-    color: #F0F1EB;
-    letter-spacing: 4px;
-    width: 700px;
-    height: auto;
-    border-radius: 15px;
-    padding-left: 10px; 
-    padding-top: 10px;  
-    left: 50px;
-    bottom: 30px;
-    position: absolute;  
-}
-
-#classes-top-banner-carousel {
     height: 700px;
     width: 100%;
     overflow: hidden;
@@ -311,7 +261,14 @@ https://www.google.com/search?q=how+to+make+a+responsive+square+in+css&rlz=1C1CH
     position: relative; 
 }
 
-.classes-banner-text {
+#classes-top-banner-carousel {
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    position: relative; 
+}
+
+.banner-text {
     color: #F0F1EB;
     letter-spacing: 4px;
     width: 700px;
@@ -320,57 +277,11 @@ https://www.google.com/search?q=how+to+make+a+responsive+square+in+css&rlz=1C1CH
     padding-left: 10px; 
     padding-top: 10px;  
     left: 50px;
-    top: 30px;
+    bottom: 30px;
     position: absolute;  
 }
 
-#about-banner-text h2, .classes-banner-text h2 {
-    font-size: 3rem;
-}
-
-.article-selection div {
-    color: #F0F1EB;
-    background-color: #525252;
-    border-radius: 15px;
-    width: 250px; 
-    height: 150px;
-    float: left;
-    padding: 10px; 
-    text-align: center;
-    margin: 25px 10px; 
-    transition: all 0.35s ease-in;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.article-selection div h3 {
-    font-size: 1.75em;
-}
-
-.article-selection div:hover {
-    background-color: #000066;
-}
-
-/*---------------------------- About Us -------------*/
-.box-column {
-	height: 120%;
-	padding: 20px 0px;
-}
-
-.box-column img {
-	max-width: 30%;
-    height: auto;
-	margin: 0px;
-	margin: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /*paper-like cards shadow from w3schools tutorial on box shadows (https://www.w3schools.com/css/css3_shadows_box.asp)*/
-}
-
 /*---------------------------- Classes -------------*/
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /*paper-like cards shadow from w3schools tutorial on box shadows (https://www.w3schools.com/css/css3_shadows_box.asp)*/
-}
-
 .card-header {
     background-color: #000066;
 }
@@ -554,7 +465,7 @@ ul {
     }
 
     /*--About and Classes page--*/
-    #about-banner-text, #classes-banner-text {
+    .banner-text {
     width: 400px;
     border-top-left-radius: 0px;
     border-top-right-radius: 15px;
@@ -564,19 +475,6 @@ ul {
     padding-top: 10px;  
     left: 0px; 
     }
-
-    #about-banner-text h2, #classes-banner-text h2 {
-    font-size: 2.5rem;
-    }
-
-    .article-selection div h3 {
-    font-size: 1.5em;
-}
-
-    .article-selection div {
-    width: 175px; 
-    margin: 60px 1px; 
-}
 
     /*--Contact Us form --*/
     #form-text, #form-area {
@@ -619,56 +517,6 @@ ul {
     height: 16vw;
     }   
     
-    #discovery-selection div {
-    width: 90%; 
-    height: 175px;
-    padding: 30px 0px; 
-    text-align: center;
-    margin: 20px 20px; /*creates some space between the panels*/
-    }
-
-    #about-wc-box:hover {
-    background: url("") no-repeat;
-    background-size: cover;
-    background-position: top;
-    overflow: hidden;
-    }
-
-    #history-box:hover {
-    background: url("") no-repeat;
-    background-size: cover;
-    background-position: top;
-    overflow: hidden;
-    }
-
-    #about-club-box:hover {
-    background: url("") no-repeat;
-    background-size: cover;
-    background-position: left;
-    overflow: hidden;
-    }
-
-    #locations-box:hover {
-    background: url("") no-repeat;
-    background-size: cover;
-    background-position: left;
-    overflow: hidden;
-    }
-
-    #sche-prices-box:hover {
-    background: url("") no-repeat;
-    background-size: cover;
-    background-position: top;
-    overflow: hidden;
-    }
-
-    #expect-box:hover {
-    background: url("") no-repeat;
-    background-size: cover;
-    background-position: left;
-    overflow: hidden;
-    }
-
     /*--Contact Us form --*/
     #form-text, #form-area {
     max-width: 350px;
@@ -701,15 +549,6 @@ ul {
     #wing-chun-symbols {
         display: none;
     } 
-
-    /*--About and Classes page--*/
-    #about-banner-text, #classes-banner-text {
-    width: 275px;
-    }
-
-    #about-banner-text h2, #classes-banner-text h2 {
-    font-size: 2.5rem;
-    }
 
     /*--Contact Us form --*/
     .contactus-form {
