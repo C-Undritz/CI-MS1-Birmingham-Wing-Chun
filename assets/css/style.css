@@ -109,7 +109,7 @@ hr {
 .callout-container { 
     height: 80vh;
     /*code below taken from https://css-tricks.com/perfect-full-page-background-image/*/
-    background: url("../images/sifu-bg-black.png") no-repeat top right; 
+    background: url("../images/sifu-bg-banner.png") no-repeat top right; 
     background-attachment: scroll;/*need to chane to 'fixed' and then apply webkit prefix*/
     background-size: cover;
     position: relative;
@@ -176,7 +176,7 @@ hr {
 .benefits-text {
     color: #F0F1EB;
     letter-spacing: 4px;
-    width: 750px;
+    width: 650px;
     height: auto;
     border-radius: 15px;
     padding: 100px, 20px, 30px, 20px; 
@@ -189,32 +189,18 @@ hr {
     background-color: rgba(0,0,102,0.65);
 }
 
-#bwc-bt-image {
-    width: auto ;
-    max-width: 100% ;
-    height: auto;
-    background-size: cover;
-}
-
-.hr-benefits {
-    height: 1px;
-    border: 0;
-    margin: 0px 0px 5px 0px;
-    background-color: #525252;
-}
-
-.hr-benefits-divider {
-    width: 275px;
-    height: 3px;
-    border: 0;
-    background-color: #525252;
+#quotes-section {
+    background-color: #F0DF18;
 }
 
 .blockquote {
     color: #525252;
-    font-size: 0.95rem;
+    font-size: 95%;
 }
 
+.blockquote p i {
+    font-size: 150%;
+}
 /*---------------------------- Discovery section -------------*/
 
 #aboutus-nav {
