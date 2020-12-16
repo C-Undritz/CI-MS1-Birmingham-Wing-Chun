@@ -375,7 +375,8 @@ hr {
 
 /*---------------------------- Gallery -------------*/
 .gallery-thumbnail {
-    height: 175px;
+    height: 125px; 
+    margin: 5px;
 }
 
 #gallery_photo {
