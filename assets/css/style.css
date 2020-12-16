@@ -375,7 +375,7 @@ hr {
 
 /*---------------------------- Gallery -------------*/
 .gallery-thumbnail {
-    height: 125px; 
+    height: 150px; 
     margin: 5px;
 }
 
@@ -393,10 +393,10 @@ hr {
 /*---------------------------- Footer -------------*/
 footer {
     background-color: #000066;
-    padding: 1em 0em 0em 0em;
+    padding: 10px;
 }
 
-.contact-us a p {
+.contact-us p {
     color: #F0F1EB;
     margin: 10px 20px 0px 20px;
     padding: 0px;
