@@ -302,6 +302,11 @@ hr {
 }
 
 /*---------------------------- Classes -------------*/
+
+.carousel-indicators li {
+    background-color: black;
+}
+
 .card-header {
     background-color: #000066;
 }
