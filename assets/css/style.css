@@ -6,15 +6,16 @@
 /*---------------------------- Global stylings-------------*/
 
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 h1 {
     font-family: 'Roboto Slab', serif;
     letter-spacing: 4px;
     font-size: 300%;
+    color: #F0F1EB;
 }
 
 h2 {
@@ -35,6 +36,7 @@ p {
 
 .btn-warning{
     font-family: 'Roboto', sans-serif;
+    background-color: #F0DF18;
 }
 
 .btn-warning:hover {
@@ -75,7 +77,6 @@ hr {
     margin-left: 5px;
     margin-right: 5px;
     padding-top: 2px;
-    /* font-family: 'Shadows Into Light Two', cursive; */
     font-size: 18px;
     letter-spacing: 2px;
 }
@@ -108,8 +109,7 @@ hr {
 
 /*---------------------------- Callout section-------------*/
 .callout-container { 
-    height: 80vh;
-    /*code below taken from https://css-tricks.com/perfect-full-page-background-image/*/
+    height: 800px;
     background: url("../images/sifu-bg-banner.png") no-repeat top right; 
     background-attachment: scroll;/*need to chane to 'fixed' and then apply webkit prefix*/
     background-size: cover;
@@ -126,30 +126,22 @@ hr {
     }
 
 #callout-row {
-    position: relative
+    position: relative;
+    padding-top: 275px;
 }
 
 #home-banner-title h1 {
-    font-size: 5rem;
+    font-size: 600%;
 }
 
-.jumbotron {
-    background-color: transparent;
-    padding-top: 15vw;
-}
-
-.jumbotron h1 {
+#home-banner-title h2 {
     color: #F0F1EB;
-    font-size: 6vw;
+    font-size: 300%;
 }
 
-.jumbotron h2 {
-    color: #F0F1EB;
-    font-size: 3vw;
-}
-
-.my-4 {
-    Background-color: #F0F1EB;
+#home-banner-hr {
+    border: solid 1px #F0F1EB;
+    width: 65%;
 }
 
 #wing-chun-symbols {
@@ -390,59 +382,28 @@ ul {
     color: #F0DF18;
 }
 
-/*------------------ media querys ------------------*/
-@media screen and (max-width: 1300px ){ 
-    /*--Homepage--*/
-    #discovery-selection div {
-        width: 30%; 
-        height: 225px;
-        padding: 25px 10px 10px 10px; 
-    }
-
-    /*--Contact Us form --*/
-    #form-text {
-        padding: 5px;
-    }
-
-    #form-text p {
-        font-size: 2vw;
-    }
-
-    .text-input {
-        font-size: 1.25vw;
-    }
-
-    .radio-text {
-        font-size: 1.25vw;
-    }
-}
-
+/*------------------ media queries ------------------*/
 @media screen and (max-width: 770px ){ 
     /*--Homepage--*/
-    .jumbotron {
-    padding-top: 30vw;
+    #callout-row {
+    padding-top: 350px;
     }
 
-    .jumbotron h1 {
-    font-size: 12vw;
+    #home-banner-title h1 {
+    font-size: 400%;
     }
 
-    .jumbotron h2 {
-    font-size: 5vw;
+    #home-banner-title h2 {
+    font-size: 200%;
+    }
+
+    #home-banner-hr {
+    width: 80%;
     }
 
     #wing-chun-symbols {
-    height: 12vw;
+    height: 10vw;
     }   
-
-    #discovery-selection div {
-    width: 30%; 
-    height: 200px;
-    float: left;
-    padding: 20px 20px 20px 10px; 
-    text-align: center;
-    margin: 25px 10px; 
-    }
 
     /*--About and Classes page--*/
     .banner-text {
@@ -455,88 +416,27 @@ ul {
     padding-top: 10px;  
     left: 0px; 
     }
-
     /*--Contact Us form --*/
-    #form-text, #form-area {
-    max-width: 650px;
-    padding: 10px;
-    }
-
-    #form-text h2 {
-        font-size: 6vw;
-    }
-
-    #form-text p {
-        font-size: 3vw;
-    }
-
     .text-input {
-        font-size: 2vw;
+        font-size: 110%;
     }
 
     .radio-text {
-        font-size: 2vw;
+        font-size: 110%;
     }
 }
 
 @media screen and (max-width: 576px ){ 
     /*--Homepage--*/
-    .jumbotron {
-    padding-top: 50vw;
+    #callout-row {
+    padding-top: 275px;
     }
 
-    .jumbotron h1 {
-    font-size: 14vw;
-    }
-
-    .jumbotron h2 {
-    font-size: 6vw;
-    }
-
-    #wing-chun-symbols {
-    height: 16vw;
-    }   
-    
-    /*--Contact Us form --*/
-    #form-text, #form-area {
-    max-width: 350px;
-    padding: 5px;
-    }
-
-    #form-text h2 {
-        font-size: 6vw;
-    }
-
-    #form-text p {
-        font-size: 3.5vw;
-    }
-
-    .text-input {
-        font-size: 3vw;
-    }
-
-    .radio-text {
-        font-size: 3vw;
-    }
-}
-
-@media screen and (max-width: 375px ){
-    /*--Homepage--*/ 
-    .jumbotron {
-    padding-top: 30vw;
+    #home-banner-hr {
+    width: 80%;
     }
 
     #wing-chun-symbols {
         display: none;
-    } 
-
-    /*--Contact Us form --*/
-    .contactus-form {
-    margin-top: 5px;
-    left: 1%;
-    }
-
-    #form-text p {
-        margin: 0px;
-    }
+    }   
 }
