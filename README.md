@@ -1,6 +1,6 @@
 # Birmingham Wing Chun Website - Readme document
 
-<img src="" style="margin: 0;">
+<img src="assets/images/readme-header.png" style="margin: 0;">
 
 # Overview.
 The Birmingham Wing Chun clubs have been operating since 1982 and in that time has seen the club profile increase with the opening of more clubs round the West Midlands.  At the same time competition has increased with four dedicated Wing Chun organisations opening clubs in the area.  
@@ -167,9 +167,10 @@ Palette:
 * GoogleFonts
 * Fontawesome
 * Balsamiq
-* Adobe PhotoShop: Used to edit some images.
 * Fancybox (http://fancyapps.com/fancybox/3/): Used for the gallery.
 * Canva (https://www.canva.com/): Used as a quick and easy way to crop images to pixel specific dimensions
+* Microsoft PowerPoint: used to create a transparent background for images for the browser tab and Chinese symbols on homepage banner.
+
 
 Bootstrap technology used:
 * Container
@@ -187,15 +188,15 @@ Bootstrap technology used:
 Testing to be completed is detailed in the [TESTING.md](TESTING.md) document
 
 ---
-# Bugs / problems encountered.
-
----
 # Noted design changes
 * User testing was done on the website in a 70% completed stated with all of the main navigation elements in place including the 'discovery' section at the bottom of the index (home) page, which the user was encouraged to access via the 'learn more' button on the landing page.  It was found that the users liked the experience of the 'discovery' section and therefore wanted to get back to it to continue navigating from there.  However as they had used the 'learn more' button to access the 'discovery' area, they did not know that it was at the bottom of the home page and so they quickly got lost.  They were further confused when they then used the top nav menu to access the pages directly to then discover that they had already seen the content by using the 'Discovery' section.  This lead to an overall bad user experience navigating the site.  This was remedied by changing the navigation elements at the bottom of the home page to three links to the ‘about us’, ‘classes’ and ‘gallery’ pages which can be seen in the updated [wireframes](#wireframes).  This mirrored the navigation of the top navigation bar and offered a better UX with multiple ways to navigate the site depending on the user habits and expectations.
 
 * The above lead to a further removal of the links to the three sections on the ‘about us’ and ‘classes’ pages as it was determined that these did not add to the user experience.  The user tended to use them once (if at all) however as they had to scroll up to get back to them they were not used again and they chose to scroll instead of using these links.
 
 * Change in the way the club locations and schedules displayed.  The wireframes show against each club location a 'GoogleMap' and then the address of the club to the right/left.  The final implementation was completed with Bootstrap 'cards' which allowed an image of the club to be shown which would be helpful to students.  The GoogleMap was then linked from a button within the card.  It was thought that also adding the club training times here would make for a better user experience, however in order to avoid extending the height of the cards further, an additional button was added which causes a 'modal' to display with the club training times. 
+
+* An issue was experienced with the design of the contact us page and the display of the form over the banner.  Please see the Problems and fixes section in the TESTING.md document for details.  This issue along with the need for this page to look more like the other pages lead to the design change to move the form to a position on the page that was below the banner.  This change was more in keeping with the presentation across the site and solved the issue.
+
 
 * Change in the colour blue used.  The orginal chosen blue colour (#195ACC) when applied to the website elements (navigation bar, footer and section headings) looked too light *in situ*.  Therefore it was changed to the clubs original blue colour (#000066), which while dark in large areas, was thought to be well suited to the mentioned website elements. 
 ---
@@ -204,11 +205,12 @@ Testing to be completed is detailed in the [TESTING.md](TESTING.md) document
 ---
 # Credits
 * Anna Greaves for the code for enabling FancyBox to work at Mobile resolutions.
-* Thanks to members of the Slack community for their support and help, particularly Mr_Bim_alumni and JimLynx_lead
+* Thanks to members of the Slack community for their support and help, particularly Mr_Bim_alumni, JimLynx_lead and Daisy Mc Girr.
 
 ## Code:
 1. Simple one, but I had to look it up: [how to hide an image for responsive design](https://www.thesitewizard.com/css/hide-images-on-mobile-website.shtml)
+2. [How to insert a space in text](https://www.wikihow.com/Insert-Spaces-in-HTML)
+3. CSS Image styling for some responsive design: [w3schools CSS Styling Images](https://www.w3schools.com/css/css3_images.asp) 
 
 ## Help:
 * Thanks to my fellow students who were on hand to lend wisdom and knowledge during in-it-together 11am coffee calls and other times when I had run out of hair!  special thanks to Jim Lynx for pointing out the obvious and not-so-obvious, and for the help with the Gitpod GUI as well as helpful tips like 'putting media querys at the end of your css' (something I would never have figured broke my footer!).
-
