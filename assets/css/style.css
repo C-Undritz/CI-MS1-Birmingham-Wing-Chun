@@ -110,7 +110,7 @@ hr {
 .callout-container { 
     height: 800px;
     background: url("../images/sifu-bg-banner.png") no-repeat top right; 
-    background-attachment: scroll;/*need to chane to 'fixed' and then apply webkit prefix*/
+    background-attachment: fixed;
     background-size: cover;
     position: relative;
 }
@@ -296,7 +296,7 @@ hr {
 
 /*---------------------------- Contact Form -------------*/
 #contact-top-banner {
-    background: url("../images/chisao-hong-kong-banner.jpg") no-repeat scroll center;
+    background: url("../images/chisao-hong-kong-banner.png") no-repeat scroll center;
     height: 700px;
     width: 100%;
     overflow: hidden;
