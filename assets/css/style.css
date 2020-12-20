@@ -1,9 +1,6 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Shadows+Into+Light+Two&display=swap'); */
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;900&family=Roboto:wght@300;400&display=swap');
 
-
-/*---------------------------- Global stylings-------------*/
+/*---------------------------- Global stylings----------------------------*/
 * {
     margin: 0;
     padding: 0;
@@ -33,7 +30,11 @@ p {
     color: #525252;
 }
 
-.btn-warning{
+hr {
+    border: solid 1px #525252;
+}
+
+.btn-warning {
     font-family: 'Roboto', sans-serif;
     background-color: #F0DF18;
 }
@@ -51,10 +52,6 @@ p {
     border-radius: 5px;
 }
 
-hr {
-    border: solid 1px #525252;
-}
-
 .text-box-shade {
     background-color: rgba(0,0,0, .65);
 }
@@ -63,25 +60,23 @@ hr {
     padding: 0;
 }
 
+/*paper-like cards shadow from w3schools tutorial on box shadows (https://www.w3schools.com/css/css3_shadows_box.asp)*/
 .image-shadow {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /*paper-like cards shadow from w3schools tutorial on box shadows (https://www.w3schools.com/css/css3_shadows_box.asp)*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/*---------------------------- Navbar-------------*/
-.bwc-navbar {
+/*----------------------------------- Navbar------------------------------*/
+.navbar {
+    padding: 0;
     background-color: #000066; 
 }
 
-.bwc-navbar a {
+.navbar a {
     margin-left: 5px;
     margin-right: 5px;
     padding-top: 2px;
     font-size: 18px;
     letter-spacing: 2px;
-}
-
-.navbar {
-    padding: 0;
 }
 
 .navbar-brand {
@@ -106,7 +101,7 @@ hr {
     border-bottom: 1px solid #F0DF18;
 }
 
-/*---------------------------- Callout section-------------*/
+/*---------------------- Homepage - Callout section-----------------------*/
 .callout-container { 
     height: 800px;
     background: url("../images/sifu-bg-banner.png") no-repeat top right; 
@@ -147,40 +142,7 @@ hr {
     height: 7vw;
 }
 
-/*---------------------------- Benefits & Testimonials -------------*/
-#benefits-banner {
-    height: 70vh;
-    background: url("../images/paksao-strike.jpg") no-repeat scroll top;
-    background-attachment: fixed;
-    background-size: cover;
-    position: relative;
-}
-
-#banner-translucent-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0,0,102,0.5);
-}
-
-.benefits-text {
-    color: #F0F1EB;
-    letter-spacing: 4px;
-    width: 650px;
-    height: auto;
-    border-radius: 15px;
-    padding: 100px, 20px, 30px, 20px; 
-    margin-right: 50px;
-    float: right;
-    bottom: 30px;
-}
-
-#benefits-box-shade {
-    background-color: rgba(0,0,102,0.65);
-}
-
+/*--------------------- Homepage - Benefits & Testimonials ---------------*/
 #quotes-section {
     background-color: #F0DF18;
 }
@@ -193,22 +155,23 @@ hr {
 .blockquote p i {
     font-size: 150%;
 }
-/*---------------------------- Discovery section -------------*/
 
+/*--------------------- Homepage - Discovery section ---------------------*/
 #aboutus-nav {
     background: url(../images/sifu_wooden_dummy.png);
-    background-size: cover;
-    height: 300px;
 }
 
 #classes-nav {
     background: url(../images/hallgreen.jpg);
-    background-size: cover;
-    height: 300px;
 }
 
 #gallery-nav {
     background: url(../images/bwc_club.jpg);
+}
+
+#aboutus-nav, 
+#classes-nav, 
+#gallery-nav {
     background-size: cover;
     height: 300px;
 }
@@ -219,30 +182,16 @@ hr {
     color: #F0F1EB;
     border-radius: 15px;
     width: 200px;
+    background-color:rgba(0,0,0, .5);
 }
 
-#aboutus-nav:hover {
-    background: url(../images/sifu_wooden_dummy.png);
+#aboutus-nav:hover, #classes-nav:hover, #gallery-nav:hover {
     filter: grayscale(100%);
     background-size: cover;
     height: 300px;
 }
 
-#classes-nav:hover {
-    background: url(../images/hallgreen.jpg);
-    filter: grayscale(100%);
-    background-size: cover;
-    height: 300px;
-}
-
-#gallery-nav:hover {
-    background: url(../images/bwc_club.jpg);
-    filter: grayscale(100%);
-    background-size: cover;
-    height: 300px;
-}
-
-/*---------------------------- About Us and Classes banners -------------*/
+/*------------------------------- Page Banners ---------------------------*/
 #about-top-banner {
     background: url("../images/bruce-lee-statue.png") no-repeat scroll top;
     height: 700px;
@@ -251,7 +200,7 @@ hr {
     position: relative; 
 }
 
-#classes-top-banner-image {
+#classes-top-banner {
     background: url("../images/punch-kick.jpg") no-repeat scroll right;
     height: 700px;
     width: 100%;
@@ -260,6 +209,14 @@ hr {
 }
 
 #classes-top-banner-carousel {
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    position: relative; 
+}
+
+#contact-top-banner {
+    background: url("../images/chisao-hong-kong-banner.png") no-repeat scroll center;
     height: 700px;
     width: 100%;
     overflow: hidden;
@@ -279,12 +236,7 @@ hr {
     position: absolute;  
 }
 
-/*---------------------------- Classes -------------*/
-
-.carousel-indicators li {
-    background-color: black;
-}
-
+/*------------------------------ Classes Page-----------------------------*/
 .card-header {
     background-color: #000066;
 }
@@ -294,15 +246,7 @@ hr {
     color: #F0F1EB;
 }
 
-/*---------------------------- Contact Form -------------*/
-#contact-top-banner {
-    background: url("../images/chisao-hong-kong-banner.png") no-repeat scroll center;
-    height: 700px;
-    width: 100%;
-    overflow: hidden;
-    position: relative; 
-}
-
+/*---------------------------- Contact us Form ---------------------------*/
 .text-input {
     width: 100%;
     color: #525252;
@@ -323,50 +267,29 @@ hr {
     background-color: #F0DF18;
 }
 
-/*---------------------------- Gallery -------------*/
+/*---------------------------- Gallery -----------------------------------*/
 .gallery-thumbnail {
     height: 150px; 
     margin: 5px;
 }
 
-#gallery_photo {
-    clear:both; 
-    line-height: 0; 
-    column-count: 2; 
-    column-gap: 0px;
-}
-
-.gallery-image {
-    width: 100%;
-}
-
-/*---------------------------- Footer -------------*/
+/*---------------------------- Footer ------------------------------------*/
 footer {
     background-color: #000066;
     padding: 10px;
 }
 
-.contact-us p {
+.copyright p {
     color: #F0F1EB;
     margin: 10px 20px 0px 20px;
     padding: 0px;
-}
-
-.contact-us a p:hover {
-    color: #F0DF18;
-    font-size: 18px;
 }
 
 ul {
     margin-bottom: 0rem;
 }
 
-.footer-disclaimer p {
-    color: #F0F1EB;
-    padding: 10px 0px 0px 0px;
-}
-
-/*-- The below was learnt from Code Institute 'Resume Project' modified slightly--*/
+/*-- The below was from Code Institute 'Resume Project'--*/
 .social-links li a i {
     font-size: 25px;
     margin: 10px 15px;
@@ -381,9 +304,9 @@ ul {
     color: #F0DF18;
 }
 
-/*------------------ media queries ------------------*/
+/*---------------------------- MEDIA QUERIES------------------------------*/
 @media screen and (max-width: 770px ){ 
-    /*--Homepage--*/
+    /*----------Homepage Callout----------*/
     #callout-row {
     padding-top: 350px;
     }
@@ -404,7 +327,7 @@ ul {
     height: 10vw;
     }   
 
-    /*--About and Classes page--*/
+    /*----------Banners text----------*/
     .banner-text {
     width: 400px;
     border-top-left-radius: 0px;
@@ -415,7 +338,8 @@ ul {
     padding-top: 10px;  
     left: 0px; 
     }
-    /*--Contact Us form --*/
+
+    /*----------Contact Us form----------*/
     .text-input {
         font-size: 110%;
     }
@@ -426,7 +350,7 @@ ul {
 }
 
 @media screen and (max-width: 576px ){ 
-    /*--Homepage--*/
+    /*-----------Homepage Callout----------*/
     #callout-row {
     padding-top: 275px;
     }
