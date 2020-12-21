@@ -102,7 +102,7 @@ hr {
 }
 
 /*---------------------- Homepage - Callout section-----------------------*/
-.callout-container { 
+#callout-container { 
     height: 800px;
     background: url("../images/sifu-bg-banner.png") no-repeat top right; 
     background-attachment: fixed;
@@ -110,7 +110,7 @@ hr {
     position: relative;
 }
 
-.callout-translucent-overlay {
+#callout-translucent-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -244,6 +244,14 @@ hr {
 .card-header p {
     margin: 0px;
     color: #F0F1EB;
+}
+
+.modal-header {
+    background-color: #000066;
+}
+
+.modal-title {
+    color: #F0F1EB
 }
 
 /*---------------------------- Contact us Form ---------------------------*/

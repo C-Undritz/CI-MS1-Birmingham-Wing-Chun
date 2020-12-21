@@ -21,29 +21,29 @@
         </button>
         <div class="collapse navbar-collapse" id="navbar-mobile">
             <ul class="navbar-nav ml-auto bwc-nav-list text-center">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="about.html">About Us</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="classes.html">Classes</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="gallery.html">Gallery</a>
-            </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="classes.html">Classes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
             </ul>
         </div>
     </nav>
     <!--/Navigation Bar-->
 
     <!-- Callout section-->
-    <section class="container-fluid callout-container">
-        <div class="callout-translucent-overlay d-lg-none">&nbsp;</div>
+    <section class="container-fluid" id="callout-container">
+        <div class="d-lg-none" id="callout-translucent-overlay">&nbsp;</div>
         <div class="row" id="callout-row">
             <div class="col-lg-10 col-md-12 d-flex align-items-start flex-column justify-content-center" id="home-banner-title">
                 <h1>Learn Wing Chun <img id="wing-chun-symbols" src="assets/images/wingchun_symbols_yellow.png" loading="eager"/></h1>
@@ -59,10 +59,10 @@
     </section> 
     <!-- /Callout section-->
 
-    <!--Benefits & Testimonials (Inspired by the Love Running and Whiskey Drop CI walkthrough projects-->
+    <!--Benefits & Testimonials (Inspired by the Love Running and Whiskey Drop CI walkthrough projects)-->
     <section class="container-fluid">
         <div class="row justify-content-center">
-            <div class="col-md-6 my-5 text-center benefits-title section-title">
+            <div class="col-md-6 my-5 text-center section-title">
                 <h2>Why Birmingham Wing Chun Kuen?</h2>
             </div>
         </div>
@@ -104,35 +104,31 @@
         </div>
         <div class="row d-flex justify-content-center mb-5">
             <div class="col-12 col-md-10 d-flex justify-content-center">
-                <img class="img-fluid image-shadow rounded" id="bwc-bt-image" src="assets/images/bwc-bt-image.png" alt="Birmingham Wing Chun Kuen Students combat training" title="Birmingham Wing Chun Kuen Students combat training" loading="eager"/>
+                <img class="img-fluid image-shadow rounded" src="assets/images/bwc-bt-image.png" alt="Birmingham Wing Chun Kuen Students combat training" title="Birmingham Wing Chun Kuen Students combat training" loading="eager"/>
             </div>
         </div>
     </section>
     <section class="row d-flex justify-content-center no-gutters" id="quotes-section">
         <div class="col-md-4 col-10">
-            <div class="media">
-                <div class="media-body my-3 mb-2 mx-4">
-                    <blockquote class="blockquote">
-                        <p>
-                        <i class="fas fa-quote-left"></i>  If you are seeking to learn the complete Wing Chun system, 
-                        or just practical street defence, look no further.
-                        </p>
-                        <p class="blockquote-footer d-flex justify-content-center">Brian Taylor,&nbsp<cite title="Source Title">Birmingham</cite></p>
-                    </blockquote>
-                </div>
+            <div class="my-4 mx-4">
+                <blockquote class="blockquote">
+                    <p>
+                    <i class="fas fa-quote-left"></i>  If you are seeking to learn the complete Wing Chun system, 
+                    or just practical street defence, look no further.
+                    </p>
+                    <p class="blockquote-footer d-flex justify-content-center">Brian Taylor,&nbsp<cite title="Source Title">Birmingham</cite></p>
+                </blockquote>
             </div>
         </div>
         <div class="col-md-4 col-10">
-            <div class="media">
-                <div class="media-body mt-3 mb-2 mx-4">
-                    <blockquote class="blockquote">
-                        <p>
-                        <i class="fas fa-quote-left"></i>  I have never met a nicer bunch of people who are patient and 
-                        always seeking to help me develop!
-                        </p>
-                        <p class="blockquote-footer d-flex justify-content-center">Susan Doherty,&nbsp<cite title="Source Title">Bromsgrove</cite></p>
-                    </blockquote>
-                </div>
+            <div class="my-4 mx-4">
+                <blockquote class="blockquote">
+                    <p>
+                    <i class="fas fa-quote-left"></i>  I have never met a nicer bunch of people who are patient and 
+                    always seeking to help me develop!
+                    </p>
+                    <p class="blockquote-footer d-flex justify-content-center">Susan Doherty,&nbsp<cite title="Source Title">Bromsgrove</cite></p>
+                </blockquote>
             </div>
         </div>
     </section>
@@ -169,30 +165,30 @@
 	</section>
     <!--Discovery Section-->
 
-    <!--Footer (*learnt from Code institute 'Resume Project'modified for use*)-->
+    <!--Footer (*from Code institute 'Resume Project'modified for use*)-->
     <footer class="container-fluid fixed-footer">
         <div class="row">
             <div class="col-md-auto col-sm-12 order-md-2 text-center">
                 <ul class="list-inline social-links">
-                    <li class="list-inline-item facebook">
+                    <li class="list-inline-item">
                         <a target="_blank" href="https://www.facebook.com/MidlandsWingChunKuen/">
                             <i class="fab fa-facebook" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
                     </li>
-                    <li class="list-inline-item instagram">
+                    <li class="list-inline-item">
                         <a target="_blank" href="https://www.instagram.com/simply_wing_chun_kuen/">
                             <i class="fab fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
                     </li>
-                    <li class="list-inline-item youtube">
+                    <li class="list-inline-item">
                         <a target="_blank" href="https://www.youtube.com/channel/UCXEJxM-kJZok_vmbuWzCMHw">
                             <i class="fab fa-youtube" aria-hidden="true"></i>
                             <span class="sr-only">YouTube</span>
                         </a>
                     </li>
-                    <li class="list-inline-item twitter">
+                    <li class="list-inline-item">
                         <a target="_blank" href="https://twitter.com/mwck_uk">
                             <i class="fab fa-twitter" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
