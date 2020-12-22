@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;900&family=Roboto:wght@300;400&display=swap');
 
 /*---------------------------- Global stylings----------------------------*/
@@ -62,7 +69,8 @@ hr {
 
 /*paper-like cards shadow from w3schools tutorial on box shadows (https://www.w3schools.com/css/css3_shadows_box.asp)*/
 .image-shadow {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*----------------------------------- Navbar------------------------------*/
@@ -186,7 +194,8 @@ hr {
 }
 
 #aboutus-nav:hover, #classes-nav:hover, #gallery-nav:hover {
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
     background-size: cover;
     height: 300px;
 }
@@ -302,10 +311,9 @@ ul {
     font-size: 25px;
     margin: 10px 15px;
     color: #F0F1EB;
-    transition: all 0.25s ease-in-out;
-    -moz-transition: all 0.25s ease-in-out;
     -webkit-transition: all 0.25s ease-in-out;
     -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
 }
 
 .social-links a i:hover {
@@ -415,5 +423,4 @@ ul {
     .banner-text h1 {
         font-size: 200%;
     }
-
 }
