@@ -183,5 +183,7 @@ The following testing completed at resolutions: ?
 * *The cause of this was not obvious, however fellow student 'Daisy Mc Girr' recognised this issue and recommended a few fixes to try.  Worked through a few of these and the one that worked was to add the Bootstrap Grid class 'no-gutters' to the same line as the Bootstrap 'row' class for this section.  This fixed the issue.*
 5. On the contact us page, when viewing on the mobile and selecting to enter text into the form, the screen keyboard was pushing the footer up to over lap with the form with the form appearing over the footer.
 * *A fix was not found for this.  It was recommended to me by my Mentor that I use the Bootstrap class 'fixed-footer', however this did not fix the issue and just resulted in the footer appearing over the form.  A design change occured to bring the this page more in line with the design across the site in that the form was placed below the banner, not displaying over it as per the original wireframes.  This also fixed this issue and the footer and the form no longer display over each other.* 
+6. The banner height was too big on mobile screens and so needed to make the banner images more responsive.  Making the banners shorter meant that less of the images were seen and so needed to 'zoom out' so that more of the image was shown even with a smaller banner 'window'.
+* *Achieved this by using the 'background-size' attribute to scale the image size for each banner at media query <376px*
 
 
