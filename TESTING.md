@@ -1,18 +1,77 @@
-# Birmingham Wing Chun Website - Testing document
+# **Birmingham Wing Chun Website - Testing document**
 
 [Readme document](README.md)
 
 ---
 
 
-# Quality checks:
-### CSS style sheet:
-* Autoprefixer at: https://autoprefixer.github.io/
-* W3C CSS validation
-### HTML:
-* W3C Markup Validation
-### Website performance:
+# **Quality checks:**
+>## Approach
+### **CSS style sheet:**
+* [Autoprefixer](https://autoprefixer.github.io/)
+* [W3C CSS validation](https://jigsaw.w3.org/css-validator/)
+### **HTML:**
+* [W3C Markup Validation](https://validator.w3.org/)
+### **Website performance:**
 * Google Chrome Lighthouse.
+* Opera Lighthouse.
+
+>## Results.
+### **W3C CSS Validation:**
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>
+
+* Errors: None reported.
+* Warnings: 9 reported and no action taken as these css styles are required:
+
+<img src="assets/readme/w3c_css_validation_warnings.png" style="margin: 0;height: 300px;">
+
+### **W3C Markup Validation:**
+Tested each page by validation of the URL's:
+
+* about.html: No errors or warnings to show.
+* classes.html: No errors or warnings to show.
+* contact.html: No errors or warnings to show.
+* gallery.html: No errors or warnings to show.
+* index.html: 4 warnings reported and no action taken.
+
+<img src="assets/readme/w3c_markup_validation_warnings.png" style="margin: 0;height: 300px;">
+
+### **Website Performance:**
+Google Lighthouse score prior to code check and validation, and testing (responsive and user):
+<img src="assets/readme/20201218-Lighthouse-initial-test.png" style="margin: 0;height: 300px;">
+
+The following activities were then completed:
+
+* Peer and Mentor review along with relevant fixes and changes from feedback
+* Code check and clean up (checking correct layout, all alts present, any unused classes or id's, efficiency of css style sheet)
+* CSS and HTML validation
+* Manual testing of functionality on all pages (as per the section below)
+* Responsive Design testing (as per the section below) 
+
+Subsequent website performance checks:
+
+Google Lighthouse:
+
+Opera Lighthouse:
+
+Microsoft Edge Lighthouse:
+
+Firefox Lighthouse:
+
+
+
+
+
+
+
+
+
 ---
 # Responsive Design testing:
 Tested responsiveness of each page using the following methods:
