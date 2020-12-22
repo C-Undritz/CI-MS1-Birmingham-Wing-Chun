@@ -33,7 +33,7 @@ The strategy behind the website is to deliver key information through a streamli
 ---
 # Scope
 ## Content
-The information presented in the site has been purposefully keep minimal and focused to keep the user attention so as to reduce the risk of overloading the user; potentially driving them away to another club/martial art.  
+The information presented in the site has been purposefully kept minimal and focused to keep the user attention so as to reduce the risk of overloading the user; potentially driving them away to another club/martial art.  
 
 ### The content has therefore been designed to keep the user attention by:
 1.	Providing enough information so an informed choice can be made.

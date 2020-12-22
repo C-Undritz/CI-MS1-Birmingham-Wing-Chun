@@ -10,7 +10,7 @@
     <title>Birmingham Wing Chun Kuen</title>
 </head>
 <body>
-    <!--Navigation Bar (*Bootstrap Navbar - modified for use*)-->
+    <!--Navigation Bar-->
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
         <a class="navbar-brand" href="index.html">
             <img src="assets/images/club_nav_symbol.png" width="50" height="50" alt="Birmingham Wing Chun Logo" title="Birmingham Wing Chun Logo" loading="lazy">
@@ -42,13 +42,13 @@
 
     <!--Banner (*Inspired by Code institute 'Love Running' project*)-->
     <section id="contact-top-banner">
-            <div class="text-box-shade banner-text">
-                <h1>Make contact with us...</h1>
-            </div>
+        <div class="text-box-shade banner-text">
+            <h1>Make contact with us...</h1>
+        </div>
     </section>
     <!--/Banner-->
 
-    <!--Contact Form (Bootstrap Form elements- https://getbootstrap.com/docs/5.0/forms/overview/-->)
+    <!--Contact Form-->
     <section class="my-5">
         <div class="container-fluid">
             <div class="row justify-content-center">
@@ -63,7 +63,7 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-md-10 col-lg-6">
                     <form action="#">
-                        <input class="text-input rounded" type="name" id="name" placeholder="Name" name="name" required><br>
+                        <input class="text-input rounded" type="text" id="name" placeholder="Name" name="name" required><br>
                         <input class="text-input rounded" type="email" id="email" placeholder="Email address" name="email" required><br>
                         <input id="hall-green" type="radio" name="locations" value="hall-green">
                         <label for="hall-green" class="radio-text">Hall Green</label><br>
@@ -73,8 +73,7 @@
                         <label for="digbeth" class="radio-text">Digbeth</label><br>
                         <input id="stirchley" type="radio" name="locations" value="stirchley">
                         <label for="stirchley" class="radio-text">Stirchley</label><br>
-                        <!--freetext field code below from w3schools.com (https://www.w3schools.com/tags/att_textarea_form.asp)-->
-                        <textarea class="text-input rounded" rows="4" cols="50" name="question" form="contactus-form" placeholder="Your question here..." required></textarea><br>
+                        <textarea class="text-input rounded" type="text" rows="4" name="question" placeholder="Your question here..." required></textarea>
                         <div class="d-flex justify-content-center">
                             <input type="submit" class="btn btn-warning" value="Submit">
                         </div>
