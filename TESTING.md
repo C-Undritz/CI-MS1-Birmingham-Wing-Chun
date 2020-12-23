@@ -2,22 +2,151 @@
 
 [Readme document](README.md)
 
+
+># Responsive Design testing:
+Tested responsiveness of each page using the following methods:
+* Google Chrome DevTools
+* Viewed the live site on the following devices:
+    * Huawei P smart 2019 
+    * Laptop at 1920 x 1080 resolution (scaled at 100%, 125% and 150%)
+
+># Manual testing of functionality on all pages.
+The following testing completed at resolutions using Google Chrome Devtools: 
+* 1920 x 1080 (desktop)
+* 768 x 1024 (iPad)
+* 320 x 568 (iPhone 5)
+
+# All Pages
+## Navigation bar:
+* Fixed at top upon user scrolling
+* Right hand organisation logo returns to home page from all pages 
+* Right hand organisation logo returns to top of home page when selected from anywhere on the home page
+* Each link on the right is underlined when on the page that reflects that link is being viewed
+* ‘Home’ link returns user to the top on the ‘Home’ page when viewing the ‘Home’ page.
+* Link to ‘Home’ works from ‘About Us’, ‘Classes’, ‘Contact Us’ and ‘Gallery’ pages.
+* ‘About Us’ link returns user to the top on the ‘About Us’ page when viewing the ‘About Us’ page.
+* Link to ‘About Us’ works from ‘Home’, ‘Classes’, ‘Contact Us’ and ‘Gallery’ pages.
+* ‘Classes’ link returns user to the top on the ‘Classes’ page when viewing the ‘Classes’ page.
+* Link to ‘Classes’ works from ‘Home’, ‘About Us’, ‘Contact Us’ and ‘Gallery’ pages.
+* ‘Contact Us’ link returns user to the top on the ‘Contact Us’ page when viewing the ‘Contact Us’ page.
+* Link to ‘Contact Us’ works from ‘Home’, ‘About Us’, ‘Classes’ and ‘Gallery’ pages.
+
+### Desktop only:
+* Each link on the right is underlined when the user hovers over the link as part of UX feedback.
+
+### Mobile only:
+* Nav bar links become compressed into ‘burger’ icon which when selected contains all of the navigation options
+* Logo still displays on the left
+
+## Footer:
+* Only shown when the user reaches the bottom of the page.
+* Copyright is shown on the right and then centered in mobile view.
+* Link to Facebook page from Facebook icon works as expected from ‘Home’, ‘About Us’, ‘Classes’, ‘Contact Us’ and ‘Gallery’ pages.
+* Link to Instagram page from Instagram icon works as expected from ‘Home’, ‘About Us’, ‘Classes’, ‘Contact Us’ and ‘Gallery’ pages.
+* Link to YouTube page from YouTube icon works as expected from ‘Home’, ‘About Us’, ‘Classes’, ‘Contact Us’ and ‘Gallery’ pages.
+* Link to Twitter page from Twitter icon works as expected from ‘Home’, ‘About Us’, ‘Classes’, ‘Contact Us’ and ‘Gallery’ pages.
+
+### Desktop only:
+* Each social media link changes colour when the user hovers over the icon as part of UX feedback.
+
+# Homepage – 1st section *'landing page'*
+* Hero image displays in the banner with image of Sifu on the right.
+* ‘Learn Wing Chun’ is displayed in white on two lines and set to the left
+* Birmingham Wing Chun Kuen is displayed below on one line and set to the left.
+* A line in white is displayed to separate the text.
+* Call to action button displayed below all text in the center and when selected takes the user to the contact us page.
+
+### Desktop only:
+* The club logo is displayed after the ‘Learn Wing Chun’ text.
+* Call to Acton button feedback animation occurs when user hovers over it.
+
+### Mobile only:
+* The hero image is ‘tinted’ and Sifu is moved right to display behind the text.
+* The club logo does not appear.
+
+# Homepage – 2nd section *'Benefits and Testimonials'*
+* Title heading displays
+* Benefits display below heading and each title has an appropriate icon
+* Image displays center
+* Content is relevant, consistent, free of spelling and grammatical errors.
+
+### Desktop only:
+* Four benefits display in two columns
+* Two Testimonial’s display below the benefits and picture side by side
+
+### Mobile only:
+* Four benefits display sequentially top to bottom
+* Two Testimonials display sequentially top to bottom
+
+# Homepage – 3rd section *'Discovery'* 
+* Three boxes displayed with images and text and icons which link to the 'about us', 'classes' and 'gallery' pages on the web site.
+* The 'about us' box links to the 'about us' page
+* The 'classes' box links to the 'classes' page
+* The 'gallery' box links to the 'gallery' page
+
+### Desktop only:
+* Boxes are displayed side by side in a row
+* Feedback animation occurs when user hovers over each box.
+
+### Mobile only:
+* Boxes are displayed stacked in a column
+
+# Classes page:
+* Banner image and text shown that takes full screen width but not full screen height.
+* Content for each section is relevant, consistent, free of spelling and grammatical errors and contains relevant images.
+* For the training locations; each is displayed in a bootstrap card each with an image, the address and two buttons: map and training times.
+* For each training location card the map button opens a new browser tab with the correct google map showing
+* For each training location card the training times button opens a modal displaying the training times for each site.  Each modal should have the correct title and training times for the card clicked.
+* Each modal should close upon the user clicking the close button in the modal.
+* Each modal should close upon the user clicking anywhere outside the modal box.
+
+### Desktop only:
+* Training Location cards should be displayed in two rows with two to a row.
+
+### Mobile only:
+* Training Location cards should be displayed stacked.
+
+# About Us page:
+* Banner image shown that takes full screen width but not full screen height.
+* Content for each section is relevant, consistent, free of spelling and grammatical errors and contains relevant images.
+
+### Desktop only:
+* Three images or each section display side by side.
+
+### Mobile only:
+* Three images or each section display stacked.
+
+# Contact Us page.
+* Banner image and text shown that takes full screen width but not full screen height.
+* Content is relevant, consistent, free of spelling and grammatical errors.
+* Contact Us form displays below banner.
+* ‘Name’, ‘Email’ and ‘Question’ fields present with user hint in each.
+* Radio button selectors present for four club locations.
+* Submit button present at the bottom of the form.
+* All fields to be filled in to allow submission of form. Error message will display if field empty upon submission.
+* Email field will insist on '@' symbol use before submission allowed.
+
+### Desktop only.
+* Submit button feedback animation occurs when user hovers over it.
+
+# Gallery page.
+* All images display centered in columns resizing to fit all in with vertical scroll bar appearing if required.
+* Upon user selecting image, image will appear in fancy box with nav items to select left and right for a slide show through the images.  ‘x’ in top right to allow user to close fancy box and view image gallery.
 ---
 
-
-# **Quality checks:**
->## Approach
-### **CSS style sheet:**
+># **Quality checks:**
+# Approach
+## **CSS style sheet:**
 * [Autoprefixer](https://autoprefixer.github.io/)
 * [W3C CSS validation](https://jigsaw.w3.org/css-validator/)
-### **HTML:**
+## **HTML:**
 * [W3C Markup Validation](https://validator.w3.org/)
-### **Website performance:**
+## **Website performance:**
 * Google Chrome Lighthouse.
 * Opera Lighthouse.
 
->## Results.
-### **W3C CSS Validation:**
+# Results.
+## **W3C CSS Validation:**
 <p>
 <a href="http://jigsaw.w3.org/css-validator/check/referer">
     <img style="border:0;width:88px;height:31px"
@@ -31,19 +160,20 @@
 
 <img src="assets/readme/w3c_css_validation_warnings.png" style="margin: 0;height: 300px;">
 
-### **W3C Markup Validation:**
+## **W3C Markup Validation:**
 Tested each page by validation of the URL's:
 
 * about.html: No errors or warnings to show.
 * classes.html: No errors or warnings to show.
 * contact.html: No errors or warnings to show.
 * gallery.html: No errors or warnings to show.
-* index.html: 4 warnings reported and no action taken.
+* index.html: 1 warning reported and no action taken as the 'id' is needed to colour the background of the row yellow.
 
-<img src="assets/readme/w3c_markup_validation_warnings.png" style="margin: 0;height: 300px;">
+<img src="assets/readme/w3c_markup_validation_warning.png" style="margin: 0;">
 
-### **Website Performance:**
+## **Website Performance:**
 Google Lighthouse score prior to code check and validation, and testing (responsive and user):
+
 <img src="assets/readme/20201218-Lighthouse-initial-test.png" style="margin: 0;height: 300px;">
 
 The following activities were then completed:
@@ -67,136 +197,7 @@ Firefox Lighthouse:
 
 
 
-
-
-
-
-
----
-# Responsive Design testing:
-Tested responsiveness of each page using the following methods:
-* Google Chrome DevTools
-* Viewed the live site on the following devices:
-    * Huawei P smart 2019 
-    * Laptop at 1920 x 1080 resolution (scaled at 100%, 125% and 150%)
----
-# Manual testing of functionality on all pages.
-The following testing completed at resolutions: ?
-
-## All Pages
-### Navigation bar:
-* Fixed at top upon user scrolling
-* Right hand organisation logo returns to home page from all pages 
-* Right hand organisation logo returns to top of home page when selected from anywhere on the home page
-* Each link on the right is underlined when on the page that reflects that link is being viewed
-* ‘Home’ link returns user to the top on the ‘Home’ page when viewing the ‘Home’ page.
-* Link to ‘Home’ works from ‘About Us’, ‘Classes’, ‘Contact Us’ and ‘Gallery’ pages.
-* ‘About Us’ link returns user to the top on the ‘About Us’ page when viewing the ‘About Us’ page.
-* Link to ‘About Us’ works from ‘Home’, ‘Classes’, ‘Contact Us’ and ‘Gallery’ pages.
-* ‘Classes’ link returns user to the top on the ‘Classes’ page when viewing the ‘Classes’ page.
-* Link to ‘Classes’ works from ‘Home’, ‘About Us’, ‘Contact Us’ and ‘Gallery’ pages.
-* ‘Contact Us’ link returns user to the top on the ‘Contact Us’ page when viewing the ‘Contact Us’ page.
-* Link to ‘Contact Us’ works from ‘Home’, ‘About Us’, ‘Classes’ and ‘Gallery’ pages.
-
-#### Desktop only:
-* Each link on the right is underlined when the user hovers over the link as part of UX feedback.
-
-#### Mobile only:
-* Nav bar links become compressed into ‘burger’ icon which when selected contains all of the navigation options
-* Logo still displays on the left
-
-### Footer:
-* Only shown when the user reaches the bottom of the page/
-* Link to ‘Contact Us’ page only shown on ‘Home’, ‘About Us’, ‘Classes’ and ‘Gallery’ pages.
-* Link to ‘Contact Us’ works from ‘Home’, ‘About Us’, ‘Classes’ and ‘Gallery’ pages.
-* Link to Facebook page from Facebook icon works as expected from ‘Home’, ‘About Us’, ‘Classes’, ‘Contact Us’ and ‘Gallery’ pages.
-* Link to Instagram page from Instagram icon works as expected from ‘Home’, ‘About Us’, ‘Classes’, ‘Contact Us’ and ‘Gallery’ pages.
-* Link to YouTube page from YouTube icon works as expected from ‘Home’, ‘About Us’, ‘Classes’, ‘Contact Us’ and ‘Gallery’ pages.
-* Link to Twitter page from Twitter icon works as expected from ‘Home’, ‘About Us’, ‘Classes’, ‘Contact Us’ and ‘Gallery’ pages.
-
-#### Desktop only:
-* Each social media link gets bigger when the user hovers over the icon as part of UX feedback.
-
-## Homepage – 1st section *'landing page'*
-* Hero image takes up the whole of the available browser space with image of Sifu on the right.
-* ‘Learn Wing Chun’ is displayed in white on two lines and set to the left
-* Birmingham Wing Chun Kuen is displayed below on one line and set to the left.
-* A line in white is displayed to separate the text.
-* Call to action button displayed below all text in the center and when selected takes the user further down the homepage to the ‘discovery’ section.
-
-#### Desktop only:
-* The club logo is displayed after the ‘Learn Wing Chun’ text.
-* Call to Acton button feedback animation occurs when user hovers over it.
-
-#### Mobile only:
-* The hero image is ‘tinted’ and Sifu is moved right to display underneath the text.
-* The club logo does not appear.
-
-## Homepage – 2nd section *'Benefits and Testimonials'*
-* Section does not take up full screen length but does take up all of the width.  
-* Image displays
-
-#### Desktop only:
-* Image displays on the left
-* Four Benefits display on the right
-* Two Testimonial’s display below the benefits on the right
-
-#### Mobile only:
-* Image displays first at top
-* Four Benefits display sequentially top to bottom
-* Two Testimonials display sequentially top to bottom
-
-## Homepage – 3rd section *'Discovery'* 
-* Six boxes displayed which link to six sections on the web site.
-* Background image displayed.
-* ‘What is Wing Chun’, ‘History of Wing Chun’ and ‘ The Club’  link to the relevant sections on the ‘About Us’ page.
-* ‘Training Locations’, ‘Schedule & Prices’ and ‘What to Expect’ link to the relevant sections on the ‘Classes’ page.
-
-#### Desktop only:
-* Each link box grows slightly larger and the image changes and becomes opaque when the user hovers over as part of UX feedback.
-
-#### Mobile only:
-* Each link box will permanently display the image that is part of the UX feedback for the desktop display.
-
-## Classes page:
-* Banner image shown that takes full screen width but not full screen height.
-* Three boxes displayed which link the user to the sections on this page: ‘Training Locations’, ‘Schedule & Prices’ and ‘What to Expect’
-* Content for each section is relevant, consistent, free of spelling and grammatical errors and contains relevant images.
-
-#### Desktop only:
-* Each link box grows slightly larger and the image changes and becomes opaque when the user hovers over as part of UX feedback.
-
-#### Mobile only:
-* Each link box will permanently display the image that is part of the UX feedback for the desktop display.
-
-## About Us page:
-* Banner image shown that takes full screen width but not full screen height.
-* Three boxes displayed which link the user to the sections on this page: ‘What is Wing Chun’, ‘History of Wing Chun’ and ‘ The Club’  
-* Content for each section is relevant, consistent, free of spelling and grammatical errors and contains relevant images.
-
-#### Desktop only:
-* Each link box grows slightly larger and the image changes and becomes opaque when the user hovers over as part of UX feedback.
-
-#### Mobile only:
-* Each link box will permanently display the image that is part of the UX feedback for the desktop display.
-
-## Contact Us page.
-* Banner image takes up full screen display.
-* Form displays over the image in translucent background.
-* ‘Name’, ‘Email’ and ‘Question’ fields present with user hint in each.
-* Radio button selectors present for three club locations.
-* Submit button present at the bottom of the form.
-* All field to be filled in to allow submission of form.  Error message will display if field empty upon submission.
-
-#### Desktop only.
-* Submit button feedback animation occurs when user hovers over it.
-
-## Gallery page.
-* All images display in four columns resizing to fit all in with vertical scroll bar appearing if required.
-* Upon user selecting image, image will appear in fancy box with nav items to select left and right for a slide show through the images.  ‘x’ in top right to allow user to close fancy box and view image gallery.
----
-
-# User Stories Testing.
+># User Stories Testing.
 1. I want to be able to have a good user experience on a mobile or tablet as I do not have access to a desktop PC or laptop out of the workplace.
     * *Responsive design is employed across all pages primarily using bootstrap grid to deliver a satisfying UX on mobile, tablet, laptop and large desktop PC displays.*
 2. I want to be able to easily navigate the site on any device
@@ -229,8 +230,8 @@ The following testing completed at resolutions: ?
     * *There is a Contact Us link at the bottom of every page (apart from the contact us page) to ensure that the website is in line with current trends and user expectations.*
 10. It would be good to be able to easily check out the clubs presence on social media to give me a further idea as to who trains there 
     * *There are links at the bottom of every page to the clubs presence on social media sites Facebook, twitter, Instagram and YouTube.*
----
-# Problems and fixes
+
+># Problems and fixes
 1. Footer responsive design problem.  The wireframe designs showed that the 'contact us' link was required to appear on the left and  the social links on the right (in the desktop view) whilst on the mobile view they were required to stack with the ‘contact us' link appearing below the social links.  Originally the 'contact us' content appeared first in the html and then the social links *ul* list and using the bootstrap Grid classes ‘mr-auto’ and ‘col-auto’ to display them far left and right.  However in the mobile view it then displayed the ‘contact us’ link on top of the social media icons contrary to the wireframe and the assumed user flow.  
 * *Fixed by: Rearranging the html by coding the ‘contact us’ link after the social links *ul* list and then gave the ‘contact us’ section a Bootstrap Grid class of ‘order-md-1’ and the social media icons the class of ‘order-md-2’.*
 * *18/12/2020 - Update: following a review with my mentor it was questioned whether the contact us should be in the footer when it is in the navbar and presented as a button on the landing page.  Therefore it was removed and replaced with a copyright statement, so the above still applies to the positioning of the social links and the copyright statement.*
