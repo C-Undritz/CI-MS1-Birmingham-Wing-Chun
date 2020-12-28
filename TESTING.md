@@ -2,15 +2,14 @@
 
 [Readme document](README.md)
 
-
-># Responsive Design testing:
+># **Responsive Design testing**
 Tested responsiveness of each page using the following methods:
 * Google Chrome DevTools
 * Viewed the live site on the following devices:
     * Huawei P smart 2019 
     * Laptop at 1920 x 1080 resolution (scaled at 100%, 125% and 150%)
 
-># Manual testing of functionality on all pages.
+># **Manual testing of functionality on all pages**
 The following testing completed at resolutions using Google Chrome Devtools: 
 * 1920 x 1080 (desktop)
 * 768 x 1024 (iPad)
@@ -134,19 +133,19 @@ The following testing completed at resolutions using Google Chrome Devtools:
 * Upon user selecting image, image will appear in fancy box with nav items to select left and right for a slide show through the images.  ‘x’ in top right to allow user to close fancy box and view image gallery.
 ---
 
-># **Quality checks:**
+># **Quality checks**
 # Approach
-## **CSS style sheet:**
+## CSS style sheet:
 * [Autoprefixer](https://autoprefixer.github.io/)
 * [W3C CSS validation](https://jigsaw.w3.org/css-validator/)
-## **HTML:**
+## HTML:
 * [W3C Markup Validation](https://validator.w3.org/)
-## **Website performance:**
+## Website performance:
 * Google Chrome Lighthouse.
 * Opera Lighthouse.
 
-# Results.
-## **W3C CSS Validation:**
+# Results
+## W3C CSS Validation:
 <p>
 <a href="http://jigsaw.w3.org/css-validator/check/referer">
     <img style="border:0;width:88px;height:31px"
@@ -160,7 +159,7 @@ The following testing completed at resolutions using Google Chrome Devtools:
 
 <img src="assets/readme/w3c_css_validation_warnings.png" style="margin: 0;height: 300px;">
 
-## **W3C Markup Validation:**
+## W3C Markup Validation:
 Tested each page by validation of the URL's:
 
 * about.html: No errors or warnings to show.
@@ -171,7 +170,7 @@ Tested each page by validation of the URL's:
 
 <img src="assets/readme/w3c_markup_validation_warning.png" style="margin: 0;">
 
-## **Website Performance:**
+## Website Performance:
 Google Lighthouse score prior to code check and validation, and testing (responsive and user):
 
 <img src="assets/readme/20201218-Lighthouse-initial-test.png" style="margin: 0;height: 300px;">
@@ -197,7 +196,7 @@ Firefox Lighthouse:
 
 
 
-># User Stories Testing.
+># **User Stories Testing**
 1. I want to be able to have a good user experience on a mobile or tablet as I do not have access to a desktop PC or laptop out of the workplace.
     * *Responsive design is employed across all pages primarily using bootstrap grid to deliver a satisfying UX on mobile, tablet, laptop and large desktop PC displays.*
 2. I want to be able to easily navigate the site on any device
@@ -231,7 +230,27 @@ Firefox Lighthouse:
 10. It would be good to be able to easily check out the clubs presence on social media to give me a further idea as to who trains there 
     * *There are links at the bottom of every page to the clubs presence on social media sites Facebook, twitter, Instagram and YouTube.*
 
-># Problems and fixes
+
+># **Organisation Stories testing**
+1. I want a consistent styling throughout the website using the clubs primary colours of yellow and blue.
+    * *pages use the same fonts, banner height, styling throughout using the primary colours as required.*
+2. I want easy and current navigation links so that users do not get frustrated trying to find information and end up leaving the site.*
+    * *The site uses a conventional navigation bar positioned at the top of each page that the user can use to navigate between all of the pages on the site.*
+    * *The homepage has links towards the bottom of the page styled as pictures that can be tapped to give a more user-friendly mobile and tablet navigation option.*
+3. I want to be able to present information about Wing Chun so that prospective students have a good idea what Wing Chun is prior to attending the club.*
+    * *Dedicated page (about us) that presents this information.
+4. I want to be able to present information about the club so that prospective students can get a feel for the type of organisation we are.*
+    * *Dedicated section in the about us page called 'About Birmingham Wing Chun Kuen'.*
+    * *Dedicated section in the classes page called 'What to Expect'.* 
+5. I want all financial, club locations and financial information presented to prospective students.
+    * *Dedicated section in the classes page called 'Training locations' that displays address information, map and schedule for each club location.*
+    * *Dedicated section in the classes page called 'Prices' that details the current costs of training for prospective students.*
+6. I want prospective students to be able to contact us easily through the website and social media.
+    * *Contact us page that can be navigated to from the call to action button on the homepage banner and also from the nav bar.*
+    * *Links to social media sites in the footer that users can click on to link to social media sites where they will also be able to contact us.*
+    
+
+># **Problems and fixes**
 1. Footer responsive design problem.  The wireframe designs showed that the 'contact us' link was required to appear on the left and  the social links on the right (in the desktop view) whilst on the mobile view they were required to stack with the ‘contact us' link appearing below the social links.  Originally the 'contact us' content appeared first in the html and then the social links *ul* list and using the bootstrap Grid classes ‘mr-auto’ and ‘col-auto’ to display them far left and right.  However in the mobile view it then displayed the ‘contact us’ link on top of the social media icons contrary to the wireframe and the assumed user flow.  
 * *Fixed by: Rearranging the html by coding the ‘contact us’ link after the social links *ul* list and then gave the ‘contact us’ section a Bootstrap Grid class of ‘order-md-1’ and the social media icons the class of ‘order-md-2’.*
 * *18/12/2020 - Update: following a review with my mentor it was questioned whether the contact us should be in the footer when it is in the navbar and presented as a button on the landing page.  Therefore it was removed and replaced with a copyright statement, so the above still applies to the positioning of the social links and the copyright statement.*
