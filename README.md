@@ -239,11 +239,11 @@ Please see [here](https://docs.github.com/en/free-pro-team@latest/github/creatin
 ---
 # Images and Content
 ## Images:
-* Image of Bruce Lee for About Us page banner was gratefully offered free for commercial use from Pixabay with no attribution required: https://pixabay.com/photos/bruce-lee-hong-kong-2164515/
-* Image 'Grandmaster Ip Man and his son Ip Chun circa 1950' sourced from http://www.kwokwingchun.com/about-wing-chun/ip-mans-wing-chun/ip-mans-biography/
-* Image '19th century picture of wooden dummy training at the Red Junk Opera company' sourced from https://barcelonawingchun.com/en/what-is-wing-chun/wing-chun-history/
-* Image 'Grandmaster Ip Man circa 1950' sourced from https://chinesemartialstudies.com/2019/09/29/the-history-and-global-transmission-of-wing-chun-in-less-than-five-thousand-words/
-* Image 'A young Bruce Lee and Ip Man training Chi Sao' sourced from https://artsandculture.google.com/asset/1953-begins-studying-wing-chun-with-yip-man/JQFbvC2vJOyhIw
+* Image of Bruce Lee for About Us page banner (bruce-lee-statue.png) was gratefully offered free for commercial use from Pixabay with no attribution required: https://pixabay.com/photos/bruce-lee-hong-kong-2164515/
+* Image 'Grandmaster Ip Man and his son Ip Chun circa 1950' (ipman-ipchun-1950s.png) sourced from http://www.kwokwingchun.com/about-wing-chun/ip-mans-wing-chun/ip-mans-biography/
+* Image '19th century picture of wooden dummy training at the Red Junk Opera company' (red-junk-opera-wooden-dummy.png) sourced from https://barcelonawingchun.com/en/what-is-wing-chun/wing-chun-history/
+* Image 'Grandmaster Ip Man circa 1950' (ip-man-wall.png) sourced from https://chinesemartialstudies.com/2019/09/29/the-history-and-global-transmission-of-wing-chun-in-less-than-five-thousand-words/
+* Image 'A young Bruce Lee training on the wooden dummy' (bruce-lee-wooden-dummy.png) sourced from https://www.pinterest.co.uk/pin/423127327464869905/
 
 All other images were were used with permission from Sifu Shaun Rawcliffe and were sources from the following links, or sent to me directly by Sifu Shaun Rawcliffe.
 * http://www.wingchun.co.uk/sifusphotos.htm
@@ -254,9 +254,10 @@ All other images were were used with permission from Sifu Shaun Rawcliffe and we
 
 ## Content:
 All content was informed and adapted from the following websites:
+* http://www.wingchun.co.uk/wingchun.htm
 * https://www.wingchunconcepts.com/about.php
 * https://www.wingchunconcepts.com/historyofwingchun.php
-* http://www.wingchun.co.uk/wingchun.htm
+
 ---
 # Help
 * Anna Greaves for the code for enabling FancyBox to work at Mobile resolutions.
