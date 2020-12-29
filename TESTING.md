@@ -15,6 +15,7 @@ The following testing completed at resolutions using Google Chrome Devtools:
 * 768 x 1024 (iPad)
 * 320 x 568 (iPhone 5)
 
+---
 # All Pages
 ## Navigation bar:
 * Fixed at top upon user scrolling
@@ -48,6 +49,7 @@ The following testing completed at resolutions using Google Chrome Devtools:
 ### Desktop only:
 * Each social media link changes colour when the user hovers over the icon as part of UX feedback.
 
+---
 # Homepage – 1st section *'landing page'*
 * Hero image displays in the banner with image of Sifu on the right.
 * ‘Learn Wing Chun’ is displayed in white on two lines and set to the left
@@ -63,6 +65,7 @@ The following testing completed at resolutions using Google Chrome Devtools:
 * The hero image is ‘tinted’ and Sifu is moved right to display behind the text.
 * The club logo does not appear.
 
+---
 # Homepage – 2nd section *'Benefits and Testimonials'*
 * Title heading displays
 * Benefits display below heading and each title has an appropriate icon
@@ -77,6 +80,7 @@ The following testing completed at resolutions using Google Chrome Devtools:
 * Four benefits display sequentially top to bottom
 * Two Testimonials display sequentially top to bottom
 
+---
 # Homepage – 3rd section *'Discovery'* 
 * Three boxes displayed with images and text and icons which link to the 'about us', 'classes' and 'gallery' pages on the web site.
 * The 'about us' box links to the 'about us' page
@@ -90,6 +94,7 @@ The following testing completed at resolutions using Google Chrome Devtools:
 ### Mobile only:
 * Boxes are displayed stacked in a column
 
+---
 # Classes page:
 * Banner image and text shown that takes full screen width but not full screen height.
 * Content for each section is relevant, consistent, free of spelling and grammatical errors and contains relevant images.
@@ -105,6 +110,7 @@ The following testing completed at resolutions using Google Chrome Devtools:
 ### Mobile only:
 * Training Location cards should be displayed stacked.
 
+---
 # About Us page:
 * Banner image shown that takes full screen width but not full screen height.
 * Content for each section is relevant, consistent, free of spelling and grammatical errors and contains relevant images.
@@ -115,6 +121,7 @@ The following testing completed at resolutions using Google Chrome Devtools:
 ### Mobile only:
 * Three images or each section display stacked.
 
+---
 # Contact Us page.
 * Banner image and text shown that takes full screen width but not full screen height.
 * Content is relevant, consistent, free of spelling and grammatical errors.
@@ -128,10 +135,10 @@ The following testing completed at resolutions using Google Chrome Devtools:
 ### Desktop only.
 * Submit button feedback animation occurs when user hovers over it.
 
+---
 # Gallery page.
 * All images display centered in columns resizing to fit all in with vertical scroll bar appearing if required.
 * Upon user selecting image, image will appear in fancy box with nav items to select left and right for a slide show through the images.  ‘x’ in top right to allow user to close fancy box and view image gallery.
----
 
 ># **Quality checks**
 # Approach
@@ -144,6 +151,7 @@ The following testing completed at resolutions using Google Chrome Devtools:
 * Google Chrome Lighthouse.
 * Opera Lighthouse.
 
+---
 # Results
 ## W3C CSS Validation:
 <p>
