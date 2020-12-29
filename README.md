@@ -240,10 +240,12 @@ Please see [here](https://docs.github.com/en/free-pro-team@latest/github/creatin
 # Images and Content
 ## Images:
 * Image of Bruce Lee for About Us page banner (bruce-lee-statue.png) was gratefully offered free for commercial use from Pixabay with no attribution required: https://pixabay.com/photos/bruce-lee-hong-kong-2164515/
-* Image 'Grandmaster Ip Man and his son Ip Chun circa 1950' (ipman-ipchun-1950s.png) sourced from http://www.kwokwingchun.com/about-wing-chun/ip-mans-wing-chun/ip-mans-biography/
-* Image '19th century picture of wooden dummy training at the Red Junk Opera company' (red-junk-opera-wooden-dummy.png) sourced from https://barcelonawingchun.com/en/what-is-wing-chun/wing-chun-history/
-* Image 'Grandmaster Ip Man circa 1950' (ip-man-wall.png) sourced from https://chinesemartialstudies.com/2019/09/29/the-history-and-global-transmission-of-wing-chun-in-less-than-five-thousand-words/
-* Image 'A young Bruce Lee training on the wooden dummy' (bruce-lee-wooden-dummy.png) sourced from https://www.pinterest.co.uk/pin/423127327464869905/
+* Image 'Grandmaster Ip Man and his son Ip Chun circa 1950' (ipman-ipchun-1950s.png) used in the about us page was sourced from http://www.kwokwingchun.com/about-wing-chun/ip-mans-wing-chun/ip-mans-biography/
+* Image '19th century picture of wooden dummy training at the Red Junk Opera company' (red-junk-opera-wooden-dummy.png) used in the about us page was sourced from https://barcelonawingchun.com/en/what-is-wing-chun/wing-chun-history/
+* Image 'Grandmaster Ip Man circa 1950' (ip-man-wall.png) used in the about us page was sourced from https://chinesemartialstudies.com/2019/09/29/the-history-and-global-transmission-of-wing-chun-in-less-than-five-thousand-words/
+* Image 'A young Bruce Lee training on the wooden dummy' (bruce-lee-wooden-dummy.png) used in the about us page was sourced from https://www.pinterest.co.uk/pin/423127327464869905/
+* Images of the Hall Green, Solihull and Digbeth training locations used on the classes page were sourced from Google Maps street view.
+* Image of the Stirchley training location used on the classes page was sourced from https://threebestrated.co.uk/martial-arts-in-birmingham.
 
 All other images were were used with permission from Sifu Shaun Rawcliffe and were sources from the following links, or sent to me directly by Sifu Shaun Rawcliffe.
 * http://www.wingchun.co.uk/sifusphotos.htm
