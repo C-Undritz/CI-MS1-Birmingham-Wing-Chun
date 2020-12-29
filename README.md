@@ -12,11 +12,13 @@ The existing website is old and does not reflect modern website design ethos in 
 ># **Strategy**
 The strategy behind the website is to deliver key information through a streamlined experience where the potential student feels informed and will the opportunity to question further at club locations or via an interactive contact form hosted on the website.  The website is not designed to be an extensive and detailed resource about the club and Wing Chun.  
 
+---
 # Organisation Goals
 * Increase the profile of the club in the face of increased competition
 * Have a slick modern online presence which can be controlled
 * Inform and attract potential students.
 
+---
 # Organisation Stories
 * *I want a consistent styling throughout the website using the clubs primary colours of yellow and blue.*
 * *I want easy and current navigation links so that users do not get frustrated trying to find information and end up leaving the site.*
@@ -25,6 +27,7 @@ The strategy behind the website is to deliver key information through a streamli
 * *I want all financial, club locations and financial information presented to prospective students.*
 * *I want prospective students to be able to contact us easily through the website and social media.*
 
+---
 # User Stories
 * *I want to be able to have a good user experience on a mobile or tablet as I do not have access to a desktop PC or laptop out of the workplace.*
 * *I want to be able to easily navigate the site on any platform.*
@@ -67,6 +70,7 @@ The website consists of five pages:
 4. Contact Us
 5. Gallery
 
+---
 # Navigation
 Navigation between and within the five pages will be facilitated by:
 1. Navigation Bar fixed at the top of each page and always displayed when the user scrolls down.
@@ -75,6 +79,7 @@ Navigation between and within the five pages will be facilitated by:
 
 This is in line with current website design and UX trends.
 
+---
 # Consistent Features between pages
 Each page has a responsive fixed Navigation bar with five links justified to the right to link to each of the five pages.  A logo is present in the top left that links to the home page.  A footer is present on every page with social media icons linking to the Facebook, twitter, Instagram and YouTube.
 
@@ -92,6 +97,7 @@ detailed in the section 'Noted design changes' later in this document.
 * [Mobile(v0.2)](assets/readme/LearnWingChun_mb_wireframes_v0.2.pdf)
 * [Desktop(v0.2)](assets/readme/LearnWingChun_dk_wireframes_v0.2.pdf)
 
+---
 # Home/landing page
 To have the most impact, the home screen features a larger banner with text leaving the user in no doubt as to what is offered by the organisation.  On tablet and mobile the banner is muted so that the text remains clear.  There is a call to action button, which prompts the user to ‘Contact Us’.  Selecting this mavigates to the 'contact us' page.
 
@@ -99,18 +105,21 @@ The second section is for promotion of Wing Chun and the club; bullets points de
 
 The third section is presented as three images with overlay text and an appropriate icon indicating to users that these are navigation links to the 'About Us', Classes' and 'Gallery' pages.  User feedback animation have been applied consistently across the three boxes for hover for the desktop experience. 
 
+---
 # About Us
-The About page hosts three sections from the ‘discovery section’:
+The About Us page hosts three sections topped with an appropriate banner:
 * What is Wing Chun?
 * History of Wing Chun
 * About the Club
 
+---
 # Classes
-The Classes page hosts three sections from the ‘discovery section’:
+The Classes page hosts three sections topped with an appropriate banner:
 * Training Locations
 * Prices
 * What to Expect.
 
+---
 # Contact Us
 The contact page features a contact form which requests:
 * Users name
@@ -123,6 +132,7 @@ It also features a radio button where the user can detail which club their query
 
 The form finishes with a ‘Submit’ button.
 
+---
 # Gallery
 The gallery images are presented as a page of images that resize to fit the screen size for various devices and fulfil the requirement for responsive UX.
 
@@ -137,6 +147,7 @@ Palette:
 
 ![alt text](assets/readme/palette.png "Proposed palette of five colours to be used on the site for all design elements")
 
+---
 # Fonts
 Fonts chosen:
 * For the headings: [Roboto Slab](https://fonts.google.com/specimen/Roboto+Slab?query=Roboto)
@@ -146,6 +157,7 @@ Fonts chosen:
 # Technologies used
 * HTML5
 * CSS3
+* JavaScript (no coding completed but this was required by Bootstrap and FancyBox)
 * Bootstrap
 * Gitpod
 * GitHub
@@ -155,7 +167,6 @@ Fonts chosen:
 * Fancybox (http://fancyapps.com/fancybox/3/): Used for the gallery.
 * Canva (https://www.canva.com/): Used as a quick and easy way to crop images to pixel specific dimensions
 * Microsoft PowerPoint: used to create a transparent background for images for the browser tab and Chinese symbols on homepage banner.
-
 
 Bootstrap technology used:
 * Container
@@ -181,30 +192,75 @@ Testing to be completed is detailed in the [TESTING.md](TESTING.md) document
 
 * An issue was experienced with the design of the contact us page and the display of the form over the banner.  Please see the Problems and fixes section in the TESTING.md document for details.  This issue along with the need for this page to look more like the other pages lead to the design change to move the form to a position on the page that was below the banner.  This change was more in keeping with the presentation across the site and solved the issue.
 
+* In the second section of the Homepage on all devices and resolutions the benefits have been displayed before the image.  This is so there is some text shown before another image, so the flow of the page from top to bottom alternates between images and text.  In the wireframes the images was shown before the benefits.
 
 * Change in the colour blue used.  The orginal chosen blue colour (#195ACC) when applied to the website elements (navigation bar, footer and section headings) looked too light *in situ*.  Therefore it was changed to the clubs original blue colour (#000066), which while dark in large areas, was thought to be well suited to the mentioned website elements. 
 
-># Deployment
+># Development & Deployment
+* A repository was setup in GitHub using the Code Institute Gitpod [full template]( https://github.com/Code-Institute-Org/gitpod-full-template).
+* All development was completed using Gitpod and code was regularly pushed back to the GitHub repository.
+---
+# Website deployment.
+The following steps were taken in GitHub to deploy the site and can be replicated:
+1.	Login to GitHub
+2.	From the list of repositories select the desired repository
+3.	From the list of nine options underneath the repository name; select ‘Settings’
+4.	Scroll down to the section titled ‘GitHub Pages’
+5.	In that section, under ‘source’, click the drop down menu and select the ‘master’ branch
+6.	In the drop down menu next to that select ‘root’
+7.	Click save
+8.	A message is displayed in this section stating that the site is published and the address of the site. Click this to view the site
 
+Note that it can sometimes take up to 20 minutes for the site to publish so be patient.  Please see [here](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source) for the GitHub Docs page on this process.
 
+---
+# Running the project locally.
+To work on the project code locally a clone can be taken by following the steps below or downloading the files as a zip file.  To see the options open the desired repository and select the drop down menu button ‘Code’ (found under the repo name and above the list of files)
+
+## Clone:
+To do this you will need [GitBash for Windows](https://gitforwindows.org/) installed (for other OS versions see https://git-scm.com/downloads).
+1. Open GitBash
+2. Change the current working directory is required.  On windows, by default, the files will be downloaded to the users file directory on the C:drive
+3. In the ‘Code’ dropdown menu select either HTTPS or SSH and copy the link.
+4. In the GitBash window type ‘git clone’ and then paste the copied link:
+
+![alt text](assets/readme/gitBash-clone.png "Git Bash command to clone the repository using HTTPS")
+
+5. Hit Enter and the files will then be cloned to be worked on locally.
+
+Please see [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for the GitHub Docs page on this process.
 
 ># Credits
+# Code
+1. Fancy Box was used to enable functionality provided in the gallery page.  The instructions and code for using this can be found at http://fancyapps.com/fancybox/3/.  Implementation of this worked well at desktop and tablet resolutions, however there were issues at mobile resolutions with the display of thumbnails and the viewing of images.  The implementation of this functionality by Anna Greaves in her website [Portrait Artist](https://github.com/AJGreaves/portrait-artist/blob/master/README.md) helped me work through these issues.
+2. Simple one, but I had to look it up: [how to hide an image for responsive design](https://www.thesitewizard.com/css/hide-images-on-mobile-website.shtml)
+3. [How to insert a space in text](https://www.wikihow.com/Insert-Spaces-in-HTML)
+4. CSS Image styling for some responsive design: [w3schools CSS Styling Images](https://www.w3schools.com/css/css3_images.asp) 
+---
+# Images and Content
+## Images:
+* Image of Bruce Lee for About Us page banner was gratefully offered free for commercial use from Pixabay with no attribution required: https://pixabay.com/photos/bruce-lee-hong-kong-2164515/
+* Image 'Grandmaster Ip Man and his son Ip Chun circa 1950' sourced from http://www.kwokwingchun.com/about-wing-chun/ip-mans-wing-chun/ip-mans-biography/
+* Image '19th century picture of wooden dummy training at the Red Junk Opera company' sourced from https://barcelonawingchun.com/en/what-is-wing-chun/wing-chun-history/
+* Image 'Grandmaster Ip Man circa 1950' sourced from https://chinesemartialstudies.com/2019/09/29/the-history-and-global-transmission-of-wing-chun-in-less-than-five-thousand-words/
+* Image 'A young Bruce Lee and Ip Man training Chi Sao' sourced from https://artsandculture.google.com/asset/1953-begins-studying-wing-chun-with-yip-man/JQFbvC2vJOyhIw
+
+All other images were were used with permission from Sifu Shaun Rawcliffe and were sources from the following links, or sent to me directly by Sifu Shaun Rawcliffe.
+* http://www.wingchun.co.uk/sifusphotos.htm
+* http://www.wingchun.co.uk/classphotos.htm
+* http://www.wingchun.co.uk/mwckhkgallery.htm
+* http://www.wingchun.co.uk/seminars.htm
+* https://www.facebook.com/MidlandsWingChunKuen
+
+## Content:
+All content was informed and adapted from the following websites:
+* https://www.wingchunconcepts.com/about.php
+* https://www.wingchunconcepts.com/historyofwingchun.php
+* http://www.wingchun.co.uk/wingchun.htm
+---
 # Help
 * Anna Greaves for the code for enabling FancyBox to work at Mobile resolutions.
 * Thanks to members of the Slack community for their support and help, particularly Mr_Bim_alumni, JimLynx_lead and Daisy Mc Girr.
 * Thanks in particular to Mr_Bim_alumni for his help trying to fix the image issue on the Apple iPad.
-
-# Code
-1. Simple one, but I had to look it up: [how to hide an image for responsive design](https://www.thesitewizard.com/css/hide-images-on-mobile-website.shtml)
-2. [How to insert a space in text](https://www.wikihow.com/Insert-Spaces-in-HTML)
-3. CSS Image styling for some responsive design: [w3schools CSS Styling Images](https://www.w3schools.com/css/css3_images.asp) 
-
-# Images and Content
-
-## Images:
-* Image of Bruce Lee for About Us page banner was gratefully offered free for commercial use from Pixabay with no attribution required: https://pixabay.com/photos/bruce-lee-hong-kong-2164515/
-* 
-
-## Content:
 
 
