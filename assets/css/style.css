@@ -324,45 +324,45 @@ ul {
 @media screen and (max-width: 770px ){ 
     /*----------Navbar----------*/
     .navbar a {
-    padding-top: 5px;
-    padding-bottom: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 
     /*----------Homepage Callout----------*/
     #callout-container { 
-    height: 700px;
+        height: 700px;
     }
 
     #callout-row {
-    padding-top: 350px;
+        padding-top: 350px;
     }
 
     #home-banner-title h1 {
-    font-size: 400%;
+        font-size: 400%;
     }
 
     #home-banner-title h2 {
-    font-size: 200%;
+        font-size: 200%;
     }
 
     #home-banner-hr {
-    width: 80%;
+        width: 80%;
     }
 
     #wing-chun-symbols {
-    height: 10vw;
+        height: 10vw;
     }   
 
     /*----------Banners----------*/
     .banner-text {
-    width: 400px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 15px;
-    padding-left: 10px; 
-    padding-top: 10px;  
-    left: 0px; 
+        width: 400px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 15px;
+        padding-left: 10px; 
+        padding-top: 10px;  
+        left: 0px; 
     }
 
     /*----------Contact Us form----------*/
@@ -378,46 +378,82 @@ ul {
 @media screen and (max-width: 576px ){ 
     /*-----------Homepage Callout----------*/
     #callout-row {
-    padding-top: 275px;
+        padding-top: 275px;
     }
 
     #home-banner-hr {
-    width: 80%;
+        width: 80%;
     }
 
     #wing-chun-symbols {
         display: none;
     }   
+
+    /*----------Banners----------*/
+    #about-top-banner {
+        height: 600px;
+        background-size: 300%;
+    }
+
+    #classes-top-banner {
+        height: 600px;
+        background-size: 250%;
+    }
+
+    #contact-top-banner {
+        height: 600px;
+        background-size: 380%;
+    }
+
+    .banner-text {
+        width: 350px;
+    }
+
+    .banner-text h1 {
+        font-size: 250%;
+    }
 }
 
 @media screen and (max-width: 376px ){ 
     /*----------Homepage Callout----------*/
-    #callout-row {
-    padding-top: 125px;
+    #callout-container { 
+        height: 525px;
     }
 
-    #callout-container { 
-    height: 700px;
+    #callout-row {
+        padding-top: 100px;
+    }
+
+    #home-banner-title h1 {
+        font-size: 300%;
+    }
+
+    #home-banner-title h2 {
+        font-size: 150%;
+    }
+
+    #home-banner-hr {
+        width: 80%;
     }
 
     /*----------Banners----------*/
     #about-top-banner {
-    height: 400px;
-    background-size: 250%;
+        height: 400px;
+        background-size: 250%;
     }
 
     #classes-top-banner {
-    height: 400px;
-    background-size: 200%;
+        height: 400px;
+        background-size: 200%;
     }
 
     #contact-top-banner {
-    height: 400px;
-    background-size: 300%;
+        height: 400px;
+        background-size: 300%;
     }
 
     .banner-text {
-    width: 300px;
+        width: 300px;
     }
 
     .banner-text h1 {
