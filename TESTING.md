@@ -3,7 +3,8 @@
 [Readme document](README.md)
 
 ># **Responsive Design testing**
-Tested responsiveness of each page using the following methods:
+
+Tested responsiveness of the features on each page using the following methods:
 * Google Chrome DevTools at resolutions:
     * 1600 x 992
     * 1280 x 802
@@ -16,7 +17,10 @@ Tested responsiveness of each page using the following methods:
     * 320 x 568 (iPhone 5)
     * 320 x 480
 
-* Viewed the live site on the following devices:
+The test sheet can be viewed from this link:
+[Responsive Test results](assets/readme/MS1-ResponsiveTests.pdf)
+
+* Also tested the live site on the following devices:
     * Huawei P smart 2019 
     * Laptop at 1920 x 1080 resolution (scaled at 100%, 125% and 150%)
     * Apple iPad 7th Generation (iOS v 14.2)
