@@ -245,6 +245,15 @@ hr {
     position: absolute;  
 }
 
+/*------------------------------ AboutUs Page-----------------------------*/
+.image-div {
+    max-height: 300px;
+}
+
+.about-img {
+    object-fit: cover;
+}
+
 /*------------------------------ Classes Page-----------------------------*/
 .card-header {
     background-color: #000066;

@@ -4,10 +4,26 @@
 
 ># **Responsive Design testing**
 Tested responsiveness of each page using the following methods:
-* Google Chrome DevTools
+* Google Chrome DevTools at resolutions:
+    * 1600 x 992
+    * 1280 x 802
+    * 768 x 1024 (iPad)
+    * 414 x 736 (iPhone 6/7/8 plus)
+    * 411 x 731 (Pixel 2)
+    * 411 x 823 (Pixel 2 XL)
+    * 375 x 812 (iPhone X)
+    * 375 x 667 (iPhone 6/7/8)
+    * 320 x 568 (iPhone 5)
+    * 320 x 480
+
 * Viewed the live site on the following devices:
     * Huawei P smart 2019 
     * Laptop at 1920 x 1080 resolution (scaled at 100%, 125% and 150%)
+    * Apple iPad 7th Generation (iOS v 14.2)
+    * Amazon Fire HD 8 tablet
+    * Apple iPhone 5 and iPhone 8
+
+<img src="assets/readme/am-i-responsive.png" style="height: 500px;">
 
 ># **Manual testing of functionality on all pages**
 The following testing completed at resolutions using Google Chrome Devtools: 
