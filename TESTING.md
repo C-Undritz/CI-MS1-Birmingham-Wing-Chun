@@ -17,8 +17,8 @@ Tested responsiveness of the features on each page using the following methods:
     * 320 x 568 (iPhone 5)
     * 320 x 480
 
-The test sheet can be viewed from this link:
-[Responsive Test results](assets/readme/MS1-ResponsiveTests.pdf)
+The test sheet and results can be viewed from this link:
+[Responsive Test results](assets/readme/ms1-responsive-tests.pdf)
 
 * Also tested the live site on the following devices:
     * Huawei P smart 2019 
@@ -34,6 +34,9 @@ The following testing completed at resolutions using Google Chrome Devtools:
 * 1920 x 1080 (desktop)
 * 768 x 1024 (iPad)
 * 320 x 568 (iPhone 5)
+
+The test sheet for the tests detailed below and results can be viewed from this link:
+[Functional Test results](assets/readme/ms1-functional-tests.pdf)
 
 ---
 # All Pages
@@ -54,13 +57,12 @@ The following testing completed at resolutions using Google Chrome Devtools:
 * Each link on the right is underlined when the user hovers over the link as part of UX feedback.
 * Each link on the right as its text highlghted in white when on the page that reflects that link is being viewed
 
-### Mobile only:
+### Mobile and tablet only:
 * Nav bar links become compressed into ‘burger’ icon which when selected contains all of the navigation options
 * Logo still displays on the left
 
 ## Footer:
 * Only shown when the user reaches the bottom of the page.
-* Copyright is shown on the left and then centered in mobile view.
 * Link to Facebook page from Facebook icon works as expected from ‘Home’, ‘About Us’, ‘Classes’, ‘Contact Us’ and ‘Gallery’ pages.
 * Link to Instagram page from Instagram icon works as expected from ‘Home’, ‘About Us’, ‘Classes’, ‘Contact Us’ and ‘Gallery’ pages.
 * Link to YouTube page from YouTube icon works as expected from ‘Home’, ‘About Us’, ‘Classes’, ‘Contact Us’ and ‘Gallery’ pages.
@@ -68,12 +70,17 @@ The following testing completed at resolutions using Google Chrome Devtools:
 
 ### Desktop only:
 * Each social media link changes colour when the user hovers over the icon as part of UX feedback.
+* Copyright is shown on the left and social links in a row on the right.
+
+### Mobile and tablet only:
+* Copyright and social links are both centered in all mobile views with social links showing above the copyright. Some tablets will show them still left and right.
 
 ---
 # Homepage – 1st section *'landing page'*
 * Hero image displays in the banner with image of Sifu on the right.
-* ‘Learn Wing Chun’ is displayed in white on two lines and set to the left
-* Birmingham Wing Chun Kuen is displayed below on one line and set to the left.
+* ‘Learn Wing Chun’ is displayed in white and set to the left
+* Birmingham Wing Chun Kuen is displayed below 
+and set to the left.
 * A line in white is displayed to separate the text.
 * Call to action button displayed below all text in the center and when selected takes the user to the contact us page.
 
@@ -81,9 +88,9 @@ The following testing completed at resolutions using Google Chrome Devtools:
 * The club logo is displayed after the ‘Learn Wing Chun’ text.
 * Call to Acton button feedback animation occurs when user hovers over it.
 
-### Mobile only:
-* The hero image is ‘tinted’ and Sifu is moved right to display behind the text.
-* The club logo does not appear.
+### Mobile and tablet only:
+* The hero image is ‘tinted’ and Sifu is moved left to display behind the text.
+* The club logo does not appear on mobile (appears on some tablets)
 
 ---
 # Homepage – 2nd section *'Benefits and Testimonials'*
@@ -94,11 +101,11 @@ The following testing completed at resolutions using Google Chrome Devtools:
 
 ### Desktop only:
 * Four benefits display in two columns
-* Two Testimonial’s display below the benefits and picture side by side
+* Two Testimonial’s display clearly and below the benefits and picture side by side
 
-### Mobile only:
+### Mobile and tablet only:
 * Four benefits display sequentially top to bottom
-* Two Testimonials display sequentially top to bottom
+* Two Testimonials display clearly and sequentially top to bottom on all mobiles; some tablets still have them side by side.
 
 ---
 # Homepage – 3rd section *'Discovery'* 
@@ -109,10 +116,10 @@ The following testing completed at resolutions using Google Chrome Devtools:
 
 ### Desktop only:
 * Boxes are displayed side by side in a row
-* Feedback animation occurs when user hovers over each box.
+* Feedback occurs when user hovers over each box.
 
-### Mobile only:
-* Boxes are displayed stacked in a column
+### Mobile and tablet only:
+* Boxes are displayed stacked in a column on all mobiles; some tablets will have them side by side.
 
 ---
 # Classes page:
@@ -127,8 +134,8 @@ The following testing completed at resolutions using Google Chrome Devtools:
 ### Desktop only:
 * Training Location cards should be displayed in two rows with two to a row.
 
-### Mobile only:
-* Training Location cards should be displayed stacked.
+### Mobile and tablet only:
+* Training Location cards should be displayed stacked on all mobile devices; some tablets will have them in two columns.
 
 ---
 # About Us page:
@@ -138,8 +145,8 @@ The following testing completed at resolutions using Google Chrome Devtools:
 ### Desktop only:
 * Three images or each section display side by side.
 
-### Mobile only:
-* Three images or each section display stacked.
+### Mobile and tablet only:
+* Three images or each section display stacked on all mobile devices; some tablets will have them in rows of three like the desktop.
 
 ---
 # Contact Us page.
@@ -153,6 +160,8 @@ The following testing completed at resolutions using Google Chrome Devtools:
 * Email field will insist on '@' symbol use before submission allowed.
 
 ### Desktop only.
+* Each form field highlights when user mouse hover.
+* Each form field border changes upon user selection.
 * Submit button feedback animation occurs when user hovers over it.
 
 ---
@@ -201,7 +210,7 @@ Tested each page by validation of the URL's:
 ## Website Performance:
 Google Lighthouse score prior to code check and validation, and testing (responsive and user):
 
-<img src="assets/readme/20201218-Lighthouse-initial-test.png" style="margin: 0;height: 300px;">
+<img src="assets/readme/20201218-lighthouse-initial-test.png" style="margin: 0;height: 300px;">
 
 The following activities were then completed:
 
