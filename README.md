@@ -3,6 +3,7 @@
 <img src="assets/images/readme-header.png" style="margin: 0;">
 
 ### Website can be view here: https://c-undritz.github.io/CI-MS1-Birmingham-Wing-Chun/
+---
 ># **OVERVIEW**
 The Birmingham Wing Chun clubs have been operating since 1982 and in that time has seen the club profile increase with the opening of more clubs round the West Midlands.  At the same time competition has increased with four dedicated Wing Chun organisations opening clubs in the area.  
 
@@ -10,6 +11,7 @@ Student numbers continue to grow, however questioning these students it has been
 
 The existing website is old and does not reflect modern website design ethos in terms of layout and responsive design across devices.  It has therefore been determined that the clubs online profile is in need of an update with this new and modern website that is focused on getting more potential students in through the door and training.
 
+---
 ># **STRATEGY**
 The strategy behind the website is to deliver key information through a streamlined experience where the potential student feels informed and will the opportunity to question further at club locations or via an interactive contact form hosted on the website.  The website is not designed to be an extensive and detailed resource about the club and Wing Chun.  
 
@@ -41,6 +43,7 @@ The strategy behind the website is to deliver key information through a streamli
 * *I want to be able to contact the club to ask any questions that I may have about a specific club location if required.*
 * *It would be good to be able to easily check out the clubs presence on social media to give me a further idea as to who trains there.*
 
+---
 ># **SCOPE**
 # Content
 The information presented in the site has been purposefully kept minimal and focused to keep the user attention so as to reduce the risk of overloading the user; potentially driving them away to another club/martial art.  
@@ -63,6 +66,7 @@ The information presented in the site has been purposefully kept minimal and foc
 5.	Clear and obvious links to the clubs presence on social media platforms
 6.	Feedback animations to provide user with clear interaction cues for buttons, media boxes and links
 
+---
 ># **STRUCTURE**
 The website consists of five pages:
 1. Home/landing page
@@ -86,7 +90,8 @@ Each page has a responsive fixed Navigation bar with five links justified to the
 
 Each page features an appropriate banner image with text, apart from the home page that has a hero image filling more of the screen so as to present an impactful first impression of the site and so encourage the user to explore further.
 
-># **Skeleton**
+---
+># **SKELETON**
 # Wireframes
 Current version(v0.3):
 * [Mobile](assets/readme/learnwingchun_mb_wireframes_v0.3.pdf)
@@ -139,6 +144,7 @@ The gallery images are presented as a page of images that resize to fit the scre
 
 Each images can however be selected which then opens a fancy box window to view the image and then to move onto the next image, the previous one or return to the gallery page in the background.
 
+---
 ># **SURFACE**
 
 # Colours
@@ -184,6 +190,7 @@ Bootstrap technology used:
 ># **TESTING**
 Testing to be completed is detailed in the [TESTING.md](TESTING.md) document
 
+---
 ># **NOTED DESIGN CHANGES**
 * User testing was done on the website in a 70% completed stated with all of the main navigation elements in place including the 'discovery' section at the bottom of the index (home) page, which the user was encouraged to access via the 'learn more' button on the landing page.  It was found that the users liked the experience of the 'discovery' section and therefore wanted to get back to it to continue navigating from there.  However as they had used the 'learn more' button to access the 'discovery' area, they did not know that it was at the bottom of the home page and so they quickly got lost.  They were further confused when they then used the top nav menu to access the pages directly to then discover that they had already seen the content by using the 'Discovery' section.  This lead to an overall bad user experience navigating the site.  This was remedied by changing the navigation elements at the bottom of the home page to three links to the ‘about us’, ‘classes’ and ‘gallery’ pages which can be seen in the updated [wireframes](#wireframes).  This mirrored the navigation of the top navigation bar and offered a better UX with multiple ways to navigate the site depending on the user habits and expectations.
 
@@ -197,6 +204,7 @@ Testing to be completed is detailed in the [TESTING.md](TESTING.md) document
 
 * Change in the colour blue used.  The orginal chosen blue colour (#195ACC) when applied to the website elements (navigation bar, footer and section headings) looked too light *in situ*.  Therefore it was changed to the clubs original blue colour (#000066), which while dark in large areas, was thought to be well suited to the mentioned website elements. 
 
+---
 ># **DEVELOPMENT & DEPLOYMENT**
 * A repository was setup in GitHub using the Code Institute Gitpod [full template]( https://github.com/Code-Institute-Org/gitpod-full-template).
 * All development was completed using Gitpod and code was regularly pushed back to the GitHub repository.
@@ -231,6 +239,7 @@ To do this you will need [GitBash for Windows](https://gitforwindows.org/) insta
 
 Please see [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for the GitHub Docs page on this process.
 
+---
 ># **CREDITS & THANKS**
 # Code
 1. Fancy Box was used to enable functionality provided in the gallery page.  The instructions and code for using this can be found at http://fancyapps.com/fancybox/3/.  Implementation of this worked well at desktop and tablet resolutions, however there were issues at mobile resolutions with the display of thumbnails and the viewing of images.  The implementation of this functionality by Anna Greaves in her website [Portrait Artist](https://github.com/AJGreaves/portrait-artist/blob/master/README.md) helped me work through these issues.
