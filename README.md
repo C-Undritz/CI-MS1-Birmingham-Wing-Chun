@@ -39,7 +39,7 @@ The strategy behind the website is to deliver key information through a streamli
 * *I want to know the location(s) of the Wing Chun club where I can train.*
 * *I want to know what the training schedule at each club so I can determine if the club is an option for me.*
 * *I want to know, as a new student, what is the cost of training and are there any payment options.*
-* *I want to know if I need insurance to train and if so, how much will it be?*
+* *I want to know if I need insurance to train and if so, how much it will be.*
 * *I want to be able to contact the club to ask any questions that I may have about a specific club location if required.*
 * *It would be good to be able to easily check out the clubs presence on social media to give me a further idea as to who trains there.*
 
@@ -93,23 +93,23 @@ Each page features an appropriate banner image with text, apart from the home pa
 ---
 ># **SKELETON**
 # Wireframes
-Current version(v0.3):
+Current version (v0.3):
 * [Mobile](assets/readme/learnwingchun_mb_wireframes_v0.3.pdf)
 * [Desktop](assets/readme/learnwingchun_dk_wireframes_v0.3.pdf)
 
-Archive Wireframes - original design(v0.2).  
+Archive Wireframes - original design (v0.2).  
 The design in these wireframes was changed following initial user testing.  The changes are 
 detailed in the section 'Noted design changes' later in this document.
-* [Mobile(v0.2)](assets/readme/learnwingchun_mb_wireframes_v0.2.pdf)
-* [Desktop(v0.2)](assets/readme/learnwingchun_dk_wireframes_v0.2.pdf)
+* [Mobile (v0.2)](assets/readme/learnwingchun_mb_wireframes_v0.2.pdf)
+* [Desktop (v0.2)](assets/readme/learnwingchun_dk_wireframes_v0.2.pdf)
 
 ---
 # Home/landing page
-To have the most impact, the home screen features a larger banner with text leaving the user in no doubt as to what is offered by the organisation.  On tablet and mobile the banner is muted so that the text remains clear.  There is a call to action button, which prompts the user to ‘Contact Us’.  Selecting this mavigates to the 'contact us' page.
+To have the most impact, the home screen features a larger banner with text leaving the user in no doubt as to what is offered by the organisation.  On tablet and mobile the banner is muted so that the text remains clear.  There is a call to action button, which prompts the user to ‘Contact Us’.  Selecting this navigates to the 'contact us' page.
 
 The second section is for promotion of Wing Chun and the club; bullets points detailing benefits and testimonials.  It was required here to have an image of a woman training so as to point out that this is a martial art for women as well.  
 
-The third section is presented as three images with overlay text and an appropriate icon indicating to users that these are navigation links to the 'About Us', Classes' and 'Gallery' pages.  User feedback animation have been applied consistently across the three boxes for hover for the desktop experience. 
+The third section is presented as three images with overlay text and an appropriate icon indicating to users that these are navigation links to the 'About Us', Classes' and 'Gallery' pages.  User feedback animation has been applied consistently across the three boxes for hover for the desktop experience. 
 
 ---
 # About Us
@@ -128,8 +128,8 @@ The Classes page hosts three sections topped with an appropriate banner:
 ---
 # Contact Us
 The contact page features a contact form which requests:
-* Users name
-* Users email address
+* User's name
+* User's email address
 * Details of their query
 
 These are all required input for the query to be sent
@@ -188,7 +188,7 @@ Bootstrap technology used:
 
 ---
 ># **TESTING**
-Testing to be completed is detailed in the [TESTING.md](TESTING.md) document
+Testing completed is detailed in the [TESTING.md](TESTING.md) document
 
 ---
 ># **NOTED DESIGN CHANGES**
@@ -196,13 +196,13 @@ Testing to be completed is detailed in the [TESTING.md](TESTING.md) document
 
 * The above lead to a further removal of the links to the three sections on the ‘about us’ and ‘classes’ pages as it was determined that these did not add to the user experience.  The user tended to use them once (if at all) however as they had to scroll up to get back to them they were not used again and they chose to scroll instead of using these links.
 
-* Change in the way the club locations and schedules displayed.  The wireframes show against each club location a 'GoogleMap' and then the address of the club to the right/left.  The final implementation was completed with Bootstrap 'cards' which allowed an image of the club to be shown which would be helpful to students.  The GoogleMap was then linked from a button within the card.  It was thought that also adding the club training times here would make for a better user experience, however in order to avoid extending the height of the cards further, an additional button was added which causes a 'modal' to display with the club training times. 
+* Change in the way the club locations and schedules displayed.  The wireframes show against each club location a 'Google map' and then the address of the club to the right/left.  The final implementation was completed with Bootstrap 'cards' which allowed an image of the club to be shown which would be helpful to students.  The Google map was then linked from a button within the card.  It was thought that also adding the club training times here would make for a better user experience, however in order to avoid extending the height of the cards further, an additional button was added which causes a 'modal' to display with the club training times. 
 
 * An issue was experienced with the design of the contact us page and the display of the form over the banner.  Please see the Problems and fixes section in the TESTING.md document for details.  This issue along with the need for this page to look more like the other pages lead to the design change to move the form to a position on the page that was below the banner.  This change was more in keeping with the presentation across the site and solved the issue.
 
 * In the second section of the Homepage on all devices and resolutions the benefits have been displayed before the image.  This is so there is some text shown before another image, so the flow of the page from top to bottom alternates between images and text.  In the wireframes the images was shown before the benefits.
 
-* Change in the colour blue used.  The orginal chosen blue colour (#195ACC) when applied to the website elements (navigation bar, footer and section headings) looked too light *in situ*.  Therefore it was changed to the clubs original blue colour (#000066), which while dark in large areas, was thought to be well suited to the mentioned website elements. 
+* Change in the colour blue used.  The original chosen blue colour (#195ACC) when applied to the website elements (navigation bar, footer and section headings) looked too light *in situ*.  Therefore it was changed to the clubs original blue colour (#000066), which while dark in large areas, was thought to be well suited to the mentioned website elements. 
 
 ---
 ># **DEVELOPMENT & DEPLOYMENT**
@@ -229,7 +229,7 @@ To work on the project code locally a clone can be taken by following the steps 
 ## Clone:
 To do this you will need [GitBash for Windows](https://gitforwindows.org/) installed (for other OS versions see https://git-scm.com/downloads).
 1. Open GitBash
-2. Change the current working directory is required.  On windows, by default, the files will be downloaded to the users file directory on the C:drive
+2. Change the current working directory is required.  On windows, by default, the files will be downloaded to the users file directory on the C: drive
 3. In the ‘Code’ dropdown menu select either HTTPS or SSH and copy the link.
 4. In the GitBash window type ‘git clone’ and then paste the copied link:
 
@@ -257,7 +257,7 @@ Please see [here](https://docs.github.com/en/free-pro-team@latest/github/creatin
 * Images of the Hall Green, Solihull and Digbeth training locations used on the classes page were sourced from Google Maps street view.
 * Image of the Stirchley training location used on the classes page was sourced from https://threebestrated.co.uk/martial-arts-in-birmingham.
 
-All other images were were used with permission from Sifu Shaun Rawcliffe and were sources from the following links, or sent to me directly by Sifu Shaun Rawcliffe.
+All other images were used with permission from Sifu Shaun Rawcliffe and were sources from the following links, or sent to me directly by Sifu Shaun Rawcliffe.
 * http://www.wingchun.co.uk/sifusphotos.htm
 * http://www.wingchun.co.uk/classphotos.htm
 * http://www.wingchun.co.uk/mwckhkgallery.htm
