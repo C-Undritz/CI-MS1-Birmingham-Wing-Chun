@@ -2,14 +2,15 @@
 
 <img src="assets/images/readme-header.png" style="margin: 0;">
 
-># **Overview**
+### Website can be view here: https://c-undritz.github.io/CI-MS1-Birmingham-Wing-Chun/
+># **OVERVIEW**
 The Birmingham Wing Chun clubs have been operating since 1982 and in that time has seen the club profile increase with the opening of more clubs round the West Midlands.  At the same time competition has increased with four dedicated Wing Chun organisations opening clubs in the area.  
 
 Student numbers continue to grow, however questioning these students it has been revealed that the interest in the club was not mainly driven via the website, but mainly through social media platforms and word of mouth.  This is reflected in the website stats.  
 
 The existing website is old and does not reflect modern website design ethos in terms of layout and responsive design across devices.  It has therefore been determined that the clubs online profile is in need of an update with this new and modern website that is focused on getting more potential students in through the door and training.
 
-># **Strategy**
+># **STRATEGY**
 The strategy behind the website is to deliver key information through a streamlined experience where the potential student feels informed and will the opportunity to question further at club locations or via an interactive contact form hosted on the website.  The website is not designed to be an extensive and detailed resource about the club and Wing Chun.  
 
 ---
@@ -40,7 +41,7 @@ The strategy behind the website is to deliver key information through a streamli
 * *I want to be able to contact the club to ask any questions that I may have about a specific club location if required.*
 * *It would be good to be able to easily check out the clubs presence on social media to give me a further idea as to who trains there.*
 
-># **Scope**
+># **SCOPE**
 # Content
 The information presented in the site has been purposefully kept minimal and focused to keep the user attention so as to reduce the risk of overloading the user; potentially driving them away to another club/martial art.  
 
@@ -62,7 +63,7 @@ The information presented in the site has been purposefully kept minimal and foc
 5.	Clear and obvious links to the clubs presence on social media platforms
 6.	Feedback animations to provide user with clear interaction cues for buttons, media boxes and links
 
-># Structure
+># **STRUCTURE**
 The website consists of five pages:
 1. Home/landing page
 2. About Us
@@ -88,14 +89,14 @@ Each page features an appropriate banner image with text, apart from the home pa
 ># **Skeleton**
 # Wireframes
 Current version(v0.3):
-* [Mobile](assets/readme/LearnWingChun_mb_wireframes_v0.3.pdf)
-* [Desktop](assets/readme/LearnWingChun_dk_wireframes_v0.3.pdf)
+* [Mobile](assets/readme/learnwingchun_mb_wireframes_v0.3.pdf)
+* [Desktop](assets/readme/learnwingchun_dk_wireframes_v0.3.pdf)
 
 Archive Wireframes - original design(v0.2).  
 The design in these wireframes was changed following initial user testing.  The changes are 
 detailed in the section 'Noted design changes' later in this document.
-* [Mobile(v0.2)](assets/readme/LearnWingChun_mb_wireframes_v0.2.pdf)
-* [Desktop(v0.2)](assets/readme/LearnWingChun_dk_wireframes_v0.2.pdf)
+* [Mobile(v0.2)](assets/readme/learnwingchun_mb_wireframes_v0.2.pdf)
+* [Desktop(v0.2)](assets/readme/learnwingchun_dk_wireframes_v0.2.pdf)
 
 ---
 # Home/landing page
@@ -138,7 +139,7 @@ The gallery images are presented as a page of images that resize to fit the scre
 
 Each images can however be selected which then opens a fancy box window to view the image and then to move onto the next image, the previous one or return to the gallery page in the background.
 
-># Surface
+># **SURFACE**
 
 # Colours
 The club colours are blue (#000066) and yellow (#F0DF18) and so I wanted to incorporate these throughout the site to break up the sections.  The text throughout the site is the grey (#525252) when on a pale background and the off-white (#F0F1EB) when on a dark background.
@@ -180,10 +181,10 @@ Bootstrap technology used:
 * Spacing
 
 ---
-># Testing
+># **TESTING**
 Testing to be completed is detailed in the [TESTING.md](TESTING.md) document
 
-># Noted design changes
+># **NOTED DESIGN CHANGES**
 * User testing was done on the website in a 70% completed stated with all of the main navigation elements in place including the 'discovery' section at the bottom of the index (home) page, which the user was encouraged to access via the 'learn more' button on the landing page.  It was found that the users liked the experience of the 'discovery' section and therefore wanted to get back to it to continue navigating from there.  However as they had used the 'learn more' button to access the 'discovery' area, they did not know that it was at the bottom of the home page and so they quickly got lost.  They were further confused when they then used the top nav menu to access the pages directly to then discover that they had already seen the content by using the 'Discovery' section.  This lead to an overall bad user experience navigating the site.  This was remedied by changing the navigation elements at the bottom of the home page to three links to the ‘about us’, ‘classes’ and ‘gallery’ pages which can be seen in the updated [wireframes](#wireframes).  This mirrored the navigation of the top navigation bar and offered a better UX with multiple ways to navigate the site depending on the user habits and expectations.
 
 * The above lead to a further removal of the links to the three sections on the ‘about us’ and ‘classes’ pages as it was determined that these did not add to the user experience.  The user tended to use them once (if at all) however as they had to scroll up to get back to them they were not used again and they chose to scroll instead of using these links.
@@ -196,7 +197,7 @@ Testing to be completed is detailed in the [TESTING.md](TESTING.md) document
 
 * Change in the colour blue used.  The orginal chosen blue colour (#195ACC) when applied to the website elements (navigation bar, footer and section headings) looked too light *in situ*.  Therefore it was changed to the clubs original blue colour (#000066), which while dark in large areas, was thought to be well suited to the mentioned website elements. 
 
-># Development & Deployment
+># **DEVELOPMENT & DEPLOYMENT**
 * A repository was setup in GitHub using the Code Institute Gitpod [full template]( https://github.com/Code-Institute-Org/gitpod-full-template).
 * All development was completed using Gitpod and code was regularly pushed back to the GitHub repository.
 ---
@@ -224,13 +225,13 @@ To do this you will need [GitBash for Windows](https://gitforwindows.org/) insta
 3. In the ‘Code’ dropdown menu select either HTTPS or SSH and copy the link.
 4. In the GitBash window type ‘git clone’ and then paste the copied link:
 
-![alt text](assets/readme/gitBash-clone.png "Git Bash command to clone the repository using HTTPS")
+![alt text](assets/readme/gitbash-clone.png "Git Bash command to clone the repository using HTTPS")
 
 5. Hit Enter and the files will then be cloned to be worked on locally.
 
 Please see [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for the GitHub Docs page on this process.
 
-># Credits
+># **CREDITS & THANKS**
 # Code
 1. Fancy Box was used to enable functionality provided in the gallery page.  The instructions and code for using this can be found at http://fancyapps.com/fancybox/3/.  Implementation of this worked well at desktop and tablet resolutions, however there were issues at mobile resolutions with the display of thumbnails and the viewing of images.  The implementation of this functionality by Anna Greaves in her website [Portrait Artist](https://github.com/AJGreaves/portrait-artist/blob/master/README.md) helped me work through these issues.
 2. Simple one, but I had to look it up: [how to hide an image for responsive design](https://www.thesitewizard.com/css/hide-images-on-mobile-website.shtml)
@@ -262,8 +263,10 @@ All content was informed and adapted from the following websites:
 
 ---
 # Help
+* Thanks to Code Institute for the excellent course content and student support that has allowed me to complete this!
 * Anna Greaves for the code for enabling FancyBox to work at Mobile resolutions.
 * Thanks to members of the Slack community for their support and help, particularly Mr_Bim_alumni, JimLynx_lead and Daisy Mc Girr.
-* Thanks in particular to Mr_Bim_alumni for his help trying to fix the image issue on the Apple iPad.
+* Thanks in particular to Mr_Bim_alumni for his help in fixing the image issue on the Apple iPad (item 8 in the Problem and fixes section in the TESTING.md document).
+* Finally, thanks to my mentor Adegbenga Adeye for his feedback and support throughout mr first milestone project.
 
 
