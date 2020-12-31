@@ -39,9 +39,8 @@ The following testing completed at resolutions using Google Chrome Devtools:
 # All Pages
 ## Navigation bar:
 * Fixed at top upon user scrolling
-* Right hand organisation logo returns to home page from all pages 
-* Right hand organisation logo returns to top of home page when selected from anywhere on the home page
-* Each link on the right is underlined when on the page that reflects that link is being viewed
+* Left hand organisation logo returns to home page from all pages 
+* Left hand organisation logo returns to top of home page when selected from anywhere on the home page
 * ‘Home’ link returns user to the top on the ‘Home’ page when viewing the ‘Home’ page.
 * Link to ‘Home’ works from ‘About Us’, ‘Classes’, ‘Contact Us’ and ‘Gallery’ pages.
 * ‘About Us’ link returns user to the top on the ‘About Us’ page when viewing the ‘About Us’ page.
@@ -53,6 +52,7 @@ The following testing completed at resolutions using Google Chrome Devtools:
 
 ### Desktop only:
 * Each link on the right is underlined when the user hovers over the link as part of UX feedback.
+* Each link on the right as its text highlghted in white when on the page that reflects that link is being viewed
 
 ### Mobile only:
 * Nav bar links become compressed into ‘burger’ icon which when selected contains all of the navigation options
@@ -60,7 +60,7 @@ The following testing completed at resolutions using Google Chrome Devtools:
 
 ## Footer:
 * Only shown when the user reaches the bottom of the page.
-* Copyright is shown on the right and then centered in mobile view.
+* Copyright is shown on the left and then centered in mobile view.
 * Link to Facebook page from Facebook icon works as expected from ‘Home’, ‘About Us’, ‘Classes’, ‘Contact Us’ and ‘Gallery’ pages.
 * Link to Instagram page from Instagram icon works as expected from ‘Home’, ‘About Us’, ‘Classes’, ‘Contact Us’ and ‘Gallery’ pages.
 * Link to YouTube page from YouTube icon works as expected from ‘Home’, ‘About Us’, ‘Classes’, ‘Contact Us’ and ‘Gallery’ pages.

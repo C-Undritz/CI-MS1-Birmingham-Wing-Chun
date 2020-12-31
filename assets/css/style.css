@@ -255,6 +255,10 @@ hr {
 }
 
 /*------------------------------ Classes Page-----------------------------*/
+.card {
+    width: 22rem;
+}
+
 .card-header {
     background-color: #000066;
 }
