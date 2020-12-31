@@ -194,7 +194,7 @@ and set to the left.
 * Errors: None reported.
 * Warnings: 9 reported and no action taken as these css styles are required:
 
-<img src="assets/readme/w3c_css_validation_warnings.png" style="margin: 0;height: 300px;">
+<img src="assets/readme/20201231-w3c_css_validation_warnings.png" style="margin: 0;height: 300px;">
 
 ## W3C Markup Validation:
 Tested each page by validation of the URL's:
@@ -205,7 +205,7 @@ Tested each page by validation of the URL's:
 * gallery.html: No errors or warnings to show.
 * index.html: 1 warning reported and no action taken as the 'id' is needed to colour the background of the row yellow.
 
-<img src="assets/readme/w3c_markup_validation_warning.png" style="margin: 0;">
+<img src="assets/readme/20201231-w3c_markup_validation_warnings.png" style="margin: 0;">
 
 ## Website Performance:
 Google Lighthouse score prior to code check and validation, and testing (responsive and user):
@@ -304,7 +304,7 @@ Firefox Lighthouse:
 7. Testing on Apple devices iMac Laptop, iPad (7th Gen), iPhone 8 and iPhone 5 revealed that the homepage banner image was showing as expected on the iMac but not showing at all on the hand held devices; instead only black was shown.  
 * *It was not specifically determined why this was but the only thing different on the banner shown at those resolutions was the ‘translucent-overlay’.  Originally the homepage banner was set to behave differently to the other banners in that the css property ‘background-attachment’ was set to ‘fixed’ whereas the others were set to ‘scroll’.  When this property for the homepage banner was changed to ‘scroll’ the image then displayed beneath the translucent overlay as expected.  Another fix was not determined and so the homepage banner was left as ‘background-attachment: scroll’ so that it worked on the Apple handheld devices.*
 8. Testing on Apple device iPad (7th Gen) revealed that the nine images shown on the About Us page were stretched.  The images displayed as expected on the other apple devices tested (iMac, iPhone 8 and iPhone 5):
-<img src="assets/readme/iPad_image_issue.png" style="margin: 0;height: 500px;">
+* <img src="assets/readme/ipad_image_issue.png" style="margin: 0;height: 500px;">
 * *This was researched on the internet and the one possible solution found did not have any affect ("style="height:100% !important;").  Therefore this was posted to the Slack community for any suggestions.  Mr_Bim_Alumni responded with two changes as to how this can be mitigated as it seemed that it could not be out rightly solved with the technology that had been used for the project.  It was suggested that 1: The height of the image is constrained by setting “max-height: 300px;” on the ‘div’ wrapping each ‘img’ tag and 2: “object-fit:cover;" is used to style the ‘img’.  This would mean that at desktop and other higher resolutions, the images would no longer be shown as a square but as a rectangle, so as to reduce the height that the images are stretched on an iPad.  This meant that on some pictures at some resolutions and ratios, the tops of the subject’s heads or content from the left and right of the picture are cut.  However at lower resolutions the image ratio is better and more of the image is displayed.  While not ideal, this is considered to be a reasonable trade-off to ensure that the user experience on the popular iPad device is improved.  The resulting images following the change on the iPad are displayed below:*
-<img src="assets/readme/iPad_solution_portrait.png" style="margin: 0;height: 500px;">
-<img src="assets/readme/iPad_solution_landscape.png" style="margin: 0;height: 400px;">
+* <img src="assets/readme/ipad_solution_portrait.png" style="margin: 0;height: 500px;">
+* <img src="assets/readme/ipad_solution_landscape.png" style="margin: 0;height: 400px;">
