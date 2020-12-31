@@ -182,6 +182,8 @@ and set to the left.
 ## Website performance:
 * Google Chrome Lighthouse.
 * Opera Lighthouse.
+* Microsoft Edge Lighthouse.
+* Firefox Lighthouse.
 
 ---
 # Results
@@ -217,12 +219,12 @@ Chrome Lighthouse score prior to code check and validation, and testing (respons
 
 The following activities were then completed:
 
-* Peer and Mentor review along with relevant fixes and changes from feedback
-* Code check and clean up (checking correct layout, all alts present, any unused classes or id's, efficiency of css style sheet)
+* Peer and Mentor review along with relevant fixes and changes from feedback.
+* Code check and clean up (checking correct layout, all alts present, any unused classes or id's, efficiency of css style sheet).
 * CSS and HTML validation and fix of any errors.
 * Checking the file size of images and reducing these where possible.
-* Manual testing of functionality on all pages and any fixing (as per the section below)
-* Responsive Design testing and any fixing (as per the section below) 
+* Manual testing of functionality on all pages and any fixing (as per the section below).
+* Responsive Design testing and any fixing (as per the section below).
 
 Subsequent website performance checks:
 
@@ -263,7 +265,7 @@ Subsequent website performance checks:
     * *The ‘Classes’ page has a section that details the locations of each club where the student can train.  This includes a button that when interacted with will show the training schedule for each location. The classes page can be accessed from the 'Classes' link at the bottom of the home page or the link in the navbar menu on each page.*
 7. I want to know, as a new student, what is the cost of training and are there any payment options
     * *The ‘Classes’ page has a ‘Prices’ section that details the cost of classes across all clubs. The classes page can be accessed from the 'Classes' link at the bottom of the home page or the link in the navbar menu on each page.*
-8. I want to know if I need insurance to train and if so, how much will it be.
+8. I want to know if I need insurance to train and if so, how much it will be.
     * *This information is detailed in the 'Prices' section on the Classes page.
 9. I want to be able to contact the club to ask any questions that I may have about a specific club location if required.
     * *From the nav bar on each page there is a link ‘Contact Us’ that takes the user to a new page which has a form that the user can fill in and submit with a query.*
