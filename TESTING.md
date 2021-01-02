@@ -246,33 +246,44 @@ Subsequent website performance checks:
 
 ---
 ># **USER STORIES TESTING**
+### The below details how the website meets the requirements of each user story. Features of each page that specifically meet these are shown in a red box on each screenshot.
 1. I want to be able to have a good user experience on a mobile or tablet as I do not have access to a desktop PC or laptop out of the workplace.
-    * *Responsive design is employed across all pages primarily using bootstrap grid to deliver a satisfying UX on mobile, tablet, laptop and large desktop PC displays.*
+    * *Responsive design is employed across all pages primarily using bootstrap grid to deliver a satisfying UX on mobile, tablet, laptop and large desktop PC displays.  See screenshot in 'Responsive Design Testing' above.*
 2. I want to be able to easily navigate the site on any device
 	* *The Nav bar is displayed at the top of the site on any platform on each page.*
     * *The logo (in the top left) of the nav bar is displayed on each page and links to the home page.*
 	* *There is a call to action button on the hero image that takes the user to the ‘contact us’ page.*
+    * <img src="assets/readme/homepage_desktop_us2.png" style="margin: 0;height: 400px;"> <img src="assets/readme/homepage_mobile_us2.png" style="margin: 0;height: 400px;">
+    * <img src="assets/readme/aboutus_desktop_us2.png" style="margin: 0;height: 400px;"> <img src="assets/readme/aboutus_tablet_us2.png" style="margin: 0;height: 400px;">
 3. I want to know what Wing Chun is
 	* *The ‘About Us’ page has sections that describe ‘What Wing Chun is’ and the ‘History of Wing Chun’*
 	* *The user can navigate to these from the ‘About Us’ link at the bottom of the home page or the link in the navbar menu on each page and scroll down to these sections.*
+    * <img src="assets/readme/aboutus_tablet_us3.png" style="margin: 0;height: 400px;">
 4. I want to get an idea about what it would be like to train at West Midlands Wing Chun Kuen
     * *The ‘About Us’ page has a section the club called 'About Birmingham Wing Chun Kuen' that informs the user about the club.  The user can navigate to the ‘About Us’ link at the bottom of the home page or the link in the navbar menu on each page and scroll down to the section.*
     * *The ‘Classes’ page has a section that details ‘What to expect’ when training at the club.  The user can navigate to the ‘Classes’ link at the bottom of the home page or the link in the navbar menu on each page and scroll down to the section.*
 	* *There is a gallery page that features pictures of students training at the club.*
+    * <img src="assets/readme/aboutus_tablet_us4.png" style="margin: 0;height: 400px;"> <img src="assets/readme/classes_mobile_us4.png" style="margin: 0;height: 400px;">
+    <img src="assets/readme/gallery_tablet_us4.png" style="margin: 0;height: 400px;">
 5. I want to know the location(s) of the Wing Chun club where I can train.
     * *The ‘Classes’ page has a section that details the locations of each club where the student can train.  This includes a postal address and a button to access a map. The classes page can be accessed from the 'Classes' link at the bottom of the home page or the link in the navbar menu on each page.*
+    * <img src="assets/readme/classes_desktop_us5.png" style="margin: 0;height: 400px;">
 6. I want to know what the training schedule at each club so I can determine if the club is an option for me.*
     * *The ‘Classes’ page has a section that details the locations of each club where the student can train.  This includes a button that when interacted with will show the training schedule for each location. The classes page can be accessed from the 'Classes' link at the bottom of the home page or the link in the navbar menu on each page.*
+    * <img src="assets/readme/classes_desktop_us6.png" style="margin: 0;height: 400px;">
 7. I want to know, as a new student, what is the cost of training and are there any payment options
     * *The ‘Classes’ page has a ‘Prices’ section that details the cost of classes across all clubs. The classes page can be accessed from the 'Classes' link at the bottom of the home page or the link in the navbar menu on each page.*
+    * <img src="assets/readme/classes_tablet_us7.png" style="margin: 0;height: 400px;">
 8. I want to know if I need insurance to train and if so, how much it will be.
     * *This information is detailed in the 'Prices' section on the Classes page.
 9. I want to be able to contact the club to ask any questions that I may have about a specific club location if required.
     * *From the nav bar on each page there is a link ‘Contact Us’ that takes the user to a new page which has a form that the user can fill in and submit with a query.*
     * *The form has radio buttons so that the user, if they choose, can make the query specifically about a club location.*
     * *The 'Contact Us' page can be accessed from the call to action button on the banner of the homepage or the link in the navbar menu on each page.*
+    * <img src="assets/readme/contactus_tablet_us9.png" style="margin: 0;height: 400px;">
 10. It would be good to be able to easily check out the clubs presence on social media to give me a further idea as to who trains there 
     * *There are links in the footer at the bottom of every page to the clubs presence on social media sites Facebook, twitter, Instagram and YouTube.*
+    * <img src="assets/readme/footer_us10.png">
 
 ---
 ># **ORGANISATIONAL STORIES TESTING**
