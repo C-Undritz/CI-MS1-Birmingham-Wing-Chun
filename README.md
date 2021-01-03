@@ -233,7 +233,7 @@ To work on the project code locally a clone can be taken by following the steps 
 To do this you will need [GitBash for Windows](https://gitforwindows.org/) installed (for other OS versions see https://git-scm.com/downloads).
 1. Open GitBash
 2. Change the current working directory is required.  On windows, by default, the files will be downloaded to the users file directory on the C: drive
-3. In the ‘Code’ dropdown menu select either HTTPS or SSH and copy the link.
+3. In the ‘Code’ dropdown menu in GitHub, select either HTTPS or SSH and copy the link.
 4. In the GitBash window type ‘git clone’ and then paste the copied link:
 
 ![alt text](assets/readme/gitbash-clone.png "Git Bash command to clone the repository using HTTPS")

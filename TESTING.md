@@ -28,7 +28,7 @@ The test sheet and results can be viewed from this link:
     * Amazon Fire HD 8 tablet
     * Apple iPhone 5 and iPhone 8
 
-The only device on which problems were experienced was on the Apple iPhones and iPads.  The problems experienced are described in items 7 and 8 in the 'Problems and Fixes' section later in this document. 
+The only devices on which problems were experienced were on the Apple iPhones and iPads.  The problems experienced are described in items 7 and 8 in the 'Problems and Fixes' section later in this document. 
 
 <img src="assets/readme/am-i-responsive.png" style="height: 500px;">
 
@@ -248,7 +248,7 @@ Subsequent website performance checks:
 
 ---
 ># **USER STORIES TESTING**
-### The below details how the website meets the requirements of each user story. Features of each page that specifically meet these are shown in a red box on each screenshot.
+### The below details how the website meets the requirements of each user story. Features of each page that specifically meet these are described and shown in a red box on each screenshot.
 1. I want to be able to have a good user experience on a mobile or tablet as I do not have access to a desktop PC or laptop out of the workplace.
     * *Responsive design is employed across all pages primarily using bootstrap grid to deliver a satisfying UX on mobile, tablet, laptop and large desktop PC displays.  See screenshot in 'Responsive Design Testing' above.*
 2. I want to be able to easily navigate the site on any device
@@ -277,7 +277,7 @@ Subsequent website performance checks:
     * *The ‘Classes’ page has a ‘Prices’ section that details the cost of classes across all clubs. The classes page can be accessed from the 'Classes' link at the bottom of the home page or the link in the navbar menu on each page.*
     * <img src="assets/readme/classes_tablet_us7.png" style="margin: 0;height: 350px;">
 8. I want to know if I need insurance to train and if so, how much it will be.
-    * *This information is detailed in the 'Prices' section on the Classes page.
+    * *This information is detailed in the 'Prices' section on the Classes page.*
 9. I want to be able to contact the club to ask any questions that I may have about a specific club location if required.
     * *From the nav bar on each page there is a link ‘Contact Us’ that takes the user to a new page which has a form that the user can fill in and submit with a query.*
     * *The form has radio buttons so that the user, if they choose, can make the query specifically about a club location.*
