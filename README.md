@@ -3,6 +3,9 @@
 <img src="assets/images/readme-header.png" style="margin: 0;">
 
 ### Website can be view here: https://c-undritz.github.io/CI-MS1-Birmingham-Wing-Chun/
+### Project GitHub site: https://github.com/C-Undritz/CI-MS1-Birmingham-Wing-Chun
+
+### **Disclaimer: This Website is for educational purposes only.**
 ---
 ># **OVERVIEW**
 The Birmingham Wing Chun clubs have been operating since 1982 and in that time has seen the club profile increase with the opening of more clubs round the West Midlands.  At the same time competition has increased with four dedicated Wing Chun organisations opening clubs in the area.  

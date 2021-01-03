@@ -28,6 +28,8 @@ The test sheet and results can be viewed from this link:
     * Amazon Fire HD 8 tablet
     * Apple iPhone 5 and iPhone 8
 
+The only device on which problems were experienced was on the Apple iPhones and iPads.  The problems experienced are described in items 7 and 8 in the 'Problems and Fixes' section later in this document. 
+
 <img src="assets/readme/am-i-responsive.png" style="height: 500px;">
 
 ---
@@ -41,7 +43,7 @@ The test sheet for the tests detailed below and results can be viewed from this 
 [Functional Test results](assets/readme/ms1-functional-tests.pdf)
 
 ---
-# All Pages
+# All Pages:
 ## Navigation bar:
 * Fixed at top upon user scrolling
 * Left hand organisation logo returns to home page from all pages 
@@ -78,7 +80,7 @@ The test sheet for the tests detailed below and results can be viewed from this 
 * Copyright and social links are both centered in all mobile views with social links showing above the copyright. Some tablets will show them still left and right.
 
 ---
-# Homepage – 1st section *'landing page'*
+# Homepage – 1st section *'landing page':*
 * Hero image displays in the banner with image of Sifu on the right.
 * ‘Learn Wing Chun’ is displayed in white and set to the left
 * Birmingham Wing Chun Kuen is displayed below 
@@ -95,7 +97,7 @@ and set to the left.
 * The club logo does not appear on mobile (appears on some tablets)
 
 ---
-# Homepage – 2nd section *'Benefits and Testimonials'*
+# Homepage – 2nd section *'Benefits and Testimonials':*
 * Title heading displays
 * Benefits display below heading and each title has an appropriate icon
 * Image displays center
@@ -110,7 +112,7 @@ and set to the left.
 * Two Testimonials display clearly and sequentially top to bottom on all mobiles; some tablets still have them side by side.
 
 ---
-# Homepage – 3rd section *'Discovery'* 
+# Homepage – 3rd section *'Discovery':* 
 * Three boxes displayed with images and text and icons which link to the 'about us', 'classes' and 'gallery' pages on the web site.
 * The 'about us' box links to the 'about us' page
 * The 'classes' box links to the 'classes' page
@@ -151,7 +153,7 @@ and set to the left.
 * Three images or each section display stacked on all mobile devices; some tablets will have them in rows of three like the desktop.
 
 ---
-# Contact Us page.
+# Contact Us page:
 * Banner image and text shown that takes full screen width but not full screen height.
 * Content is relevant, consistent, free of spelling and grammatical errors.
 * Contact Us form displays below banner.
@@ -161,13 +163,13 @@ and set to the left.
 * All fields to be filled in to allow submission of form. Error message will display if field empty upon submission.
 * Email field will insist on '@' symbol use before submission allowed.
 
-### Desktop only.
+### Desktop only:
 * Each form field highlights when user mouse hover.
 * Each form field border changes upon user selection.
 * Submit button feedback animation occurs when user hovers over it.
 
 ---
-# Gallery page.
+# Gallery page:
 * All images display centered in columns resizing to fit all in with vertical scroll bar appearing if required.
 * Upon user selecting image, image will appear in fancy box with nav items to select left and right for a slide show through the images.  ‘x’ in top right to allow user to close fancy box and view image gallery.
 
@@ -253,18 +255,18 @@ Subsequent website performance checks:
 	* *The Nav bar is displayed at the top of the site on any platform on each page.*
     * *The logo (in the top left) of the nav bar is displayed on each page and links to the home page.*
 	* *There is a call to action button on the hero image that takes the user to the ‘contact us’ page.*
-    * <img src="assets/readme/homepage_desktop_us2.png" style="margin: 0;height: 400px;"> <img src="assets/readme/homepage_mobile_us2.png" style="margin: 0;height: 400px;">
-    * <img src="assets/readme/aboutus_desktop_us2.png" style="margin: 0;height: 400px;"> <img src="assets/readme/aboutus_tablet_us2.png" style="margin: 0;height: 400px;">
+    * <img src="assets/readme/homepage_desktop_us2.png" style="margin: 0;height: 400px;"> <img src="assets/readme/homepage_mobile_us2.png" style="margin: 0;height: 300px;">
+    * <img src="assets/readme/aboutus_desktop_us2.png" style="margin: 0;height: 400px;"> <img src="assets/readme/aboutus_tablet_us2.png" style="margin: 0;height: 350px;">
 3. I want to know what Wing Chun is
 	* *The ‘About Us’ page has sections that describe ‘What Wing Chun is’ and the ‘History of Wing Chun’*
 	* *The user can navigate to these from the ‘About Us’ link at the bottom of the home page or the link in the navbar menu on each page and scroll down to these sections.*
-    * <img src="assets/readme/aboutus_tablet_us3.png" style="margin: 0;height: 400px;">
+    * <img src="assets/readme/aboutus_tablet_us3.png" style="margin: 0;height: 350px;">
 4. I want to get an idea about what it would be like to train at West Midlands Wing Chun Kuen
     * *The ‘About Us’ page has a section the club called 'About Birmingham Wing Chun Kuen' that informs the user about the club.  The user can navigate to the ‘About Us’ link at the bottom of the home page or the link in the navbar menu on each page and scroll down to the section.*
     * *The ‘Classes’ page has a section that details ‘What to expect’ when training at the club.  The user can navigate to the ‘Classes’ link at the bottom of the home page or the link in the navbar menu on each page and scroll down to the section.*
 	* *There is a gallery page that features pictures of students training at the club.*
-    * <img src="assets/readme/aboutus_tablet_us4.png" style="margin: 0;height: 400px;"> <img src="assets/readme/classes_mobile_us4.png" style="margin: 0;height: 400px;">
-    <img src="assets/readme/gallery_tablet_us4.png" style="margin: 0;height: 400px;">
+    * <img src="assets/readme/aboutus_tablet_us4.png" style="margin: 0;height: 350px;"> <img src="assets/readme/classes_mobile_us4.png" style="margin: 0;height: 300px;">
+    <img src="assets/readme/gallery_tablet_us4.png" style="margin: 0;height: 350px;">
 5. I want to know the location(s) of the Wing Chun club where I can train.
     * *The ‘Classes’ page has a section that details the locations of each club where the student can train.  This includes a postal address and a button to access a map. The classes page can be accessed from the 'Classes' link at the bottom of the home page or the link in the navbar menu on each page.*
     * <img src="assets/readme/classes_desktop_us5.png" style="margin: 0;height: 400px;">
@@ -273,14 +275,14 @@ Subsequent website performance checks:
     * <img src="assets/readme/classes_desktop_us6.png" style="margin: 0;height: 400px;">
 7. I want to know, as a new student, what is the cost of training and are there any payment options
     * *The ‘Classes’ page has a ‘Prices’ section that details the cost of classes across all clubs. The classes page can be accessed from the 'Classes' link at the bottom of the home page or the link in the navbar menu on each page.*
-    * <img src="assets/readme/classes_tablet_us7.png" style="margin: 0;height: 400px;">
+    * <img src="assets/readme/classes_tablet_us7.png" style="margin: 0;height: 350px;">
 8. I want to know if I need insurance to train and if so, how much it will be.
     * *This information is detailed in the 'Prices' section on the Classes page.
 9. I want to be able to contact the club to ask any questions that I may have about a specific club location if required.
     * *From the nav bar on each page there is a link ‘Contact Us’ that takes the user to a new page which has a form that the user can fill in and submit with a query.*
     * *The form has radio buttons so that the user, if they choose, can make the query specifically about a club location.*
     * *The 'Contact Us' page can be accessed from the call to action button on the banner of the homepage or the link in the navbar menu on each page.*
-    * <img src="assets/readme/contactus_tablet_us9.png" style="margin: 0;height: 400px;">
+    * <img src="assets/readme/contactus_tablet_us9.png" style="margin: 0;height: 350px;">
 10. It would be good to be able to easily check out the clubs presence on social media to give me a further idea as to who trains there 
     * *There are links in the footer at the bottom of every page to the clubs presence on social media sites Facebook, twitter, Instagram and YouTube.*
     * <img src="assets/readme/footer_us10.png">
@@ -289,20 +291,25 @@ Subsequent website performance checks:
 ># **ORGANISATIONAL STORIES TESTING**
 1. I want a consistent styling throughout the website using the clubs primary colours of yellow and blue.
     * *Pages use the same fonts, banner height, styling throughout using the primary colours as required.*
+    * <img src="assets/readme/aboutus_contactus_tablet_os1.png" style="margin: 0;height: 350px;">
 2. I want easy and current navigation links so that users do not get frustrated trying to find information and end up leaving the site.
     * *The site uses a conventional navigation bar positioned at the top of each page that the user can use to navigate between all of the pages on the site.*
+    * <img src="assets/readme/classes_desktop_os2.png" style="margin: 0;height: 400px;"> <img src="assets/readme/contactus_tablet_os2.png" style="margin: 0;height: 350px;">
+
     * *The homepage has links towards the bottom of the page styled as pictures that can be tapped to give a more user-friendly mobile and tablet navigation option.*
+    * <img src="assets/readme/homepage_desktop_os2.png" style="margin: 0;height: 400px;">
 3. I want to be able to present information about Wing Chun so that prospective students have a good idea what Wing Chun is prior to attending the club.
-    * *Dedicated page (about us) that presents this information.
+    * *Dedicated page (about us) that presents this information (see user story 3 above).
 4. I want to be able to present information about the club so that prospective students can get a feel for the type of organisation we are.
-    * *Dedicated section in the about us page called 'About Birmingham Wing Chun Kuen'.*
-    * *Dedicated section in the classes page called 'What to Expect'.* 
+    * *Dedicated section in the about us page called 'About Birmingham Wing Chun Kuen' (see user story 4 above).*
+    * *Dedicated section in the classes page called 'What to Expect' (see user story 4 above).* 
 5. I want all financial, club locations and financial information presented to prospective students.
-    * *Dedicated section in the classes page called 'Training locations' that displays address information, map and schedule for each club location.*
-    * *Dedicated section in the classes page called 'Prices' that details the current costs of training for prospective students.*
+    * *Dedicated section in the classes page called 'Training locations' that displays address information, map and schedule for each club location (see user stories 5 and 6 above).*
+    * *Dedicated section in the classes page called 'Prices' that details the current costs of training for prospective students (see user stories 7 and 8 above).*
 6. I want prospective students to be able to contact us easily through the website and social media.
-    * *Contact us page that can be navigated to from the call to action button on the homepage banner and also from the nav bar.*
-    * *Links to social media sites in the footer that users can click on to link to social media sites where they will also be able to contact us.*
+    * *Contact us page that can be navigated to from the call to action button on the homepage banner and also from the nav bar on every page.*
+    * *Links to social media sites in the footer on every page that users can click on to link to social media sites where they will also be able to contact us.*
+     * <img src="assets/readme/homepage_desktop_os6.png" style="margin: 0;height: 400px;">
 
 ---
 ># **PROBLEMS AND FIXES**
