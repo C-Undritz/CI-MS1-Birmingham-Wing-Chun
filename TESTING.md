@@ -201,7 +201,7 @@ and set to the left.
 * Errors: None reported.
 * Warnings: 9 reported and no action taken as these css styles are required:
 
-<img src="assets/readme/20201231-w3c_css_validation_warnings.png" style="margin: 0;height: 300px;">
+<img src="assets/readme/20210104-w3c_css_validation_warnings.png" style="margin: 0;height: 300px;">
 
 ## W3C Markup Validation:
 Tested each page by validation of the URL's:
@@ -212,7 +212,7 @@ Tested each page by validation of the URL's:
 * gallery.html: No errors or warnings to show.
 * index.html: 1 warning reported and not sure why it was only reported against this one section and none of the others.  Determined that it was because of the 'id' in this section so no action taken as the 'id' is needed to colour the background of the row yellow.
 
-<img src="assets/readme/20201231-w3c_markup_validation_warnings.png" style="margin: 0;">
+<img src="assets/readme/20210104-w3c_markup_validation_warnings.png" style="margin: 0;">
 
 ## Website Performance:
 Chrome Lighthouse score prior to code check and validation, and testing (responsive and functional):
