@@ -246,6 +246,7 @@ hr {
 }
 
 /*------------------------------ AboutUs Page-----------------------------*/
+/*--Thanks to Mr_Bim_Alumni for the below two css styles to address the image issue on iPads--*/ 
 .image-div {
     max-height: 300px;
 }
