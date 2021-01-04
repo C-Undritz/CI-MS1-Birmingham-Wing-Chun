@@ -208,6 +208,12 @@ Testing completed is detailed in the [TESTING.md](TESTING.md) document
 * Change in the colour blue used.  The original chosen blue colour (#195ACC) when applied to the website elements (navigation bar, footer and section headings) looked too light *in situ*.  Therefore it was changed to the clubs original blue colour (#000066), which while dark in large areas, was thought to be well suited to the mentioned website elements. 
 
 ---
+># **FEATURES FOR FURTHER DEVELOPMENT**
+1.	Contact Form.  Completion of back-end development and implement user feedback on the web site in the form of a pop up message upon successful submission of a completed form.  
+2.	Members only section.  Available only for existing members of the organisation and will require a user login and password.   This would enable the website to securely host members only content such as assessment criteria and the club yearly calendar and events.  
+3.	‘Training at home’ content.  Additional section within members only section that will host videos and additional training material for all skill levels to support any users who are not able to attend lessons in person for any reason.
+
+---
 ># **DEVELOPMENT & DEPLOYMENT**
 * A repository was setup in GitHub using the Code Institute Gitpod [full template]( https://github.com/Code-Institute-Org/gitpod-full-template).
 * All development was completed using Gitpod and code was regularly pushed back to the GitHub repository.
@@ -246,7 +252,7 @@ Please see [here](https://docs.github.com/en/free-pro-team@latest/github/creatin
 ># **CREDITS & THANKS**
 # Code
 1. Fancy Box was used to enable functionality provided in the gallery page.  The instructions and code for using this can be found at http://fancyapps.com/fancybox/3/.  Implementation of this worked well at desktop and tablet resolutions, however there were issues at mobile resolutions with the display of thumbnails and the viewing of images.  The implementation of this functionality by Anna Greaves in her website [Portrait Artist](https://github.com/AJGreaves/portrait-artist/blob/master/README.md) helped me work through these issues.
-2. Simple one, but I had to look it up: [how to hide an image for responsive design](https://www.thesitewizard.com/css/hide-images-on-mobile-website.shtml)
+2. [how to hide an image for responsive design](https://www.thesitewizard.com/css/hide-images-on-mobile-website.shtml)
 3. [How to insert a space in text](https://www.wikihow.com/Insert-Spaces-in-HTML)
 4. CSS Image styling for some responsive design: [w3schools CSS Styling Images](https://www.w3schools.com/css/css3_images.asp) 
 ---
@@ -274,8 +280,8 @@ All content was informed and adapted from the following websites:
 * https://www.wingchunconcepts.com/historyofwingchun.php
 
 ---
-# Help
-* Thanks to Code Institute for the excellent course content and student support that has allowed me to complete this!
+# Acknowledgments
+* Thanks to Code Institute for the excellent course content and student/tutor support that has allowed me to complete this!
 * Anna Greaves for the code for enabling FancyBox to work at Mobile resolutions.
 * Thanks to members of the Slack community for their support and help, particularly Mr_Bim_alumni, JimLynx_lead and Daisy Mc Girr.
 * Thanks in particular to Mr_Bim_alumni for his help in fixing the image issue on the Apple iPad (item 8 in the Problem and fixes section in the TESTING.md document).
