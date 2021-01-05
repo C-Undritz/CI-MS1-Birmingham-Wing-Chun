@@ -218,7 +218,7 @@ Testing completed is detailed in the [TESTING.md](TESTING.md) document
 * A repository was setup in GitHub using the Code Institute Gitpod [full template]( https://github.com/Code-Institute-Org/gitpod-full-template).
 * All development was completed using Gitpod and code was regularly pushed back to the GitHub repository.
 ---
-# Website deployment.
+# Website deployment
 The following steps were taken in GitHub to deploy the site and can be replicated:
 1.	Login to GitHub
 2.	From the list of repositories select the desired repository
@@ -232,7 +232,7 @@ The following steps were taken in GitHub to deploy the site and can be replicate
 Note that it can sometimes take up to 20 minutes for the site to publish so be patient.  Please see [here](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source) for the GitHub Docs page on this process.
 
 ---
-# Running the project locally.
+# Running the project locally
 To work on the project code locally a clone can be taken by following the steps below or downloading the files as a zip file.  To see the options open the desired repository and select the drop down menu button ‘Code’ (found under the repo name and above the list of files)
 
 ## Clone:
